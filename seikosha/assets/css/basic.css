@@ -1579,6 +1579,11 @@ img.button-link-social {
   height: 24px;
 }
 
+img.topics-list-image {
+  width: auto;
+  height: auto;
+}
+
 .list-button-social {
   justify-content: flex-end;
 }
