@@ -11,25 +11,41 @@
  */
 ?>
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
+<!-- wp:group -->
+<div class="wp-block-group list-categories">
+<!-- wp:paragraph {"align":"center"} --><span class="category_text">あなたはどのカテゴリー商品をお探しですか？</span><!-- /wp:paragraph -->
+<!-- wp:group -->
+<div class="wp-block-group flexbox list-category-images fw700">
+<!-- wp:group -->
 <div class="wp-block-group">
-<section id="category" class="">
-    <div class="inner">
-    <p class="category_text">あなたはどのカテゴリー商品をお探しですか？</p>
-    <div class="box3">
-        <ul class="gothic fw700">
-        <li><a href="category/medical.html"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/top/section_01.jpg' ) ); ?>" alt="Medical Beauty">
-            <p style="background-color: #37A09C;">MEDICAL</p>
-            </a></li>
-        <li><a href="category/beauty.html"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/top/section_03.jpg' ) ); ?>" alt="Esthetic Beauty">
-            <p style="background-color: #E66D6E;">AESTHETIC</p>
-            </a></li>
-        <li><a href="category/physio.html"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/top/section_02.jpg' ) ); ?>" alt="Physio Sports">
-            <p style="background-color: #012569;">PHYSIO Sports</p>
-            </a></li>
-        </ul>
-    </div>
-    </div>
-</section>
+<!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large">
+<a href="category/medical.html" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/top/section_01.jpg' ) ); ?>" alt="Medical Beauty" class="wp-image-66"/></a></figure>
+<!-- /wp:image -->
+<!-- wp:paragraph {"align":"center"} --><span class="category-image-title text-medical">MEDICAL</span><!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group -->
+<div class="wp-block-group">
+<!-- wp:image {"id":67,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large">
+<a href="category/beauty.html" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/top/section_03.jpg' ) ); ?>" alt="Esthetic Beauty" class="wp-image-67"/></a></figure>
+<!-- /wp:image -->
+<!-- wp:paragraph {"align":"center"} --><span class="category-image-title text-beauty">AESTHETIC</span><!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group -->
+<div class="wp-block-group">
+<!-- wp:image {"id":68,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large">
+<a href="category/physio.html" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/top/section_02.jpg' ) ); ?>" alt="Physio Sports" class="wp-image-68"/></a></figure>
+<!-- /wp:image -->
+<!-- wp:paragraph {"align":"center"} --><span class="category-image-title text-physio">PHYSIO Sports</span><!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
