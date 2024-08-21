@@ -1684,3 +1684,55 @@ img.topics-list-image {
 .list-categories .list-category-images .wp-block-group .wp-block-paragraph {
   margin: 0;
 }
+
+/*----------------------------
+  List topics
+----------------------------*/
+.block-topics {
+  text-align: center;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0;
+}
+
+.block-topics .list-topics{
+  margin: 0 auto;
+  width: 100%;
+  height: 240px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.block-topics .list-topics .item-topics{
+  position: relative;
+  list-style: none;
+  width: 180px;
+  height: 240px;
+  margin: 0;
+}
+
+/* .block-topics img.topics-list-image {
+  width: auto;
+  height: auto;
+} */
+
+.block-topics .list-topics .item-topics .topics-txt{
+  display: block;
+  font-size: 14px;
+}
+
+.block-topics .list-topics .item-topics .topics-txt-sub{
+  display: block;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #888;
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  padding: 0px 10px;
+}
+
+.block-topics .wp-block-paragraph{
+  margin-block-start: 0px;
+}
