@@ -2,6 +2,67 @@
     margin: 0;
   }
 
-  .gNaviChild {
-    display: none;
-  }
+.list-show-menu .gNaviChild {
+  display: block;
+}
+
+.menu-home .logo-home {
+  padding-top: 12px;
+}
+
+.wp-block-group.list-navi-base {
+  display: none;
+}
+
+.list-show-menu  a {
+  text-decoration: none;
+}
+
+.list-show-menu .navi-child-detail .navi-child-item .wp-block-paragraph {
+  display: flex;
+  justify-content: center;
+}
+
+.list-show-menu .is-layout-constrained > * {
+  margin-block-start: 0;
+}
+
+.list-show-menu .navi-child-tab-2 .navi-child-tab-item .wp-block-paragraph {
+  width: calc(100% / 3);
+  margin-block-start: 0;
+}
+
+.list-show-menu .navi-child-tab-2 .wp-block-paragraph .navi-child-product-title {
+  width: 100%;
+}
+
+.list-show-menu .navi-child-tab-new .wp-block-paragraph {
+  width: 100%;
+}
+
+.list-show-menu .navi-child-item-link .navi-child-tab-item .wp-block-paragraph {
+  width: 100%;
+}
+
+.list-show-menu .navi-child-detail .navi-child-item .wp-block-image img {
+  height: 68px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section-menu .tab-show-detail-menu {
+  display: block;
+}
+
+.section-menu .tab-show-detail-menu .gNaviChild {
+  display: block;
+}
+
+.list-show-menu .navi-child-title-block {
+  padding-left: 10px;
+  width: calc(100% - 10px);
+}
+
+.list-show-menu .list-menu-product .navi-child-title-block {
+  padding-left: 0;
+}

@@ -190,3 +190,18 @@ function my_register_patterns() {
     }
 }
 add_action('init', 'my_register_patterns');
+
+
+
+// add file js to editor view
+function my_custom_block_editor_scripts() {
+	wp_enqueue_script('jquery');
+    wp_enqueue_script(
+        'my-custom-editor-js',
+        get_stylesheet_directory_uri() . '/assets/js/navi.js', // Đường dẫn tới file JS của bạn
+        array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ),    // Dependencies (các thành phần mà script phụ thuộc)
+        filemtime(get_stylesheet_directory() . '/assets/js/navi.js'), // Version (có thể dựa trên thời gian sửa đổi)
+        true // Đặt true để tải script này vào footer
+    );
+}
+add_action('enqueue_block_editor_assets', 'my_custom_block_editor_scripts');
