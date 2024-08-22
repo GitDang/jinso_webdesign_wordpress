@@ -12,11 +12,24 @@
 ?>
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group list-products">
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group title-product">
+      <!-- wp:paragraph {"align":"center"} -->
+      <h2><span>Products</span></h2>
+      <!-- /wp:paragraph -->
+      <!-- wp:paragraph {"align":"center"} -->
+      <span>製品紹介</span>
+      <!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
     <section id="products">
       <div class="inner">
-        <h2><span>Products</span><br>
-          製品紹介</h2>
         <div class="pro_category"> 
         </div>
         <ul class="menu ml20 sp_off">
