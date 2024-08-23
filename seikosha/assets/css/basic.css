@@ -1641,7 +1641,6 @@ img.topics-list-image {
 }
 
 /*----------------------------
-<<<<<<< Updated upstream
   List topics
 ----------------------------*/
 .block-topics {
@@ -1692,7 +1691,8 @@ img.topics-list-image {
 .block-topics .wp-block-paragraph{
   margin-block-start: 0px;
 }
-=======
+
+/*----------------------------
   List products
 ----------------------------*/
 
@@ -2004,4 +2004,122 @@ img.topics-list-image {
 .list-show-menu .list-menu-company .navi-child-detail .navi-child-item .navi-child-product-title {
   margin-bottom: 5px;
 }
->>>>>>> Stashed changes
+
+/*----------------------------
+  New Media
+----------------------------*/
+.block-new-media {
+  text-align: center;
+  width: 92%;
+  margin: 50px auto;
+  padding: 0;
+}
+
+.block-new-media .list-new-media {
+  margin: 0 auto;
+  width: 100%;
+  height: 240px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.block-new-media .list-new-media .wp-block-image {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.block-new-media .list-new-media-info {
+  margin: 20px auto;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.block-new-media .list-new-media-info .new-media-info-item {
+  border: 1px solid #707070;
+  width: calc(100% / 4 - 10px);
+  margin: 0px;
+}
+
+.block-new-media .list-new-media-info .new-media-info-image-title {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 10px;
+}
+
+.block-new-media .wp-block-paragraph {
+  margin-block-start: 0px;
+}
+
+.block-new-media .new-media-btn {
+  margin: 40px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-new-media .new-media-btn .wp-block-image {
+  width: calc(100% / 2 - 20px);
+  margin: 0px;
+}
+
+.block-new-media .new-media-list-box {
+  margin: 40px auto;
+  width: 80%;
+  border: 1px solid #707070;
+  padding: 20px;
+}
+
+.block-new-media .new-media-list-box .new-media-box-header {
+  margin-bottom: 10px;
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.block-new-media .new-media-list-box .new-media-box-header .wp-block-button__link {
+  display: block;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 12px;
+  margin: 0;
+}
+
+.block-new-media .new-media-list-box .new-media-box-header .wp-block-button__link::after {
+  content: "\f35a";
+  font-family: "Font Awesome 5 Free";
+  padding-left: .5rem;
+  font-weight: 900;
+}
+
+.block-new-media .new-media-list-box .new-media-box-header .wp-block-buttons {
+  margin: 0;
+}
+
+.block-new-media .new-media-list-box .new-media-box-date {
+  background: #ECECEC;
+  padding: 0 8px;
+  margin: 0 2% 4px 0;
+  font-size: 12px;
+  text-align: left;
+}
+
+.block-new-media .new-media-list-box .new-media-box-content {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.block-new-media .new-media-list-box .wp-block-columns{
+  margin-block-start: 0px;
+}
