@@ -66,3 +66,24 @@
 .list-show-menu .list-menu-product .navi-child-title-block {
   padding-left: 0;
 }
+
+.section-product .list-products .list-products-list .product-item {
+  margin-block-start: 0;
+}
+
+.section-product .list-products .list-products-list .product-item .wp-block-paragraph {
+  margin-block-start: 0;
+}
+
+.section-product .list-products .list-products-list {
+  width: 100%;
+  display: flex;
+  transition: none;
+  padding: 0 20px !important;
+  margin-top: 0 !important;
+}
+
+.n2-ss-slider-frame.intrinsic-ignore {
+  transform: none !important;
+}
+
