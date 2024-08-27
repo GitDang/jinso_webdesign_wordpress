@@ -87,3 +87,55 @@
   transform: none !important;
 }
 
+.section-product-new .product-news .product-new-slide .product-new-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 0;
+}
+
+.section-product-new .product-news .product-new-slide .product-new-list .product-new-item {
+  margin-block-start: 0;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.section-product-new .product-news .product-new-slide .product-news-list-category { 
+  margin-block-start: 0;
+}
+
+.section-product-new .product-news .product-new-slide .wp-block-paragraph {
+  margin-block-start: 0;
+}
+
+.section-product-new .swiper-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.section-product-new .swiper-pagination .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  display: block;
+  border-radius: 100%;
+  background-color: #000;
+  margin: 0 4px;
+  opacity: 0.2;
+}
+
+.section-product-new .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.wp-block-group.swiper-button-prev, .wp-block-group.swiper-button-next {
+  display: none;
+}
+
+.product-new-banner-area .banner-area-right, .product-new-banner-area .banner-area-right .wp-block-paragraph {
+  margin-block-start: 0;
+}
+
+
+.product-new-banner-area a {
+  text-decoration: none;
+}
+
