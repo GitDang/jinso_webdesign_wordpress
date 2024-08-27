@@ -2247,3 +2247,256 @@ List topics
 .block-topics .wp-block-paragraph{
   margin-block-start: 0px;
 }
+
+.section-product-new {
+  padding: 50px 0;
+}
+
+.section-product-new .product-news.wp-inner {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section-product-new .product-news .title-product-new {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-product-new .product-news .title-product-new .title-product-new-header {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+  font-family: Roboto, Arial, Helvetica, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+  font-size: 30px;
+  line-height: normal;
+}
+
+.section-product-new .product-news .title-product-new .title-product-new-header::before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  width: 160px;
+  transform: translateX(-50%);
+  background-color: #7A7A7A;
+  border-radius: 4px;
+  display: inline-block;
+  height: 2px;
+  left: 50%;
+}
+
+.section-product-new .product-news .title-product-new .title-product-new-sub {
+  font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+  line-height: 1.0;
+  font-size: 14px;
+}
+
+#recommend.section-product-new .product-news .product-new-slide a {
+  padding-bottom: 0;
+}
+
+.section-product-new .product-news .product-new-slide .product-new-list {
+  padding-bottom: 40px;
+}
+
+.section-product-new .product-news .product-new-slide .product-new-list .product-new-item .product-new-name {
+  color: #161616;
+  margin: 0 0 8px;
+  font-weight: bold;
+  font-family: Roboto, Arial, Helvetica, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+  padding-top: 10px;
+}
+
+.section-product-new .product-news .product-new-slide .product-news-list-category {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-product-new .product-news .product-new-slide .product-news-list-category .category-title {
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  margin: 0 1px 2px;
+  padding: 1px 4px;
+  color: #656565;
+  font-size: 11px;
+}
+
+.section-product-new .product-news .product-new-slide .product-news-list-category .category-title.title-red {
+  border: 1px solid #ba1c22;
+  color: #ba1c22;
+}
+
+.product-new-banner {
+  margin-top: 50px;
+}
+
+.product-new-banner img {
+  width: 999px;
+  margin: 0 auto;
+  border: solid 1px;
+  color: #707070;
+  display: block;
+}
+
+.product-new-banner-area {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.product-new-banner-area .banner-area-left {
+  width: 68%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.product-new-banner-area .banner-area-left .wp-block-image {
+  width: calc(50% - 10px);
+  margin: 0 0 2vw 0 !important;
+}
+
+.product-new-banner-area .banner-area-left .wp-block-image.banner-image-full {
+  width: 100%;
+}
+
+.product-new-banner-area .banner-area-right {
+  width: 30%;
+  padding: 0 20px;
+}
+
+.product-new-banner-area .banner-area-right .wp-block-image {
+  margin-bottom: 10px;
+}
+
+.product-new-banner-area .list-information {
+  background: #EFF1F3;
+  padding: 20px 10px;
+}
+
+.product-new-banner-area a:hover {
+  opacity: 0.7;
+}
+
+
+.product-new-banner-area .banner-area-right .list-banner-group .banner-group {
+  display: block;
+  position: relative;
+  font-weight: bold;
+  display: block;
+  padding: 6px 0;
+  font-size: 13px;
+  margin-left: 28% !important;
+}
+
+.product-new-banner-area .banner-area-right .list-banner-group .banner-group::before {
+  font-weight: bold;
+  position: absolute;
+  content: "\f35a";
+  font-family: "Font Awesome 5 Free";
+  top: 10px;
+  left: -1.5em;
+  font-size: 11px;
+  top: 7px;
+}
+
+.product-new-banner-area .banner-area-right .banner-area-mail {
+  padding: 15px 0;
+  line-height: 1.2rem;
+  border: 1px solid #565656;
+  background: #ffffff;
+  display: block;
+  margin: 10px 0;
+}
+
+.product-new-banner-area .banner-area-right .banner-area-mail a {
+  text-align: center;
+  display: block;
+}
+
+.product-new-banner-area .banner-area-right .banner-area-mail a::before {
+  content: '';
+  display: inline-block;
+  background-image: url(../images/common/icon_mail2.png);
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 4px;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 4px;
+}
+
+.product-new-banner-area .banner-area-right .banner-area-phone {
+  display: block;
+  margin: 5px 0;
+}
+
+.product-new-banner-area .banner-area-right .banner-area-phone a {
+  text-align: center;
+  display: block;
+  font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+  font-size: 33px;
+}
+
+.product-new-banner-area .banner-area-right .banner-area-phone a::before {
+  content: '';
+  display: inline-block;
+  background-image: url(../images/form/tel.png);
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+  margin-bottom: 7px;
+}
+
+.product-new-banner-area .banner-area-right .banner-area-time {
+  display: block;
+  text-align: center;
+}
+
+.product-new-banner-area .banner-area-right .banner-area-time p {
+  font-size: 12px;
+}
+
+.product-new-banner-map {
+  padding: 50px;
+}
+
+.product-new-banner-movie {
+  width: 73%;
+  max-width: 800px;
+  margin: 0 auto 50px;
+  position: relative;
+}
+
+.product-new-banner-movie .product-new-banner-movie-link {
+  background: none;
+  position: relative;
+  padding: 0;
+}
+
+.product-new-banner-movie .image-header {
+  position: absolute;
+  top: 1.4vw;
+  left: 1.0vw;
+  width: 32%;
+  margin-block-start: 0;
+}
+
+.product-new-banner-movie .image-header img {
+  width: 85%;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .wp-block-group.wp-inner {
+      padding: 0;
+      width: 92%;
+      margin: 0 auto;
+      max-width: 1280px;
+  }
+}
+
+
