@@ -1,0 +1,240 @@
+.wp-block-button__link {
+    background-color: transparent !important;
+    color: #000000 !important;
+  }
+
+
+/* Đồng bộ layout cho các icon trong editor */
+.editor-styles-wrapper .wp-block-group.sns .wp-block-button {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Khoảng cách giữa các icon */
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+/* Căn chỉnh icon trong editor */
+.editor-styles-wrapper .wp-block-group.sns img {
+  vertical-align: middle;
+  max-width: 50px; /* Điều chỉnh kích thước icon */
+  height: auto;
+}
+
+/* Đảm bảo các icon căn chỉnh thẳng hàng */
+.editor-styles-wrapper .wp-block-group.sns .wp-block-button__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  footer {
+    font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    background: #f8f8f8;
+    font-size: 12px;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+    .inner {
+      max-width: 1280px;
+      width: 92%;
+      text-align: center;
+      margin: 0 auto;
+      display: flex;
+      padding: 40px 0;
+    }
+  
+    .f_left {
+      padding: 0;
+      text-align: left;
+      width: 50%;
+    }
+  
+    .f_logo {
+      width: 180px;
+      margin-bottom: 20px;
+    }
+  
+    .f_right {
+      margin: 0;
+      width: 50%;
+    }
+  
+    .f_right .sns {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  
+    .f_right .sns .wp-block-list {
+      justify-content: flex-end;
+    }
+  
+    .f_right .sns .wp-block-buttons > .wp-block-button {
+      width: 45px;
+    }
+  
+    .f_right .sns .wp-block-buttons > .li_wide {
+      width: 140px;
+      white-space: nowrap;
+    }
+  
+    .f_right .sns .wp-block-buttons > .wp-block-button img {
+      margin-bottom: 10px;
+      margin-right: 4px;
+      vertical-align: middle;
+    }
+  
+    .f_right .sns a:hover {
+      opacity: 0.7;
+    }
+  
+    .f_right .f-index  {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      margin: 10px 0;
+      padding-top: 10px;
+    }
+  
+    .f_right .f-index .pc {
+      margin: 0 10px 15px;
+      border-right: 1px solid #cccccc;
+      padding-right: 1.5rem;
+    }
+  
+    .f_right .f-index .pc:last-child {
+      border-right: 1px solid #cccccc;
+      padding-right: 1.5rem;
+    }
+  
+   
+  }
+  
+  .wp-block-image .totop {
+   display: none;
+  }
+ .totop {
+  display: block !important;
+  position: fixed !important;
+  bottom: 40px !important;
+  right: 15px !important;
+  width: 50px !important; /* Điều chỉnh kích thước nút */
+  height: 50px !important;
+  z-index: 1000 !important; /* Đảm bảo nút nằm trên các phần tử khác */
+  }
+
+  .wp-block-image .totop a {
+    opacity: 0.7;
+  }
+  .sp {
+    display: none;
+  }
+  .f_right {
+    margin: 10px 0 0 0;
+  }
+  .f_right .sns {
+    margin: 0 auto;
+    width: 60%;
+  }
+  
+ .f_right .sns .wp-block-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;  
+  }
+  
+  .f_right .sns .wp-block-buttons > .wp-block-button {
+    width: 30px;
+  }
+  
+  .f_right .sns .wp-block-buttons > .li_wide {
+    width: 90px;
+    text-align: center;
+    line-height: 1.2;
+    margin-right: 60px;
+    /* align-items: flex-start; */
+
+  }
+
+  .f_right .sns .wp-block-buttons > .li_wide2 {
+    /* width: 90px; */
+    /* margin-top: 72px; */
+    align-items: flex-start;
+    text-align: center;
+    /* line-height: 1.2; */
+    /* margin-right: 10px; */
+  }
+  
+ .f_right .sns  .wp-block-button img {
+    width: 24px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
+  
+  .f_right .f-index {
+    margin: 0 auto;
+      width: 100%;
+  }
+
+  .f_right .f-index .f-row {
+    display: flex;
+    justify-content: center;
+    margin: 20px ;
+   
+}
+  
+  .f_right .f-index > .pc {
+    margin: 0 10px;
+    border-right: 1px solid #cccccc;
+    padding-right: 1.5rem;
+   
+  }
+  
+  .f_right .f-index > .pc:last-child {
+    border-right: none;
+    padding-right: 0;
+   
+  }
+  
+  .f_copy {
+    background: #000000;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #dddddd;
+  }
+  
+  .f_copy a {
+    color: #ffffff;
+  }
+  
+  .f_right .f-index p a {
+    color: #000000;
+    font-size: 12px;
+  }
+  
+  .f_copy a:hover, .f_right .f-index .pc a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .f_right .sns {
+      width: 100%;
+    }
+  
+    .f_right .sns .wp-block-buttons > .wp-block-button {
+      width: 40px;
+   
+    }
+  
+    .f_right .sns .wp-block-list{
+      justify-content: center;
+     
+    }
+  }
+  
+  .li_wide img {
+    width: auto;
+    height: 24px;
+  }
+

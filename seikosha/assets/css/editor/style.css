@@ -87,3 +87,29 @@
   transform: none !important;
 }
 
+
+.f_right .sns .wp-block-list .wp-block-buttons {
+  margin-right: 0px;
+  align-items: flex-start;
+}
+
+.f_right .wp-block-button .button-link-youtube {
+  margin-right: 0px;
+  align-items: flex-start;
+}
+
+.editor-styles-wrapper .wp-block-group.sns .wp-block-button__link {
+  padding: 0;
+  align-items: baseline;
+  justify-content: flex-start ;
+}
+
+.editor-styles-wrapper .wp-block-group.sns .li_wide2 .wp-block-button__link {
+  flex-direction: column;
+}
+
+
+.wp-block-image .totop {
+  right: 15px;
+  bottom: 40px
+}
