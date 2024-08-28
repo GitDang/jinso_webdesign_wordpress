@@ -2499,4 +2499,164 @@ List topics
   }
 }
 
+/*----------------------------
+About Us
+----------------------------*/
+.block-about-us {
+  margin: 0;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.block-about-us .block-about-us-over-inner {
+  padding: 0 0 40px;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.block-about-us .block-about-us-over-inner .project {
+  top: 20px;
+  bottom: 20px;
+  right: 10%;
+  left: 60%;
+  position: absolute;
+  text-align: -webkit-center;
+}
+
+.block-about-us .block-about-us-over-inner .project .wp-block-button .wp-block-button__link {
+  width: 240px;
+  display: block;
+  padding: 15px;
+  border: 1px solid #707070;
+  border-radius: 0px;
+  background: #ffffff;
+  color: #000;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.block-about-us .block-about-us-over-inner .project .wp-block-button .wp-block-button__link::after {
+  content: "\f35a";
+  font-family: "Font Awesome 5 Free";
+  padding-left: .5rem;
+  font-weight: 900;
+}
+
+.block-about-us .block-about-us-over-inner .wp-block-button {
+  margin-block-start: 0px;
+}
+
+.block-about-us .block-about-us-inner {
+  padding: 0;
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-company {
+  margin: 0 auto;
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-company .company-item {
+  width: calc(100% / 4 - 20px);
+  margin-block-start: 0px;
+  text-align: -webkit-center;
+  margin-bottom: 40px;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-company .company-item .wp-block-image a:hover img {
+  opacity: 0.7;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-company .company-item:hover {
+  background: linear-gradient(transparent, #ccc);
+}
+
+.block-about-us .block-about-us-inner .block-about-us-company .company-item p {
+  margin-block-start: 0px;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-company .company-item .wp-block-image {
+  width: 160px;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-company .company-item .item-txt {
+  font-size: 20px;
+  margin: 8px 0;
+  line-height: 1.6;
+  font-family: 'Noto Sans JP', Helvetica, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-weight: 700;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-company .company-item .item-txt-sub {
+  font-size: 12px;
+  padding: 0;
+  margin-right: 0;
+  font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-company2 {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1100px;
+  text-align: left;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-company2 .wp-block-image {
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-company2 .company-info-txt {
+  font-size: 14px;
+  text-align: left;
+  line-height: 1.8;
+  margin-block-start: 0px;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-company2 .company-info-txt .s_dt {
+  background: #ECECEC;
+  padding: 0 8px;
+  margin-right: 4px;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-company2 .company-info-txt strong {
+  font-weight: bold;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-company2 iframe {
+  width: 100%;
+  height: 170px;
+  margin-top: 10px;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-toi {
+  margin-top: 40px;
+  text-align: -webkit-center;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-toi .wp-block-button__link {
+  width: 240px;
+  display: block;
+  padding: 15px;
+  border: 1px solid #707070;
+  border-radius: 0px;
+  text-align: center;
+  margin: 0 auto;
+  background: #ffffff;
+  color: #000000;
+}
+
+.block-about-us .block-about-us-inner .block-about-us-toi .wp-block-button__link::after {
+  content: "\f35a";
+  font-family: "Font Awesome 5 Free";
+  padding-left: .5rem;
+  font-weight: 900;
+}
 
