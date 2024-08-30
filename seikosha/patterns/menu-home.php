@@ -59,7 +59,7 @@
     <div class="wp-block-group list-show-menu">
       <!-- wp:group {"layout":{"type":"constrained"}} -->
       <div class="wp-block-group gNaviChild list-menu-category">
-        <!-- wp:paragraph --><div class="navi-child-title-block"><span class="navi-child-title">製品一覧</span></div><!-- /wp:paragraph -->
+        <!-- wp:paragraph --><p class="navi-child-title-block"><span class="navi-child-title">製品一覧</span></p><!-- /wp:paragraph -->
         <!-- wp:group {"layout":{"type":"constrained"}} -->
         <div class="wp-block-group navi-child-detail">
           <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -139,7 +139,7 @@
         <div class="wp-block-group list-menu-product-flex">
           <!-- wp:group {"layout":{"type":"constrained"}} -->
           <div class="wp-block-group navi-child-tab-1">
-            <!-- wp:paragraph --><div class="navi-child-title-block"><a href="category/#Measure" class="navi-child-title">測定機器</a></div><!-- /wp:paragraph -->
+            <!-- wp:paragraph --><p class="navi-child-title-block"><a href="category/#Measure" class="navi-child-title">測定機器</a></p><!-- /wp:paragraph -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group navi-child-tab-item">
               <!-- wp:paragraph --><a href="category/famubo/" class="navi-child-product-title">FAMUBO</a><!-- /wp:paragraph -->
@@ -157,7 +157,7 @@
           <!-- /wp:group -->
           <!-- wp:group {"layout":{"type":"constrained"}} -->
           <div class="wp-block-group navi-child-tab-2">
-            <!-- wp:paragraph --><div class="navi-child-title-block"><a href="category/#Measure" class="navi-child-title">施術機器</a></div><!-- /wp:paragraph -->
+            <!-- wp:paragraph --><p class="navi-child-title-block"><a href="category/#Measure" class="navi-child-title">施術機器</a></p><!-- /wp:paragraph -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group navi-child-tab-item-list">
             <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -197,7 +197,7 @@
           <!-- /wp:group -->
           <!-- wp:group {"layout":{"type":"constrained"}} -->
           <div class="wp-block-group navi-child-tab-1">
-            <!-- wp:paragraph --><div class="navi-child-title-block"><a href="category/#Essence" class="navi-child-title">美容液・美容導入液</a></div><!-- /wp:paragraph -->
+            <!-- wp:paragraph --><p class="navi-child-title-block"><a href="category/#Essence" class="navi-child-title">美容液・美容導入液</a></p><!-- /wp:paragraph -->
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group navi-child-tab-item">
               <!-- wp:paragraph --><a href="essence/stem_cells.html" class="navi-child-product-title">ヒト幹細胞培養液</a><!-- /wp:paragraph -->
@@ -217,7 +217,7 @@
 
       <!-- wp:group {"layout":{"type":"constrained"}} -->
       <div class="wp-block-group gNaviChild list-menu-seminar">
-          <!-- wp:paragraph --><div class="navi-child-title-block"><a href="seminar" class="navi-child-title">セミナー案内</a></div><!-- /wp:paragraph -->
+          <!-- wp:paragraph --><p class="navi-child-title-block"><a href="seminar" class="navi-child-title">セミナー案内</a></p><!-- /wp:paragraph -->
         <!-- wp:group {"layout":{"type":"constrained"}} -->
         <div class="wp-block-group navi-child-detail">
           <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -263,7 +263,7 @@
       <div class="wp-block-group gNaviChild list-menu-new">
         <!-- wp:group {"layout":{"type":"constrained"}} -->
         <div class="wp-block-group navi-child-tab-new">
-          <!-- wp:paragraph --><div class="navi-child-title-block"><a href="/NewsMedia" class="navi-child-title">ニュース＆メディア</a></div><!-- /wp:paragraph -->
+          <!-- wp:paragraph --><p class="navi-child-title-block"><a href="/NewsMedia" class="navi-child-title">ニュース＆メディア</a></p><!-- /wp:paragraph -->
           <!-- wp:group {"layout":{"type":"constrained"}} -->
           <div class="wp-block-group navi-child-tab-item">
             <!-- wp:paragraph --><a href="NewsMedia/" class="navi-child-product-title">お知らせ</a><!-- /wp:paragraph -->
@@ -282,7 +282,7 @@
 
       <!-- wp:group {"layout":{"type":"constrained"}} -->
       <div class="wp-block-group gNaviChild list-menu-company">
-        <!-- wp:paragraph --><div class="navi-child-title-block"><a href="company" class="navi-child-title">会社概要</a></div><!-- /wp:paragraph -->
+        <!-- wp:paragraph --><p class="navi-child-title-block"><a href="company" class="navi-child-title">会社概要</a></p><!-- /wp:paragraph -->
         <!-- wp:group {"layout":{"type":"constrained"}} -->
         <div class="wp-block-group navi-child-detail">
           <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -333,7 +333,7 @@
 
       <!-- wp:group {"layout":{"type":"constrained"}} -->
       <div class="wp-block-group gNaviChild list-menu-company list-menu-customer-support">
-        <!-- wp:paragraph --><div class="navi-child-title-block"><a href="CustomerSupport/" class="navi-child-title">カスタマーサポート・お問い合わせフォーム</a></div><!-- /wp:paragraph -->
+        <!-- wp:paragraph --><p class="navi-child-title-block"><a href="CustomerSupport/" class="navi-child-title">カスタマーサポート・お問い合わせフォーム</a></p><!-- /wp:paragraph -->
         <!-- wp:group {"layout":{"type":"constrained"}} -->
         <div class="wp-block-group navi-child-detail">
           <!-- wp:group {"layout":{"type":"constrained"}} -->

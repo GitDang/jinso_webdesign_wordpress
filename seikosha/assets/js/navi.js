@@ -60,6 +60,7 @@ jQuery(function() {
     jQuery('.gNaviChild').hide();
     var parent = jQuery('.list-show-menu')
     jQuery('.list-menu-home .button-menu').click(function() {
+        console.log(2222)
         var index  = jQuery(this).index();
         var showMenu = parent.children().eq(index);
         if (jQuery('.tab-show-detail-menu').hasClass('active')) {
