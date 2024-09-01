@@ -1,9 +1,9 @@
 
 <?php
 /**
- * Title: Category Medical Page
+ * Title: Category Physio Page
  * 
- * Slug: themeslug/category-medical
+ * Slug: themeslug/category-physio
  * Categories: font-page
  *
  * @package Base Theme
@@ -12,20 +12,20 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group category-page-section">
+<div class="wp-block-group category-page-section category-physio">
 
 <!-- wp:group -->
 <div class="wp-block-group category-page-banner">
 <!-- wp:image {"id":61,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/category/bg_01.png' ) ); ?>" alt="スポジョバ" class="wp-image-61"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/category/bg_02.png' ) ); ?>" alt="スポジョバ" class="wp-image-61"/></figure>
 <!-- /wp:image -->
 <!-- wp:group -->
 <div class="wp-block-group category-page-banner-header">
     <!-- wp:paragraph -->
-    <p class="title-category-medical">MEDEICAL</p>
+    <p class="title-category-medical">PHYSIO</p>
     <!-- /wp:paragraph -->
     <!-- wp:paragraph -->
-    <p class="title-category-medical-sub">医療美容 製品一覧</p>
+    <p class="title-category-medical-sub">フィジオスポーツ製品一覧</p>
     <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -38,7 +38,7 @@
     <div class="wp-block-group category-medical-list">
         <!-- wp:paragraph --><p class="category-medical-link category-title-header"><a href="/"></a></p><!-- /wp:paragraph -->
         <!-- wp:paragraph --><p class="category-medical-link category-title-header"><a href="index.html">製品一覧</a></p><!-- /wp:paragraph -->
-        <!-- wp:paragraph --><p class="category-title-header">医療美容機器</p><!-- /wp:paragraph -->
+        <!-- wp:paragraph --><p class="category-title-header">フィジオスポーツ機器</p><!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
 </div>
@@ -51,26 +51,96 @@
         <!-- wp:group {"layout":{"type":"constrained"}} -->
         <div class="wp-block-group category-medical-product-title">
             <!-- wp:paragraph -->
-            <p class="category-medical-product-title-header">MEDEICAL</p>
+            <p class="category-medical-product-title-header">Physio Sports</p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p class="category-medical-product-title-sub">医療美容機器</p>
+            <p class="category-medical-product-title-sub">フィジオスポーツ機器</p>
             <!-- /wp:paragraph -->
         </div>
+
+
         <!-- /wp:group -->
         <!-- wp:group {"layout":{"type":"constrained"}} -->
         <div class="wp-block-group category-medical-product-list">
+
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group category-medical-product-item product-col-2">
+            <div class="wp-block-group category-medical-product-item product-col-4">
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group category-medical-product-title">
                     <!-- wp:paragraph -->
-                    <p class="medical-product-title-header title-green">超音波画像装置（医療機器）</p>
+                    <p class="medical-product-title-header title-green"> 超音波画像装置（医療機器）</p>
                     <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group category-medical-product-detail">
+                    <!-- wp:group -->
+                    <div class="wp-block-group category-medical-product-content">
+                        <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
+                        <figure class="wp-block-image size-large">
+                        <a class="product-item-link" href="../products/famubo/" target="_blank">
+                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_03_l.jpg') ); ?>" alt="FAMUBO 超音波画像機器" class="wp-image-66"/></a>
+                        </figure>
+                        <!-- /wp:image -->
+                        <!-- wp:paragraph -->
+                        <p class="product-item-name">FAMUBO</p>
+                        <!-- /wp:paragraph -->
+
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-item-category-list">
+                            <!-- wp:paragraph --><p class="product-item-category">測定器</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">超音波画像機器</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">体組成計</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">BFI</p><!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+                    </div>
+                    <!-- /wp:group -->
+
+                    <!-- wp:group -->
+                    <div class="wp-block-group category-medical-product-content">
+                        <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
+                        <figure class="wp-block-image size-large">
+                        <a class="product-item-link" href="../products/famubo-d/" target="_blank">
+                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_32_n.jpg') ); ?>" alt="FAMUBO-d 超音波画像機器" class="wp-image-66"/></a>
+                        </figure>
+                        <!-- /wp:image -->
+                        <!-- wp:paragraph -->
+                        <p class="product-item-name">FAMUBO-D</p>
+                        <!-- /wp:paragraph -->
+
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-item-category-list">
+                            <!-- wp:paragraph --><p class="product-item-category">測定器</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">超音波画像機器</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">ドップラー機能</p><!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+                    </div>
+                    <!-- /wp:group -->
+
+                    <!-- wp:group -->
+                    <div class="wp-block-group category-medical-product-content">
+                        <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
+                        <figure class="wp-block-image size-large">
+                        <a class="product-item-link" href="../products/famubo-w/" target="_blank">
+                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_36_n.jpg') ); ?>" alt="FAMUBO-d 超音波画像機器 超音波画像機器（皮下脂肪厚 筋厚）" class="wp-image-66"/></a>
+                        </figure>
+                        <!-- /wp:image -->
+                        <!-- wp:paragraph -->
+                        <p class="product-item-name">FAMUBO-W</p>
+                        <!-- /wp:paragraph -->
+
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-item-category-list">
+                            <!-- wp:paragraph --><p class="product-item-category">測定器</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">超音波画像機器</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">ドップラー機能</p><!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+                    </div>
+                    <!-- /wp:group -->
+
                     <!-- wp:group -->
                     <div class="wp-block-group category-medical-product-content">
                         <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
@@ -92,6 +162,28 @@
                         <!-- /wp:group -->
                     </div>
                     <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+
+        </div>
+        <!-- /wp:group -->
+
+        <!-- wp:group {"layout":{"type":"constrained"}} -->
+        <div class="wp-block-group category-medical-product-list">
+      
+            <!-- wp:group {"layout":{"type":"constrained"}} -->
+            <div class="wp-block-group category-medical-product-item">
+                <!-- wp:group {"layout":{"type":"constrained"}} -->
+                <div class="wp-block-group category-medical-product-title">
+                    <!-- wp:paragraph -->
+                    <p class="medical-product-title-header title-green">超音波画像装置（医療機器）</p>
+                    <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
+                <!-- wp:group {"layout":{"type":"constrained"}} -->
+                <div class="wp-block-group category-medical-product-detail">
                     <!-- wp:group -->
                     <div class="wp-block-group category-medical-product-content">
                         <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
@@ -107,7 +199,7 @@
                         <!-- wp:group -->
                         <div class="wp-block-group product-item-category-list">
                             <!-- wp:paragraph --><p class="product-item-category">測定器</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">画像測定器（医療機器）</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">超音波画像機器</p><!-- /wp:paragraph -->
                             <!-- wp:paragraph --><p class="product-item-category">USB＆Wi-fi</p><!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -117,12 +209,13 @@
                 <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
+
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group category-medical-product-item">
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group category-medical-product-title">
                     <!-- wp:paragraph -->
-                    <p class="medical-product-title-header title-red">超音波体組成計</p>
+                    <p class="medical-product-title-header title-blue">超音波体組成計</p>
                     <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
@@ -155,7 +248,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group category-medical-product-item">
+            <div class="wp-block-group category-medical-product-item product-col-2">
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group category-medical-product-title">
                     <!-- wp:paragraph -->
@@ -169,48 +262,7 @@
                     <div class="wp-block-group category-medical-product-content">
                         <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
                         <figure class="wp-block-image size-large">
-                        <a class="product-item-link" href="../products/rafos_sense" target="_blank">
-                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_rafos_sense.jpg') ); ?>" alt="RAFOS SENSE medical版" class="wp-image-66"/></a>
-                        </figure>
-                        <!-- /wp:image -->
-                        <!-- wp:paragraph -->
-                        <p class="product-item-name">RAFOS SENSE</p>
-                        <!-- /wp:paragraph -->
-
-                        <!-- wp:group -->
-                        <div class="wp-block-group product-item-category-list">
-                            <!-- wp:paragraph --><p class="product-item-category">施術機器</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">高周波温熱機器</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">Medical版</p><!-- /wp:paragraph -->
-                        </div>
-                        <!-- /wp:group -->
-                    </div>
-                    <!-- /wp:group -->
-                </div>
-                <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
-        </div>
-        <!-- /wp:group -->
-         
-        <!-- wp:group {"layout":{"type":"constrained"}} -->
-        <div class="wp-block-group category-medical-product-list">
-            <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group category-medical-product-item product-col-3">
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group category-medical-product-title">
-                    <!-- wp:paragraph -->
-                    <p class="medical-product-title-header title-red">高周波温熱機器</p>
-                    <!-- /wp:paragraph -->
-                </div>
-                <!-- /wp:group -->
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group category-medical-product-detail">
-                    <!-- wp:group -->
-                    <div class="wp-block-group category-medical-product-content">
-                        <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
-                        <figure class="wp-block-image size-large">
-                        <a class="product-item-link" href="../products/rafos_tera/medical.html" target="_blank">
+                        <a class="product-item-link" href="../products/rafos_tera/beauty.html" target="_blank">
                             <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_34_n.jpg') ); ?>" alt="RAFOS TERA ラジオ波温熱機器・筋膜" class="wp-image-66"/></a>
                         </figure>
                         <!-- /wp:image -->
@@ -224,7 +276,6 @@
                             <!-- wp:paragraph --><p class="product-item-category">高周波温熱機器</p><!-- /wp:paragraph -->
                             <!-- wp:paragraph --><p class="product-item-category">筋膜リリース</p><!-- /wp:paragraph -->
                             <!-- wp:paragraph --><p class="product-item-category">Medical版</p><!-- /wp:paragraph -->
-
                         </div>
                         <!-- /wp:group -->
                     </div>
@@ -233,33 +284,12 @@
                     <div class="wp-block-group category-medical-product-content">
                         <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
                         <figure class="wp-block-image size-large">
-                        <a class="product-item-link" href="../products/rafos_pro/" target="_blank">
-                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_07_l.jpg') ); ?>" alt="RAFOS premium medical版" class="wp-image-66"/></a>
+                        <a class="product-item-link" href="../products/rafos_physio/" target="_blank">
+                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_30_n.jpg') ); ?>" alt="RAFOS Physio 高周波温熱機器 " class="wp-image-66"/></a>
                         </figure>
                         <!-- /wp:image -->
                         <!-- wp:paragraph -->
-                        <p class="product-item-name">RAFOS premium pro</p>
-                        <!-- /wp:paragraph -->
-
-                        <!-- wp:group -->
-                        <div class="wp-block-group product-item-category-list">
-                            <!-- wp:paragraph --><p class="product-item-category">施術機器</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">高周波温熱機器</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">Medical版</p><!-- /wp:paragraph -->
-                        </div>
-                        <!-- /wp:group -->
-                    </div>
-                    <!-- /wp:group -->
-                    <!-- wp:group -->
-                    <div class="wp-block-group category-medical-product-content">
-                        <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
-                        <figure class="wp-block-image size-large">
-                        <a class="product-item-link" href="../products/rafos_mini_physio/index.html" target="_blank">
-                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_10_l.jpg') ); ?>" alt="RAFOS Physio mini" class="wp-image-66"/></a>
-                        </figure>
-                        <!-- /wp:image -->
-                        <!-- wp:paragraph -->
-                        <p class="product-item-name">RAFOS Physio mini</p>
+                        <p class="product-item-name">RAFOS Physio</p>
                         <!-- /wp:paragraph -->
 
                         <!-- wp:group -->
@@ -267,43 +297,7 @@
                             <!-- wp:paragraph --><p class="product-item-category">施術機器</p><!-- /wp:paragraph -->
                             <!-- wp:paragraph --><p class="product-item-category">高周波温熱機器</p><!-- /wp:paragraph -->
                             <!-- wp:paragraph --><p class="product-item-category">筋膜リリース</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">Physio版</p><!-- /wp:paragraph -->
-                        </div>
-                        <!-- /wp:group -->
-                    </div>
-                    <!-- /wp:group -->
-                </div>
-                <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
-            <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group category-medical-product-item">
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group category-medical-product-title">
-                    <!-- wp:paragraph -->
-                    <p class="medical-product-title-header">レーザー機器</p>
-                    <!-- /wp:paragraph -->
-                </div>
-                <!-- /wp:group -->
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group category-medical-product-detail">
-                    <!-- wp:group -->
-                    <div class="wp-block-group category-medical-product-content">
-                        <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
-                        <figure class="wp-block-image size-large">
-                        <a class="product-item-link" href="../products/pico_laser/" target="_blank">
-                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_pico.jpg') ); ?>" alt="pico_laser medical版" class="wp-image-66"/></a>
-                        </figure>
-                        <!-- /wp:image -->
-                        <!-- wp:paragraph -->
-                        <p class="product-item-name">PICO LASER</p>
-                        <!-- /wp:paragraph -->
-
-                        <!-- wp:group -->
-                        <div class="wp-block-group product-item-category-list">
-                            <!-- wp:paragraph --><p class="product-item-category">レーザー機器</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">シミ・そばかす</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">タトゥー除去</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">physio版</p><!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
                     </div>
@@ -314,15 +308,15 @@
             <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
-
+       
         <!-- wp:group {"layout":{"type":"constrained"}} -->
         <div class="wp-block-group category-medical-product-list">
-            <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group category-medical-product-item">
+             <!-- wp:group {"layout":{"type":"constrained"}} -->
+             <div class="wp-block-group category-medical-product-item product-col-2">
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group category-medical-product-title">
                     <!-- wp:paragraph -->
-                    <p class="medical-product-title-header title-red">プラズマ TDDS</p>
+                    <p class="medical-product-title-header title-red">高周波温熱機器</p>
                     <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
@@ -332,22 +326,36 @@
                     <div class="wp-block-group category-medical-product-content">
                         <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
                         <figure class="wp-block-image size-large">
-                        <a class="product-item-link" href="../products/plamingo/medical.html" target="_blank">
-                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_35_n.jpg') ); ?>" alt="PLAMINGO プラズマシャワー" class="wp-image-66"/></a>
+                        <a class="product-item-link" href="../products/robolex_mini/" target="_blank">
+                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_roborex_n.jpg') ); ?>" alt="ROBOLEX" class="wp-image-66"/></a>
                         </figure>
                         <!-- /wp:image -->
                         <!-- wp:paragraph -->
-                        <p class="product-item-name">PLAMINGO</p>
+                        <p class="product-item-name">ROBOLEX</p>
                         <!-- /wp:paragraph -->
 
                         <!-- wp:group -->
                         <div class="wp-block-group product-item-category-list">
-                            <!-- wp:paragraph --><p class="product-item-category">施術機器</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">フェイシャル</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">プラズマ</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">ニキビ</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">肌再生</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">AGA</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">ヴァキューム</p><!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+                    </div>
+                    <!-- /wp:group -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group category-medical-product-content">
+                        <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
+                        <figure class="wp-block-image size-large">
+                        <a class="product-item-link" href="../products/rafos_mini_physio/" target="_blank">
+                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_10_l.jpg') ); ?>" alt="RAFOS mini physio" class="wp-image-66"/></a>
+                        </figure>
+                        <!-- /wp:image -->
+                        <!-- wp:paragraph -->
+                        <p class="product-item-name">RAFOS mini physio</p>
+                        <!-- /wp:paragraph -->
+
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-item-category-list">
+                            <!-- wp:paragraph --><p class="product-item-category">高周波温熱機器</p><!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
                     </div>
@@ -399,7 +407,7 @@
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group category-medical-product-title">
                     <!-- wp:paragraph -->
-                    <p class="medical-product-title-header title-blue">高密度超音波</p>
+                    <p class="medical-product-title-header title-red-50">プラズマ TDDS</p>
                     <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
@@ -409,18 +417,22 @@
                     <div class="wp-block-group category-medical-product-content">
                         <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
                         <figure class="wp-block-image size-large">
-                        <a class="product-item-link" href="../products/sonocare/medical.html" target="_blank">
-                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_15_l.jpg') ); ?>" alt="SONOCARE" class="wp-image-66"/></a>
+                        <a class="product-item-link" href="../products/plamingo/beauty.html" target="_blank">
+                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_35_n.jpg') ); ?>" alt="PLAMINGO プラズマシャワー" class="wp-image-66"/></a>
                         </figure>
                         <!-- /wp:image -->
                         <!-- wp:paragraph -->
-                        <p class="product-item-name">SONOCARE</p>
+                        <p class="product-item-name">PLAMINGO</p>
                         <!-- /wp:paragraph -->
 
                         <!-- wp:group -->
                         <div class="wp-block-group product-item-category-list">
                             <!-- wp:paragraph --><p class="product-item-category">施術機器</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">ピーリング機器</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">フェイシャル</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">プラズマ</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">ニキビ</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">肌再生</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">AGA</p><!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
                     </div>
@@ -429,12 +441,21 @@
                 <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
+
+     
+        </div>
+        <!-- /wp:group -->
+
+        
+        <!-- wp:group {"layout":{"type":"constrained"}} -->
+        <div class="wp-block-group category-medical-product-list">
+      
             <!-- wp:group {"layout":{"type":"constrained"}} -->
             <div class="wp-block-group category-medical-product-item">
                 <!-- wp:group {"layout":{"type":"constrained"}} -->
                 <div class="wp-block-group category-medical-product-title">
                     <!-- wp:paragraph -->
-                    <p class="medical-product-title-header title-gray">ストレッチングセルラー</p>
+                    <p class="medical-product-title-header title-sky">アクアピーリング</p>
                     <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
@@ -444,19 +465,97 @@
                     <div class="wp-block-group category-medical-product-content">
                         <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
                         <figure class="wp-block-image size-large">
-                        <a class="product-item-link" href="../products/starvac_dxsmart/" target="_blank">
-                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_dxsmart.jpg') ); ?>" alt="dxsmart" class="wp-image-66"/></a>
+                        <a class="product-item-link" href="../products/proFacial/index.html" target="_blank">
+                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_14_l.jpg') ); ?>" alt="ハイドロフェイシャル" class="wp-image-66"/></a>
                         </figure>
                         <!-- /wp:image -->
                         <!-- wp:paragraph -->
-                        <p class="product-item-name">Dx smart</p>
+                        <p class="product-item-name">Profacial</p>
                         <!-- /wp:paragraph -->
 
                         <!-- wp:group -->
                         <div class="wp-block-group product-item-category-list">
                             <!-- wp:paragraph --><p class="product-item-category">施術機器</p><!-- /wp:paragraph -->
-                            <!-- wp:paragraph --><p class="product-item-category">高周波温熱機器</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">proFacial</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">ハイドロフェイシャル</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">ニキビ</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">肌再生</p><!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+
+            <!-- wp:group {"layout":{"type":"constrained"}} -->
+            <div class="wp-block-group category-medical-product-item">
+                <!-- wp:group {"layout":{"type":"constrained"}} -->
+                <div class="wp-block-group category-medical-product-title">
+                    <!-- wp:paragraph -->
+                    <p class="medical-product-title-header title-gray">ストレッチングセルラー / バキューム</p>
+                    <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
+                <!-- wp:group {"layout":{"type":"constrained"}} -->
+                <div class="wp-block-group category-medical-product-detail">
+                    <!-- wp:group -->
+                    <div class="wp-block-group category-medical-product-content">
+                        <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
+                        <figure class="wp-block-image size-large">
+                        <a class="product-item-link" href="../products/starvac/" target="_blank">
+                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/starvac_thumb.jpg') ); ?>" alt="STRAVAC medical版" class="wp-image-66"/></a>
+                        </figure>
+                        <!-- /wp:image -->
+                        <!-- wp:paragraph -->
+                        <p class="product-item-name">STARVAC　DX Smart</p>
+                        <!-- /wp:paragraph -->
+
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-item-category-list">
+                            <!-- wp:paragraph --><p class="product-item-category">施術機器</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">ヴァキューム</p><!-- /wp:paragraph -->
                             <!-- wp:paragraph --><p class="product-item-category">Medical版</p><!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+
+
+            <!-- wp:group {"layout":{"type":"constrained"}} -->
+            <div class="wp-block-group category-medical-product-item">
+                <!-- wp:group {"layout":{"type":"constrained"}} -->
+                <div class="wp-block-group category-medical-product-title">
+                    <!-- wp:paragraph -->
+                    <p class="medical-product-title-header title-purple">EMS</p>
+                    <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
+                <!-- wp:group {"layout":{"type":"constrained"}} -->
+                <div class="wp-block-group category-medical-product-detail">
+                    <!-- wp:group -->
+                    <div class="wp-block-group category-medical-product-content">
+                        <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
+                        <figure class="wp-block-image size-large">
+                        <a class="product-item-link" href="../products/speed_slim/" target="_blank">
+                            <img src="<?php echo esc_url( get_theme_file_uri('assets/images/top_products/products_31_n.jpg') ); ?>" alt="スピードスリム、EMS" class="wp-image-66"/></a>
+                        </figure>
+                        <!-- /wp:image -->
+                        <!-- wp:paragraph -->
+                        <p class="product-item-name">SPEED SLIM</p>
+                        <!-- /wp:paragraph -->
+
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-item-category-list">
+                            <!-- wp:paragraph --><p class="product-item-category">施術機器</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">EMS</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">遠赤外線</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-item-category">引締め</p><!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
                     </div>
