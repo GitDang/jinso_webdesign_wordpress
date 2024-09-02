@@ -149,3 +149,44 @@
 .block-editor-block-list__layout .block-editor-block-list__block img {
   width: 100%;
 }
+
+/*----------------------------
+Category page
+----------------------------*/
+
+.business-support .business-support-menu .business-support-menu-navbar .list-menu-image {
+  position: absolute;
+}
+
+.business-support .business-support-menu .business-support-menu-navbar .list-menu-image .components-resizable-box__container {
+  min-width: auto !important;
+}
+
+.business-support .business-support-menu .business-support-menu-navbar .icon-mail {
+  margin-block-start: 0;
+}
+
+.business-support .business-introduction-inner .business-introduction-menu-develop .menu-develop-item .menu-develop-item-button {
+  margin-block-start: 0;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-content-button {
+  margin-block-start: 0;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-header-image .components-resizable-box__container {
+  height: 100%;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-button {
+  margin-block-start: 0;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-detail .menu-develop-detail-title-image {
+  margin-block-start: 0;
+}
+
+h2 span:before {
+  display: none;
+}
+

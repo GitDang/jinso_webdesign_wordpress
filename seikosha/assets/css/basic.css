@@ -3030,10 +3030,6 @@ Category page
   background-image: linear-gradient(to bottom right, #000000, #c8c8c8);
 }
 
-.business-support {
-
-}
-
 .business-support .category-page-banner {
   margin: 0;
   border-bottom: 1px solid #cccccc;
@@ -3149,12 +3145,17 @@ Category page
   padding: 0 24px;
 }
 
-.business-support .business-support-menu .business-support-menu-navbar .list-menu-image img {
+.business-support .business-support-menu .business-support-menu-navbar .list-menu-image {
   position: absolute;
   top: 0;
-  object-fit: cover;
   height: 16px;
   left: 0;
+}
+
+.business-support .business-support-menu .business-support-menu-navbar .list-menu-image img {
+  display: block;
+  height: 16px;
+  object-fit: cover;
 }
 
 .business-support .business-support-menu .business-support-menu-navbar .icon-mail {
@@ -3168,6 +3169,8 @@ Category page
 
 .business-support .business-support-content {
 
+  padding: 50px 0;
+  margin: 0;
 }
 
 .business-support .business-introduction {
@@ -3175,21 +3178,403 @@ Category page
 }
 
 .business-support .business-introduction-inner {
-
+  padding: 0;
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1280px;
 }
 
 .business-support .business-introduction-inner .business-introduction-title {
-
+  font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+  font-weight: bold;
+  font-size: 28px;
+  margin: 0 auto 40px;
+  text-align: center;
+  color: #333333;
 }
 
 .business-support .business-introduction-inner .business-introduction-content {
+  display: flex;
 
 }
 
 .business-support .business-introduction-inner .business-introduction-content .business-introduction-content-image {
-
+  width: 38%;
+  padding-right: 3%;
 }
 
 .business-support .business-introduction-inner .business-introduction-content .business-introduction-content-text {
-
+  width: 62%;
+  font-size: 16px;
+  line-height: 1.8;
 }
+
+.business-support .business-introduction-inner .business-introduction-box-helf {
+  display: flex;
+  margin: 20px 0;
+}
+
+.business-support .business-introduction-inner .business-introduction-box-one {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.business-support .business-introduction-inner .business-introduction-box-one:first-child {
+  padding-right: 2%;
+}
+
+.business-support .business-introduction-inner .business-introduction-box-one:last-child {
+  border-left: 1px dashed #ccc;
+  padding-left: 2%;
+}
+
+.business-support .business-introduction-inner .business-introduction-box-one .box-one-title {
+  padding: 4px 20px;
+  font-size: 18px;
+  background: #000000;
+  color: #ffffff;
+  text-align: left;
+  letter-spacing: .2rem;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.business-support .business-introduction-inner .business-introduction-box-one .box-one-list {
+  padding: 0 10px;
+  list-style: none;
+}
+
+.business-support .business-introduction-inner .business-introduction-box-one .box-one-item {
+  margin-bottom: 8px;
+  border-bottom: 1px solid #b0c4de;
+  padding-bottom: 2px;
+}
+
+.business-support .business-introduction-inner .business-introduction-box-one .box-one-item::before {
+  content: "●";
+  color: #4682B4;
+  margin-right: .4rem;
+}
+
+.business-support .business-introduction-inner .business-introduction-company {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.business-support .business-introduction-inner .business-introduction-company .business-introduction-company-item {
+  width: calc(100% / 7 - 10px);
+  margin-bottom: 40px;
+}
+
+.business-support .business-introduction-inner .business-introduction-company .company-item-image {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.business-support .business-introduction-inner .business-introduction-company .company-item-text {
+  font-size: 14px;
+  margin: 5px 0;
+  text-align: center;
+  line-height: 1.4;
+  color: #000000;
+}
+
+.business-support .business-introduction-inner .business-introduction-menu-develop {
+  margin: 0;
+  padding: 50px 0;
+}
+
+
+.business-support .business-introduction-inner .business-introduction-menu-develop .menu-develop-item {
+
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.business-support .business-introduction-inner .business-introduction-menu-develop .menu-develop-item .menu-develop-item-button {
+  width: calc(50% - 5px);
+  display: block;
+  padding: 16px 10px 7px;
+  font-size: 20px;
+  background: #596BBC;
+  color: #ffffff;
+  font-weight: 700;
+  position: relative;
+}
+
+.business-support .business-introduction-inner .business-introduction-menu-develop .menu-develop-item .menu-develop-item-button .wp-block-button__link {
+  background: none;
+  padding: 0 0 38px;
+}
+
+.business-support .business-introduction-inner .business-introduction-menu-develop .menu-develop-item .menu-develop-item-button .wp-block-button__link::before {
+  content: "\f0d7";
+  font-family: "Font Awesome 5 Free";
+  font-size: 38px;
+  font-weight: 900;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 19px);
+}
+
+.business-support .business-introduction-inner .business-maketing {
+  margin: 0;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-inner {
+  padding: 0;
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-header {
+  border-left: 10px solid #596BBC;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #596BBC;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-header-image {
+  width: 52%;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-header-image img {
+  height: 100%;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-header-title {
+  font-size: 18px;
+  font-weight: 700;
+  width: 48%;
+  padding-left: 20%;
+  padding-top: 10px;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-content {
+  margin-bottom: 20px;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-content-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-content-button {
+  width: calc(100% / 4 - 1.5%);
+  margin-bottom: 10px;
+  background: #A3B446;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-content-button .wp-block-button__link {
+  padding: 40px 10px;
+  height: 180px;
+  font-size: 18px;
+  background: none;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-content-button .wp-block-button__link::after {
+  content: "\f35a";
+  font-family: "Font Awesome 5 Free";
+  padding-left: .5rem;
+  font-weight: 900;
+  position: absolute;
+  bottom: 24px;
+  left: 42%;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-content-button:hover {
+  background: linear-gradient(to bottom, #596BBC 0%, #325390 90%, #143063 100%) !important;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-content-button.button-color-gray {
+  background: #708090;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-content-button.button-color-blue {
+  background: #4682B4;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-maketing-content-button.button-color-green {
+  background: #2E8B57;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-content .menu-develop-image {
+  margin-bottom: 10px;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-content {
+  margin-bottom: 80px;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-content .menu-develop-image:hover {
+  opacity: .7;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-list-button {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-button {
+  width: calc(100% / 3 - 5px);
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-bottom: 20px;
+  background: #000000;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-button.button-red {
+  background: #DC143C;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-button.button-yellow {
+  background: #ADA142;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-button:hover {
+  background: linear-gradient(to bottom, #6a6a6a 0%, #000000 90%, #492e2e 100%);
+  text-decoration: none;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-button.button-red:hover {
+  background: linear-gradient(to bottom, #ee4768 0%, #dc143c 90%, #b70d2f 100%);
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-button.button-yellow:hover {
+  background: linear-gradient(to bottom, #dbce6b 0%, #ADA142 90%, #7b7123 100%);
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-button .wp-block-button__link {
+  background: none;
+  color: #ffffff;
+  display: block;
+  padding: 20px 10px 50px;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-button .wp-block-button__link::before {
+  content: "\f0d7";
+  font-family: "Font Awesome 5 Free";
+  font-size: 38px;
+  font-weight: 900;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 11px);
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-detail .business-menu-develop-detail-button {
+  margin-bottom: 80px;
+}
+
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-detail .business-menu-develop-detail-title {
+  font-size: 20px;
+  border: 1px solid #DC143C;
+  text-align: left;
+  padding-left: 8px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-detail .menu-develop-detail-title-text {
+  color: #DC143C;
+  font-size: 20px;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-detail .menu-develop-detail-title-image {
+  width: 188px;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-detail .menu-develop-image {
+  margin-bottom: 10px;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-detail .menu-develop-image:hover {
+  opacity: .7;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-detail.menu-clinic .business-menu-develop-detail-title {
+  border: 1px solid #ADA142;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-detail.menu-clinic .menu-develop-detail-title-text {
+  color: #ADA142;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-detail.menu-physio .business-menu-develop-detail-title {
+  border: 1px solid #000000;
+}
+
+.business-support .business-introduction-inner .business-maketing .business-menu-develop-detail.menu-physio .menu-develop-detail-title-text {
+  color: #000000;
+}
+
+.business-support .business-introduction-inner .business-mail {
+  margin-top: 40px;
+}
+
+.business-support .business-introduction-inner .business-mail .business-mail-button {
+  width: 240px;
+  display: block;
+  padding: 15px;
+  border: 1px solid #707070;
+  background: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.business-support .business-introduction-inner .business-mail .business-mail-button .wp-block-button__link {
+  background: none;
+  color: #000000;
+  padding: 0;
+}
+
+.business-support .business-introduction-inner .business-mail .business-mail-button .wp-block-button__link::after {
+  content: "\f35a";
+  font-family: "Font Awesome 5 Free";
+  padding-left: .5rem;
+  font-weight: 900;
+}
+
+.business-support .business-introduction-inner .business-mail .business-mail-button:hover {
+  opacity: .7;
+}
+
+
+
+
+
+
+
+
+
