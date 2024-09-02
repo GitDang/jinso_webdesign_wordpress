@@ -34,6 +34,7 @@ function my_theme_add_editor_styles() {
     add_editor_style( get_template_directory_uri() . '/assets/css/basic.css');
     add_editor_style( get_template_directory_uri() . '/assets/css/border.css');
     add_editor_style( get_template_directory_uri() . '/assets/css/style.css');
+    add_editor_style( get_template_directory_uri() . '/assets/css/footer.css');
     add_editor_style( get_template_directory_uri() . '/assets/css/editor/style.css');
     add_editor_style( get_template_directory_uri() . '/assets/css/font-awesome/css/all.css');
 
@@ -78,6 +79,14 @@ function base_theme_1_styles() {
 	wp_enqueue_style(
 		'base-theme-1-border',
 		get_template_directory_uri() . '/assets/css/border.css',
+		[],
+		wp_get_theme()->get( 'Version' )
+	);
+
+
+	wp_enqueue_style(
+		'base-theme-1-footer',
+		get_template_directory_uri() . '/assets/css/footer.css',
 		[],
 		wp_get_theme()->get( 'Version' )
 	);
@@ -187,6 +196,15 @@ function my_register_patterns() {
                 'title'       => __('List Category', 'my-theme'),
                 'description' => _x('A description of your pattern', 'Block pattern description', 'my-theme'),
                 'content'     => file_get_contents(get_template_directory() . '/patterns/categories.php'),
+            )
+        );
+
+		register_block_pattern(
+            'my-theme/base-theme',
+            array(
+                'title'       => __('Footer', 'my-theme'),
+                'description' => _x('A description of your pattern', 'Block pattern description', 'my-theme'),
+                'content'     => file_get_contents(get_template_directory() . '/patterns/footer.php'),
             )
         );
     }
