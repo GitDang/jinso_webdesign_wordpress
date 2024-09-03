@@ -3647,6 +3647,10 @@ img.button-link-social {
   height: 24px;
 }
 
+.button-link-social img {
+  width: auto;
+  height: 24px;
+}
 
 img.topics-list-image {
   width: auto;
@@ -3655,6 +3659,7 @@ img.topics-list-image {
 
 .list-button-social {
   justify-content: flex-end;
+  height: 24px;
 }
 
 .list-button-social .wp-block-button__link {
@@ -3662,6 +3667,7 @@ img.topics-list-image {
   border: none;
   color: #333;
   font-size: 12px;
+  padding: calc(0.667em + 2px) calc(1.333em + 2px);
 }
 
 .list-button-social .wp-block-button__link img {
