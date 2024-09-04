@@ -4,7 +4,7 @@
  * Title: About Us
  * 
  * Slug: themeslug/about-us
- * Categories: featured
+ * Categories: home-page
  *
  * @package Base Theme
  * @since 1.0.0

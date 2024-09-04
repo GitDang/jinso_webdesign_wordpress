@@ -211,9 +211,11 @@ h2 span:before {
   flex-direction: column;
 }
 
-
 .wp-block-image .totop {
   right: 15px;
   bottom: 40px
 }
 
+.product-page .wp-block {
+  margin-block-start: 0;  
+}

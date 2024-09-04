@@ -2,7 +2,7 @@
 /**
  * Title: Footer
  * Slug: themeslug/footer
- * Categories: featured
+ * Categories: home-page
  *
  * @package Trend Fashion
  * @since 1.0.0

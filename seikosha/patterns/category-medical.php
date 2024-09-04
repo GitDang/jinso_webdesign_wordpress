@@ -4,7 +4,7 @@
  * Title: Category Medical Page
  * 
  * Slug: themeslug/category-medical
- * Categories: font-page
+ * Categories: category-page
  *
  * @package Base Theme
  * @since 1.0.0

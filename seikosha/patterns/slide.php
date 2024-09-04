@@ -2,9 +2,8 @@
 /**
  * Title: Slide 
  * Slug: themeslug/slide
- * Template Types: front-page, home
- * Viewport width: 1376
- * Inserter: no
+ * Categories: home-page
+ *
  */
 ?>
 

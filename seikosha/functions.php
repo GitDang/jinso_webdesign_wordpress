@@ -162,54 +162,24 @@ function theme_slug_enqueue_scripts() {
 	);
 }
 
-function my_register_patterns() {
-    if (function_exists('register_block_pattern')) {
-        register_block_pattern(
-            'my-theme/base-theme',
-            array(
-                'title'       => __('Slide Text', 'my-theme'),
-                'description' => _x('A description of your pattern', 'Block pattern description', 'my-theme'),
-                'content'     => file_get_contents(get_template_directory() . '/patterns/slide-text.php'),
-            )
+function my_theme_register_pattern_category() {
+    if ( function_exists( 'register_block_pattern_category' ) ) {
+		register_block_pattern_category(
+            'home-page',
+            array( 'label' => __( 'Home Page', 'seikosha-theme' ) )
         );
-		register_block_pattern(
-            'my-theme/base-theme',
-            array(
-                'title'       => __('Menu Home', 'my-theme'),
-                'description' => _x('A description of your pattern', 'Block pattern description', 'my-theme'),
-                'content'     => file_get_contents(get_template_directory() . '/patterns/menu-home.php'),
-            )
+        register_block_pattern_category(
+            'category-page',
+            array( 'label' => __( 'Category Page', 'seikosha-theme' ) )
         );
-
-		register_block_pattern(
-            'my-theme/base-theme',
-            array(
-                'title'       => __('List Social', 'my-theme'),
-                'description' => _x('A description of your pattern', 'Block pattern description', 'my-theme'),
-                'content'     => file_get_contents(get_template_directory() . '/patterns/socials.php'),
-            )
-        );
-
-		register_block_pattern(
-            'my-theme/base-theme',
-            array(
-                'title'       => __('List Category', 'my-theme'),
-                'description' => _x('A description of your pattern', 'Block pattern description', 'my-theme'),
-                'content'     => file_get_contents(get_template_directory() . '/patterns/categories.php'),
-            )
-        );
-
-		register_block_pattern(
-            'my-theme/base-theme',
-            array(
-                'title'       => __('Footer', 'my-theme'),
-                'description' => _x('A description of your pattern', 'Block pattern description', 'my-theme'),
-                'content'     => file_get_contents(get_template_directory() . '/patterns/footer.php'),
-            )
+		register_block_pattern_category(
+            'product-page',
+            array( 'label' => __( 'Product Page', 'seikosha-theme' ) )
         );
     }
 }
-add_action('init', 'my_register_patterns');
+
+add_action('init', 'my_theme_register_pattern_category');
 
 add_action( 'wp_enqueue_scripts', 'base_theme_1_styles' );
 
@@ -218,16 +188,8 @@ add_action( 'wp_enqueue_scripts', 'theme_slug_enqueue_scripts' );
 function unregister_all_patterns() {
     remove_theme_support('core-block-patterns');
 }
+
 add_action('after_setup_theme', 'unregister_all_patterns');
-
-function mytheme_register_pattern_categories() {
-	register_block_pattern_category(
-        'front-page',
-        array( 'label' => __( 'Front Page', 'my-theme' ) )
-    );
-}
-add_action( 'init', 'mytheme_register_pattern_categories' );
-
 function enqueue_font_awesome_editor() {
     // Enqueue Font Awesome for Gutenberg editor
     add_theme_support('editor-styles');
