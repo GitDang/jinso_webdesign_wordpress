@@ -12,9 +12,18 @@
 ?>
 
 <!-- wp:group -->
+<div class="wp-block-group block-title">
+  <!-- wp:paragraph -->
+  <p class="block-title-header">News & Media</p>
+  <!-- /wp:paragraph -->
+  <!-- wp:paragraph -->
+  <p class="block-title-sub">お知らせ</p>
+  <!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group -->
 <div class="wp-block-group block-new-media">
-  <!-- wp:paragraph {"align":"center"} -->
-  <h2><span>News & Media</span><br>お知らせ</h2><!-- /wp:paragraph -->
 
   <!-- wp:group -->
   <div class="wp-block-group list-new-media">
@@ -116,7 +125,7 @@
       <!-- /wp:column -->
     </div>
     <!-- /wp:columns -->
-     <!-- wp:columns -->
+    <!-- wp:columns -->
     <div class="wp-block-columns"><!-- wp:column {"width":"20%"} -->
       <div class="wp-block-column new-media-box-date" style="flex-basis:20%">
         <!-- wp:paragraph --><span>2024/5/21</span><!-- /wp:paragraph -->
