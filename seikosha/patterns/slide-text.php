@@ -2,7 +2,7 @@
 /**
  * Title: Slide Text
  * Slug: themeslug/slide-text
- * Categories: featured
+ * Categories: home-page
  *
  * @package Base Theme
  * @since 1.0.0

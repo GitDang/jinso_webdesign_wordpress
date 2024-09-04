@@ -5,7 +5,7 @@
  * 
  * Slug: themeslug/business-support
  * 
- * Categories: font-page
+ * Categories: category-page
  *
  * @package Base Theme
  * @since 1.0.0

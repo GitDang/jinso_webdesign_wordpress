@@ -4,7 +4,7 @@
  * Title: Category Physio Page
  * 
  * Slug: themeslug/category-physio
- * Categories: font-page
+ * Categories: category-page
  *
  * @package Base Theme
  * @since 1.0.0

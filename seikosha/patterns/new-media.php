@@ -4,7 +4,7 @@
  * Title: New Media
  * 
  * Slug: themeslug/new-media
- * Categories: featured
+ * Categories: home-page
  *
  * @package Base Theme
  * @since 1.0.0

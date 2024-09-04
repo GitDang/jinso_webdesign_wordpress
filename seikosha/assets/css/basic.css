@@ -5284,7 +5284,6 @@ Category page
 }
 
 .business-support .business-support-content {
-
   padding: 50px 0;
   margin: 0;
 }
@@ -5401,9 +5400,7 @@ Category page
   padding: 50px 0;
 }
 
-
 .business-support .business-introduction-inner .business-introduction-menu-develop .menu-develop-item {
-
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -5683,6 +5680,708 @@ Category page
 .business-support .business-introduction-inner .business-mail .business-mail-button:hover {
   opacity: .7;
 }
+
+/*----------------------------
+Product page
+----------------------------*/
+
+.product-page {
+
+}
+
+.product-page .product-page-top {
+  margin: 0;
+  border-bottom: 1px solid #cccccc;
+  background: #EEEEEE;
+}
+
+.product-page .product-page-top .product-page-top-inner {
+  margin: 0 auto;
+  height: 180px;
+  width: 92%;
+  max-width: 1280px;
+  position: relative;
+}
+
+.product-page .product-page-top .product-page-top-left {
+  font-size: 14px;
+  padding-top: 50px;
+  padding-left: 20px;
+  text-align: left;
+  color: #333333;
+  font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+  line-height: 1.2;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.product-page .product-page-top .product-page-top-left .product-page-top-left-header {
+  font-size: 30px;
+  position: relative;
+  display: inline-block;
+  font-family: Roboto, Arial, Helvetica, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+}
+
+.product-page .product-page-top .product-page-top-right {
+
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-size: 12px;
+}
+
+.product-page .product-page-top .product-page-top-right .product-page-top-right-header {
+
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  margin-left: 4px;
+  padding: 1px 2px;
+  display: inline-block;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  line-height: 14px;
+}
+
+.product-header-title {
+  padding: 4px 10px;
+  color: #656565;
+  border-bottom: 1px solid #cccccc;
+}
+
+.product-header-title .product-header-list {
+  display: flex;
+  width: 92%;
+  margin: auto;
+}
+
+.product-header-title .product-header-list .product-title-header {
+  font-size: 14px;
+  display: inline-block;
+  position: relative;
+  padding-right: calc(8px + 8px);
+  margin-right: 8px;
+}
+
+.product-header-title .product-header-list .product-header-link:hover {
+  text-decoration: underline;
+}
+
+.product-header-title .product-header-list .product-header-link::before {
+  content: '›';
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.product-header-title .product-header-list .product-header-link:first-child a {
+  min-width: 14px;
+  display: block;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.product-header-title .product-header-list .product-header-link:first-child::after {
+  content: "\f015";
+  width: 14px;
+  font-weight: bold;
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-size: 14px;
+  top: 0;
+}
+
+.product-intro {
+  margin: 0;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.product-intro .product-intro-inner {
+  padding: 0;
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.product-intro .product-intro-inner .product-intro-banner {
+  padding-bottom: 30px;
+}
+
+.product-intro .product-intro-inner .product-intro-logo {
+  width: 23%;
+  margin: auto;
+}
+
+.product-intro .product-intro-inner .product-intro-title {
+  font-size: 28px;
+  margin: 0 auto 40px;
+  font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+  font-weight: bold;
+  text-align: center;
+  color: #333333;
+}
+
+.product-intro .product-intro-inner .product-intro-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.product-intro .product-intro-inner .product-intro-content .product-intro-content-item {
+  margin-bottom: 20px;
+  width: 50%;
+  margin-right: 7%;
+}
+
+.product-intro .product-intro-inner .product-intro-content .product-intro-content-item:last-child {
+  margin-bottom: 20px;
+  width: 43%;
+  margin-right: 0;
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-content-read {
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .bold {
+  font-weight: 700;
+  
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-content-image {
+  margin-top: 30px;
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-content-table {
+  margin-top: 30px;
+}
+
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-content-table thead {
+  border-bottom: none;
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-content-table thead th {
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 4px;
+  position: relative;
+  font-weight: 700;
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-content-table thead th::before {
+  content: '■';
+  font-size: 1.2rem;
+  margin-right: .2rem;
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-content-table thead th:first-child {
+  width: 5rem;
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-content-table tbody td {
+  border: 1px solid #ccc;
+  padding: 4px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-content-table tbody td:first-child {
+  width: 5rem;
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-link {
+  margin-top: 40px;
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-link .product-intro-button {
+  width: 240px;
+  display: block;
+  padding: 15px;
+  border: 1px solid #707070;
+  background: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-link .product-intro-button .wp-block-button__link {
+  background: none;
+  color: #333;
+  padding: 0;
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-link .product-intro-button .wp-block-button__link::after {
+  content: "\f35a";
+  font-family: "Font Awesome 5 Free";
+  padding-left: .5rem;
+  font-weight: 900;
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-link .product-intro-button:hover {
+  opacity: .7;
+}
+
+.product-intro .product-intro-column-area {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.product-intro .product-intro-column-area .product-intro-column-item {
+  width: 40%;
+  margin: 20px 30px 40px;
+}
+
+.product-intro .product-intro-column-area .product-intro-column-item .product-intro-column-title {
+  text-align: center;
+  font-size: 110%;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-intro .product-intro-column-area .product-intro-column-item .product-intro-column-image {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.product-intro .product-intro-youtube-area .product-intro-youtube-inner {
+  margin: 0 auto;
+  width: 640px;
+  font-size: 95%;
+  letter-spacing: 1.5px;
+}
+
+.product-intro .product-intro-youtube-area .product-intro-youtube-title {
+  background-color: #18478F;
+  display: block;
+  color: #FFFFFF;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-intro .product-intro-youtube-area .product-intro-youtube-title.color-black {
+  background-color: #000000;
+}
+
+.product-intro .product-intro-youtube-area .product-intro-youtube-link {
+  margin-bottom: 20px;
+}
+
+.product-intro .product-intro-custom-area {
+  margin: 0;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.product-intro .product-intro-custom-area .product-intro-custom-inner {
+  padding: 0;
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.product-intro .product-intro-custom-area .product-intro-custom-title {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+  font-family: "ＭＳ Ｐゴシック";
+}
+
+.product-intro .product-intro-youtube-area .product-intro-custom-image {
+  margin-bottom: 20px;
+}
+
+.product-default {
+  width: 90%;
+  max-width: 1120px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.product-default .product-pdf {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.product-default .product-pdf .product-pdf-inner {
+  padding: 0;
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.product-default .product-pdf .product-pdf-inner .product-pdf-kakomi {
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 20px 4%;
+  border: 2px solid #CCCCCC;
+  background-size: 27%;
+}
+
+.product-default .product-pdf .product-pdf-inner .product-pdf-kakomi .product-pdf-kakomi-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: left;
+  border-top: 1px solid #656565;
+  border-bottom: 1px solid #656565;
+}
+
+.product-default .product-pdf .product-pdf-inner .product-pdf-kakomi .product-pdf-kakomi-content {
+  font-size: 16px;
+  text-align: left;
+}
+
+.product-default .product-pdf .product-pdf-inner .product-pdf-menu-title {
+  background-color: #AE1F23;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 30px 0 20px;
+  font-weight: bold;
+  padding: 0.5em;
+  font-size: 16px;
+}
+
+.product-default .product-pdf .product-pdf-inner .product-pdf-column-area {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.product-default .product-pdf .product-pdf-inner .product-pdf-column-area .product-pdf-column-item {
+  width: 40%;
+  margin: 20px 30px 40px;
+}
+
+.product-default .product-pdf .product-pdf-inner .product-pdf-column-area .product-pdf-column-item .product-pdf-column-title {
+  color: #D30003;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 3px solid;
+  padding: 0.5rem 0 0.1rem 0.5rem;
+  border-left: 5px solid;
+  font-family: "ＭＳ Ｐゴシック";
+  margin-bottom: 20px;
+}
+
+.product-default .product-pdf .product-pdf-inner .product-pdf-column-area .product-pdf-column-item .product-pdf-column-image {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.product-default .product-pdf .product-pdf-inner .product-pdf-column-area .product-pdf-column-item .product-pdf-column-content {
+  font-size: 14px;
+  text-align: left;
+  padding: 10px 0px;
+}
+
+.product-pdf-detail .product-pdf-detail-title {
+  padding: 0.5em;
+  color: #010101;
+  background: #FEF8E8;
+  border-bottom: solid 3px #de9b4d;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.product-pdf-detail .product-pdf-detail-image {
+  margin-top: 40px;
+}
+
+.product-pdf-detail .product-pdf-detail-model-title {
+  background-color: #AE1F23;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.product-pdf-detail .product-pdf-detail-column-area {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.product-pdf-detail .product-pdf-detail-column-area .product-pdf-detail-column-item {
+  width: 40%;
+  margin: 20px 30px 40px;
+}
+
+.product-pdf-detail .product-pdf-detail-column-area .product-pdf-detail-column-item .product-pdf-detail-column-title {
+  background: #D6D6D6;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+.product-pdf-detail .product-pdf-detail-column-area .product-pdf-detail-column-item .product-pdf-detail-column-content {
+  font-size: 14px;
+  text-align: left;
+  padding: 10px 0px;
+}
+
+.product-information {
+}
+
+.product-information .product-information-item {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.product-information .product-information-item .product-information-item-title {
+  font-weight: bold;
+  text-align: left;
+  border-top: 1px solid #656565;
+  border-bottom: 1px solid #656565;
+  margin-bottom: 20px;
+}
+
+.product-information .product-information-item .product-information-item-title .product-information-item-title-header {
+  background: #656565;
+  color: #ffffff;
+  padding: 8px 12px;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.product-information .product-information-item .product-information-item-title .product-information-item-title-sub {
+  display: inline-block;
+}
+
+.product-information .product-information-item .product-information-item-image {
+  margin-bottom: 20px;
+}
+
+.product-information .product-information-item .product-information-item-content {
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.product-information .product-information-item .product-information-item-detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-information .product-information-item .product-information-item-detail-left {
+  width: 55%;
+}
+
+.product-information .product-information-item .product-information-item-detail-right {
+  width: 42%;
+  margin-left: 3%;
+}
+
+.product-information .product-information-item .product-information-item-detail-title {
+  font-weight: bold;
+  border-bottom: 1px solid #656565;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.product-information .product-information-item .product-information-item-detail-content {
+  margin-left: 20px;
+  list-style-type: decimal;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.product-information .product-information-item .product-information-item-detail .product-information-item-detail-content::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}
+
+.product-information .product-information-item .product-information-item-detail-image {
+  margin-bottom: 20px;
+}
+
+.product-information .product-information-item .product-evidence .product-information-item-detail-left {
+  width: 42%;
+  margin-right: 3%;
+}
+
+.product-information .product-information-item .product-evidence .product-information-item-detail-right {
+  width: 55%;
+  margin-left: 0;
+}
+
+.product-information .product-information-item .product-information-item-detail-one {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.product-information .product-information-item .product-information-item-herf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.product-information .product-information-item .product-information-item-onebox {
+  width: calc(100% / 2 - 20px);
+}
+
+.product-information .product-information-item .product-information-item-onebox.box-left {
+  border: 1px solid #cccccc;
+  background: #ededed;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.product-information .product-information-item .product-information-item-onebox .onebox-title {
+  font-size: 120%;
+  font-weight: bold;
+  text-align: left;
+}
+
+.product-information .product-information-item .product-information-item-onebox .onebox-title-right {
+  font-size: 80%;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.product-information .product-information-item .product-information-item-onebox .onebox-content {
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.product-information .product-information-item .product-information-new {
+  width: 90%;
+  max-width: 1120px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.product-information .product-information-item .product-information-new-inner {
+  padding: 0;
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 20px 4%;
+  border: 2px solid #1e2483;
+}
+
+.product-information .product-information-item .product-information-new .product-information-new-title {
+  font-size: 18px;
+  font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+  font-weight: bold;
+  margin: 0 auto 20px;
+  text-align: center;
+  color: #333333;
+  border-top: 1px solid #656565;
+  border-bottom: 1px solid #656565;
+}
+
+.product-information .product-information-item .product-information-new .product-information-new-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-information .product-information-item .product-information-new .product-information-new-detail-text {
+  text-align: left;
+  width: 68%;
+}
+
+.product-information .product-information-item .product-information-new .product-information-new-detail-image {
+  width: 27%;
+}
+
+.product-information .product-information-item .product-information-new .product-information-new-bottom-image {
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1280px;
+  margin-top: 20px;
+}
+
+.product-information .product-information-item .list-button-menu-product {
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  padding: 60px 2% 10px;
+  gap: 5px 10px;
+}
+
+.product-information .product-information-item .list-button-menu-product .button-menu-product {
+  background: #d1e6ef;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.product-information .product-information-item .list-button-menu-product .button-menu-product .wp-block-button__link {
+  background: none;
+  padding: 0;
+  font-size: 14px;
+  text-align: center;
+  color: #333;
+  display: block;
+}
+.product-information .product-information-item .list-button-menu-product .button-menu-product .wp-block-button__link::after {
+  content: "\f35a";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.product-information .product-information-item .product-catalog-area {
+  padding: 10%;
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.product-information .product-information-item .product-catalog-area .product-catalog-area-image {
+  width: calc(100% / 2 - 10px);
+}
+
 
 .category-medication-banner {
   margin: 0 auto;

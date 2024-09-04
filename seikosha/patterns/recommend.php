@@ -2,7 +2,7 @@
 /**
  * Title: Menu home
  * Slug: themeslug/recommend
- * Categories: featured
+ * Categories: home-page
  *
  * @package Base Theme
  * @since 1.0.0

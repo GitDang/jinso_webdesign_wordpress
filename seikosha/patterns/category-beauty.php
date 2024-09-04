@@ -4,7 +4,7 @@
  * Title: Category Beauty Page
  * 
  * Slug: themeslug/category-beauty
- * Categories: font-page
+ * Categories: category-page
  *
  * @package Base Theme
  * @since 1.0.0

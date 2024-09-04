@@ -1,4 +1,4 @@
-=== Trend Fashion ===
+=== Seikosha ===
 
 Contributors: trendthemeswp
 Author: Trendthemeswp
@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: editor-style, right-sidebar, custom-menu, custom-logo, custom-colors, featured-images, block-patterns, sticky-post, threaded-comments
 
 == Description ==
-Trend Fashion is a dynamic, full-site editing WordPress theme built to effortlessly integrate with WooCommerce. This theme is meticulously crafted for the WooCommerce and WordPress plugin ecosystem. Its exceptional flexibility makes it perfect for a wide range of online store niches, such as fashion, technology, healthcare products, home furnishings, sports gear, interior design, jewelry, and beyond. Check out the live demo to experience its full potential.  Check the real demo:  https://demos.trendthemeswp.com/trend-fashion
+Seikosha is a dynamic, full-site editing WordPress theme built to effortlessly integrate with WooCommerce. This theme is meticulously crafted for the WooCommerce and WordPress plugin ecosystem. Its exceptional flexibility makes it perfect for a wide range of online store niches, such as fashion, technology, healthcare products, home furnishings, sports gear, interior design, jewelry, and beyond. Check out the live demo to experience its full potential.  Check the real demo:  https://demos.trendthemeswp.com/trend-fashion
 
 == Installation ==
 
@@ -22,8 +22,8 @@ Trend Fashion is a dynamic, full-site editing WordPress theme built to effortles
 
 == Copyright ==
 
-Trend Fashion WordPress Theme, Copyright 2023 Trendthemeswp
-Trend Fashion is distributed under the terms of the GNU GPL
+Seikosha WordPress Theme, Copyright 2023 Trendthemeswp
+Seikosha is distributed under the terms of the GNU GPL
 
 == Resources ==
 

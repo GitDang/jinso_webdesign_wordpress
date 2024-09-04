@@ -4,7 +4,7 @@
  * Title: Category Banner
  * 
  * Slug: themeslug/products
- * Categories: featured
+ * Categories: home-page
  *
  * @package Base Theme
  * @since 1.0.0
