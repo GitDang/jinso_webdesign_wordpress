@@ -4,7 +4,7 @@
  * Title: Category Medication Page
  * 
  * Slug: themeslug/category-medication
- * Categories: font-page
+ * Categories: category-page
  *
  * @package Base Theme
  * @since 1.0.0
