@@ -525,10 +525,10 @@
                             <!-- wp:paragraph -->
                             <p class="text-right">使いこなせない</p>
                             <!-- /wp:paragraph -->
-                             <!-- wp:paragraph -->
+                            <!-- wp:paragraph -->
                             <p class="text-right">メニューが定番化していて、差別化したい</p>
                             <!-- /wp:paragraph -->
-                             <!-- wp:paragraph -->
+                            <!-- wp:paragraph -->
                             <p class="text-right">そんなお声に応えます！！</p>
                             <!-- /wp:paragraph -->
                         </div>
@@ -601,7 +601,7 @@
                             <!-- wp:paragraph -->
                             <p class="text-right">他にも、動画やテレビも鑑賞できるスペースを完備しています。</p>
                             <!-- /wp:paragraph -->
-                             <!-- wp:paragraph -->
+                            <!-- wp:paragraph -->
                             <p class="text-right">ゆったりとコーヒーを飲みながら、ひとときのくつろぎを。</p>
                             <!-- /wp:paragraph -->
                         </div>
@@ -612,6 +612,476 @@
                 <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+    <!-- wp:group -->
+    <div class="wp-block-group t_menu">
+        <!-- wp:group -->
+        <div class="wp-block-group inner">
+            <!-- wp:paragraph -->
+            <p class="group">MENU</p>
+            <!-- /wp:paragraph -->
+            <!-- wp:paragraph -->
+            <p class="h3_catch">Conditioning & Beauty</p>
+            <!-- /wp:paragraph -->
+            <!-- wp:group -->
+            <div class="wp-block-group img_box">
+                <!-- wp:image -->
+                <figure class="wp-block-image">
+                    <img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/menu1.png')); ?>" />
+                </figure>
+                <!-- /wp:image -->
+                <!-- wp:group -->
+                <div class="wp-block-group herf_l">
+                    <!-- wp:image -->
+                    <figure class="wp-block-image">
+                        <img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/logo-rafos.png')); ?>" />
+                    </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group tag">
+                        <!-- wp:paragraph -->
+                        <span>深部加温</span>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <span>ボディコントゥワリング</span>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <span>セルライト</span>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <span>自律神経ケア</span>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <span>フェイシャルリフティング</span>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <span>コラーゲン再生</span>
+                        <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group table_def">
+                        <!-- wp:table -->
+                        <figure class="wp-block-table">
+                            <table class="has-fixed-layout">
+                                <thead>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>体温1℃アップ自律神経ケア</td>
+                                        <td>20分</td>
+                                        <td>￥6,600</td>
+                                    </tr>
+                                    <tr>
+                                        <td>フェイシャル Contouring</td>
+                                        <td>30分</td>
+                                        <td>￥9,900</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                        <!-- /wp:table -->
+                    </div>
+                    <!-- /wp:group -->
+                    <!-- wp:button -->
+                    <div class="wp-block-button btn_toi">
+                        <a class="wp-block-button__link" href="menu.html#Rafos" target="_blank">詳細とその他料金はこちら</a>
+                    </div>
+                    <!-- /wp:button -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+            <!-- wp:group -->
+            <div class="wp-block-group img_box">
+                <!-- wp:image -->
+                <figure class="wp-block-image">
+                    <img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/menu2.png')); ?>" />
+                </figure>
+                <!-- /wp:image -->
+                <!-- wp:group -->
+                <div class="wp-block-group herf_l">
+                    <!-- wp:image -->
+                    <figure class="wp-block-image">
+                        <img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/logo-ego.png')); ?>" />
+                    </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group tag">
+                        <!-- wp:paragraph -->
+                        <span>むくみ</span>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <span>セルライト</span>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <span>肥満・脂肪</span>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <span>たるみ</span>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <span>リラックス</span>
+                        <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group table_def">
+                        <!-- wp:table -->
+                        <figure class="wp-block-table">
+                            <table class="has-fixed-layout">
+                                <thead>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>シワ/たるみ(FACE)</td>
+                                        <td>15分</td>
+                                        <td>￥6,600</td>
+                                    </tr>
+                                    <tr>
+                                        <td>セルライト(BODY)</td>
+                                        <td>20分</td>
+                                        <td>￥13,200</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                        <!-- /wp:table -->
+                    </div>
+                    <!-- /wp:group -->
+                    <!-- wp:button -->
+                    <div class="wp-block-button btn_toi">
+                        <a class="wp-block-button__link" href="menu.html#Rafos" target="_blank">詳細とその他料金はこちら</a>
+                    </div>
+                    <!-- /wp:button -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+            <!-- wp:group -->
+            <div class="wp-block-group img_box">
+                <!-- wp:image -->
+                <figure class="wp-block-image">
+                    <img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/menu3.png')); ?>" />
+                </figure>
+                <!-- /wp:image -->
+                <!-- wp:group -->
+                <div class="wp-block-group herf_l">
+                    <!-- wp:image -->
+                    <figure class="wp-block-image">
+                        <img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/logo-sonocare.png')); ?>" />
+                    </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group tag">
+                        <!-- wp:paragraph -->
+                        <span>シワ</span>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <span>たるみ</span>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <span>ニキビ</span>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <span>アトピー</span>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <span>引き締め</span>
+                        <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group table_def">
+                        <!-- wp:table -->
+                        <figure class="wp-block-table">
+                            <table class="has-fixed-layout">
+                                <thead>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Winkle（シワ)</td>
+                                        <td>12分</td>
+                                        <td>￥6,600</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hydration（保湿）</td>
+                                        <td>30分</td>
+                                        <td>￥6,600</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                        <!-- /wp:table -->
+                    </div>
+                    <!-- /wp:group -->
+                    <!-- wp:button -->
+                    <div class="wp-block-button btn_toi">
+                        <a class="wp-block-button__link" href="menu.html#Rafos" target="_blank">詳細とその他料金はこちら</a>
+                    </div>
+                    <!-- /wp:button -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+    <!-- wp:group -->
+    <div class="wp-block-group t_menu">
+        <!-- wp:group -->
+        <div class="wp-block-group inner">
+            <!-- wp:paragraph -->
+            <p class="group">動 画</p>
+            <!-- /wp:paragraph -->
+            <!-- wp:paragraph -->
+            <p class="h3_catch">Conditioning & Beauty</p>
+            <!-- /wp:paragraph -->
+            <!-- wp:group -->
+            <div class="wp-block-group three-column">
+                <!-- wp:group -->
+                <div class="wp-block-group three-column-item">
+                    <!-- wp:html -->
+                    <iframe src="https://www.youtube.com/embed/nYTeEWWtEkw" frameborder="0"
+                        allowfullscreen="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    <!-- /wp:html -->
+                    <!-- wp:paragraph -->
+                    <p class="text">【EGO】<br>FACE Gymセラピー（深層筋EMS)</p>
+                    <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
+                <!-- wp:group -->
+                <div class="wp-block-group three-column-item">
+                    <!-- wp:html -->
+                    <iframe src="https://www.youtube.com/embed/j0FPmJsCORY" frameborder="0"
+                        allowfullscreen="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    <!-- /wp:html -->
+                    <!-- wp:paragraph -->
+                    <p class="text">【RAFOS premium】FASCIA RELEASE<br> BAR（筋膜リリースセラピー）</p>
+                    <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
+                <!-- wp:group -->
+                <div class="wp-block-group three-column-item">
+                    <!-- wp:html -->
+                    <iframe src="https://www.youtube.com/embed/NQxb_sD9SBQ" frameborder="0"
+                        allowfullscreen="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    <!-- /wp:html -->
+                    <!-- wp:paragraph -->
+                    <p class="text">【FAMUBO】<br>FAMUBOフォローアップセミナー 2020</p>
+                    <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+    <!-- wp:group -->
+    <div class="wp-block-group t_menu">
+        <!-- wp:group -->
+        <div class="wp-block-group inner">
+            <!-- wp:paragraph -->
+            <p class="group mb40">予 約</p>
+            <!-- /wp:paragraph -->
+            <!-- wp:group -->
+            <div class="wp-block-group reserve-box">
+                <!-- wp:group -->
+                <div class="wp-block-group reserve-box-item">
+                    <!-- wp:image -->
+                    <figure class="wp-block-image">
+                        <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/yoyaku1.png')); ?>" /></a>
+                    </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group txt_box">
+                        <!-- wp:paragraph -->
+                        <p class="txt_box_main">日時を選ぶ</p>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <p class="txt_box_sub_main">目的や内容により利用時間が異なりますので、ご不明の点はご相談ください。</p>
+                        <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+                <!-- wp:group -->
+                <div class="wp-block-group reserve-box-item">
+                    <!-- wp:image -->
+                    <figure class="wp-block-image">
+                        <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/yoyaku2.png')); ?>" /></a>
+                    </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group txt_box">
+                        <!-- wp:paragraph -->
+                        <p class="txt_box_main">人数を選ぶ</p>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <p class="txt_box_sub_main">体験者をお連れいただいても大丈夫です。</p>
+                        <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+                <!-- wp:group -->
+                <div class="wp-block-group reserve-box-item">
+                    <!-- wp:image -->
+                    <figure class="wp-block-image">
+                        <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/yoyaku3.png')); ?>" /></a>
+                    </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group txt_box">
+                        <!-- wp:paragraph -->
+                        <p class="txt_box_main">機器を選ぶ</p>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <p class="txt_box_sub_main">目的に合わせた施術機をご紹介しますのでお気軽にご相談ください。</p>
+                        <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+                <!-- wp:group -->
+                <div class="wp-block-group reserve-box-item">
+                    <!-- wp:image -->
+                    <figure class="wp-block-image">
+                        <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/yoyaku4.png')); ?>" /></a>
+                    </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group txt_box">
+                        <!-- wp:paragraph -->
+                        <p class="txt_box_main">オプション</p>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <p class="txt_box_sub_main">施術機のオプションや新メニューなどご相談についてはあらかじめお知らせください。</p>
+                        <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+            <!-- wp:group -->
+            <div class="wp-block-group box_bottun">
+                <!-- wp:group -->
+                <div class="wp-block-group toi">
+                    <!-- wp:group -->
+                    <div class="wp-block-group toi-item">
+                        <!-- wp:image -->
+                        <figure class="wp-block-image">
+                            <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/tel.png')); ?>" /></a>
+                        </figure>
+                        <!-- /wp:image -->
+                        <!-- wp:paragraph -->
+                        <p class="txt-toi-phone">03-3234-1039</p>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <p class="txt-toi-time">平日　9：30～17：30　土日祝休</p>
+                        <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group toi-item">
+                        <!-- wp:paragraph -->
+                        <p class="txt-toi-phone">スタジオ予約</p>
+                        <!-- /wp:paragraph -->
+                        <!-- wp:paragraph -->
+                        <p class="txt-toi-time">部屋・機器についての予約フォーム</p>
+                        <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+    <!-- wp:group -->
+    <div class="wp-block-group btn_area">
+        <!-- wp:image -->
+        <figure class="wp-block-image">
+            <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/bnr_seminar2.png')); ?>" /></a>
+        </figure>
+        <!-- /wp:image -->
+        <!-- wp:group -->
+        <div class="wp-block-group btn_area_mv">
+            <!-- wp:image -->
+            <figure class="wp-block-image">
+                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/bnr_therapy.png')); ?>" /></a>
+            </figure>
+            <!-- /wp:image -->
+            <!-- wp:image -->
+            <figure class="wp-block-image ue_img">
+                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/therapy_sonocare.gif')); ?>" /></a>
+            </figure>
+            <!-- /wp:image -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+    <!-- wp:group -->
+    <div class="wp-block-group bg_business">
+        <!-- wp:image -->
+        <figure class="wp-block-image">
+            <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/bg_business.png')); ?>" /></a>
+        </figure>
+        <!-- /wp:image -->
+        <!-- wp:group -->
+        <div class="wp-block-group bg_business_pc">
+            <!-- wp:image -->
+            <figure class="wp-block-image">
+                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/bg_business_l.png')); ?>" /></a>
+            </figure>
+            <!-- /wp:image -->
+            <!-- wp:paragraph -->
+            <p class="bg_business_pc_txt">エステ・整体など開業を検討している方に利用していただいています！<br>
+                痩身エステ、スポーツ整体など目的に合わせた施術機の購入検討をされている方にビジネスコンサル・サポート・体験からメンテナンスまでワンストップで開業につなげます。</p>
+            <!-- /wp:paragraph -->
+            <!-- wp:button -->
+            <div class="wp-block-button bg_business_pc_btn">
+                <a class="wp-block-button__link" href="form/contact/mailform/" target="_blank">MORE</a>
+            </div>
+            <!-- /wp:button -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+    <!-- wp:group -->
+    <div class="wp-block-group bg_business">
+        <!-- wp:image -->
+        <figure class="wp-block-image">
+            <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/bg_selfmedication_r.png')); ?>" /></a>
+        </figure>
+        <!-- /wp:image -->
+        <!-- wp:group -->
+        <div class="wp-block-group bg_business_pc bg_selfmedication_pc ">
+            <!-- wp:image -->
+            <figure class="wp-block-image">
+                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/category/bg_selfmedication_l.png')); ?>" /></a>
+            </figure>
+            <!-- /wp:image -->
+            <!-- wp:paragraph -->
+            <p class="bg_business_pc_txt">プロテインの試飲やホームケア商品の事前体験もオプティマススタジオ<br>
+                食・運動・睡眠などのご自宅での取り組みやケア商品について、購入前にご体験いただけます。また、施術者の方に新メニューの体験やカウンセリングの仕方など、アドバイスいたします。</p>
+            <!-- /wp:paragraph -->
+            <!-- wp:button -->
+            <div class="wp-block-button bg_business_pc_btn">
+                <a class="wp-block-button__link" href="form/contact/mailform/" target="_blank">MORE</a>
+            </div>
+            <!-- /wp:button -->
         </div>
         <!-- /wp:group -->
     </div>
