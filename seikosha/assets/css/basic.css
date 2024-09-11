@@ -7427,3 +7427,184 @@ Product page
   padding-left: .5rem;
   font-weight: 900;
 }
+
+.rafos-sense .intro {
+  margin: 0;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.rafos-sense .intro .inner {
+  padding: 0;
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1280px;
+  display: block;
+}
+
+.rafos-sense .intro .inner .wp-block-image.intro-img img {
+  width: 1030px;
+  margin: 0 auto;
+}
+
+.rafos-sense .intro .inner .wp-block-image {
+  display: block;
+  text-align: -webkit-center;
+  width: 100%;
+}
+
+.rafos-sense .intro .inner .wp-block-image img {
+  margin-bottom: 20px;
+  width: 23%;
+}
+
+.rafos-sense .intro .inner .catch {
+  font-size: 42px;
+  margin: 0 auto 40px;
+  color: #333333;
+  font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+  font-weight: bold;
+}
+
+.rafos-sense .division {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.rafos-sense .division .inner {
+  width: 80%;
+  display: block;
+}
+
+.rafos-sense .box_center {
+  margin: 40px 0 auto !important;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.rafos-sense .box_center .wp-block-button__link {
+  width: 240px;
+  display: block;
+  padding: 15px;
+  border: 1px solid #707070;
+  background: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 0px;
+  color: #000;
+}
+
+.rafos-sense .box_center .wp-block-button__link::after {
+  content: "\f35a";
+  font-family: "Font Awesome 5 Free";
+  padding-left: .5rem;
+  font-weight: 900;
+}
+
+.rafos-sense .insta_box {
+  margin: 0;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.rafos-sense .insta_box .inner {
+  padding: 0;
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1280px;
+  display: block;
+}
+
+.rafos-sense .insta_box .inner .insta_box_title {
+  font-weight: bold;
+  text-align: left;
+  border-top: 1px solid #656565;
+  border-bottom: 1px solid #656565;
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.rafos-sense .insta_box .inner .insta_box_title .insta_txt {
+  background: #656565;
+  color: #ffffff;
+  padding: 8px 12px;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.rafos-sense .insta_box .inner .insta_box_title .btn_more {
+  font-weight: normal;
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+}
+
+.rafos-sense .insta_box .inner .insta_box_title .btn_more img {
+  width: 30px;
+}
+
+.rafos-sense .insta_box .inner .insta_modal {
+  margin: 0 auto 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.rafos-sense .insta_box .inner .insta_modal .wp-block-image {
+  width: calc(100% / 6 - 10px);
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.rafos-sense .insta_box .inner .insta_box_title.video {
+  margin-top: 30px;
+}
+
+.rafos-sense .insta_box .inner .insta_box_video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rafos-sense .insta_box .inner .insta_box_video .insta_box_video_item {
+  width: calc(100% / 3 - 10px);
+  text-align: left;
+  margin: 0 0 30px;
+  padding: 10px;
+  background: #eeeeee;
+}
+
+.rafos-sense .insta_box .inner .insta_box_video .insta_box_video_item .container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.rafos-sense .insta_box .inner .insta_box_video .insta_box_video_item .container .video_iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 90%;
+}
+
+.rafos-sense .insta_box .inner .btn_area {
+  margin: 40px auto;
+  width: 80%;
+}
+
+.rafos-sense .insta_box .inner .btn_area .btn_area_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.rafos-sense .insta_box .inner .btn_area .btn_area_list .wp-block-image {
+  width: calc(100% / 2 - 20px);
+  margin: 10px; 
+}

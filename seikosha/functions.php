@@ -176,6 +176,10 @@ function my_theme_register_pattern_category() {
             'product-page',
             array( 'label' => __( 'Product Page', 'seikosha-theme' ) )
         );
+		register_block_pattern_category(
+            'test-page',
+            array( 'label' => __( 'Test Page', 'seikosha-theme' ) )
+        );
     }
 }
 
