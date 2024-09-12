@@ -26,6 +26,24 @@ jQuery(function() {
     });
 });
 
+jQuery(function() {
+    jQuery('.product-information-instagram-image a').click(function(event) {
+        event.preventDefault();
+        jQuery('.product-information-instagram-item').removeClass('active');
+        jQuery(this).parents('.product-information-instagram-item').addClass('active');
+    });
+    jQuery('.product-information-close-modal').click(function(event) {
+        event.preventDefault();
+        jQuery('.product-information-instagram-item').removeClass('active');
+    });
+    jQuery('.product-information-instagram-modal').click(function(event) {
+        event.preventDefault();
+        var dataTarget = jQuery(event.target);
+        if (dataTarget.hasClass('product-information-instagram-modal-window')) {
+            jQuery('.product-information-instagram-item').removeClass('active');
+        }
+    });
+});
 
 // PC繧ｰ繝ｭ繝ｼ繝舌Ν繝｡繝九Η繝ｼ
 jQuery(function() {
@@ -93,7 +111,33 @@ jQuery(function() {
     });
 });
 
+$(function(){
+    var setImg = '.product-page-slide-inner';
+    var fadeSpeed = 1300;
+    var switchDelay = 2800;
 
+    $(setImg).children('.product-slide-image').css({opacity:'0'});
+    $(setImg + ' .product-slide-image:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+    var count = 1;
+    var total = 0;
+    $(setImg).children('.product-slide-image').each(function () {
+        total++;
+    });
+    
+    setInterval(function(){
+        var index = 1;
+        $(setImg).children('.product-slide-image').each(function () {
+            if (count == index) {
+                $(this).animate({opacity:'1'},fadeSpeed);
+            } else {
+                $(this).animate({opacity:'0'},fadeSpeed);
+            }
+            index++;
+        });
+        count = (count < total) ? (count + 1) : 1;
+    },switchDelay);
+});
 
 
 

@@ -1,0 +1,1020 @@
+<?php
+
+/**
+ * Title: Famubo CS Product
+ * 
+ * Slug: themeslug/product-famubo-cs
+ * Categories: product-page
+ *
+ * @package Base Theme
+ * @since 1.0.0
+ */
+?>
+
+<!-- wp:group -->
+<div class="wp-block-group product-page famubo-cs-page">
+    <!-- wp:group -->
+    <div class="wp-block-group product-page-top">
+        <!-- wp:group -->
+        <div class="wp-block-group product-page-top-inner">
+            <!-- wp:group -->
+            <div class="wp-block-group product-page-top-left">
+                <!-- wp:paragraph -->
+                <p class="product-page-top-left-header">FAMUBO-CS</p>
+                <!-- /wp:paragraph -->
+                <!-- wp:paragraph -->
+                <p class="product-page-top-left-sub">ファンボ シーエス</p>
+                <!-- /wp:paragraph -->
+            </div>
+            <!-- /wp:group -->
+
+            <!-- wp:group -->
+            <div class="wp-block-group product-page-top-right">
+                <!-- wp:paragraph -->
+                <p class="product-page-top-right-header">測定機器</p>
+                <!-- /wp:paragraph -->
+                <!-- wp:paragraph -->
+                <p class="product-page-top-right-header">超音波画像機器</p>
+                <!-- /wp:paragraph -->
+                <!-- wp:paragraph -->
+                <p class="product-page-top-right-header">カラードップラー</p>
+                <!-- /wp:paragraph -->
+                <!-- wp:paragraph -->
+                <p class="product-page-top-right-header">スポーツフィジオ</p>
+                <!-- /wp:paragraph -->
+            </div>
+            <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+    <!-- wp:group -->
+    <div class="wp-block-group product-header-title">
+        <!-- wp:group -->
+        <div class="wp-block-group product-header-list">
+            <!-- wp:paragraph --><p class="product-header-link product-title-header"><a href="/"></a></p><!-- /wp:paragraph -->
+            <!-- wp:paragraph --><p class="product-header-link product-title-header"><a href="../../category/">製品紹介</a></p><!-- /wp:paragraph -->
+            <!-- wp:paragraph --><p class="product-header-link product-title-header"><a href="../../category/physio.html">Physio Sports</a></p><!-- /wp:paragraph -->
+            <!-- wp:paragraph --><p class="product-title-header">FAMUBO-CS</p><!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+    <!-- wp:group -->
+    <div class="wp-block-group product-page-slide">
+        <!-- wp:group -->
+        <div class="wp-block-group product-page-slide-inner">
+            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+            <figure class="wp-block-image size-large alignfull product-slide-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo-cs/top_01_img.jpg' ) ); ?>" alt="超音波画像計測機器 カラードップラー「FAMUBO-D」カラードップラーで血流の流速変化を確認！" class="wp-image-101"/></figure>
+            <!-- /wp:image -->
+            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+            <figure class="wp-block-image size-large alignfull product-slide-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo-cs/top_02_img.jpg' ) ); ?>" alt="超音波画像計測機器 カラードップラー「FAMUBO-D」カラードップラーで血流の流速変化を確認！" class="wp-image-101"/></figure>
+            <!-- /wp:image -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+    <!-- wp:group -->
+    <div class="wp-block-group product-intro">
+        <!-- wp:group -->
+        <div class="wp-block-group product-intro-inner">
+            <!-- wp:paragraph --><p class="product-intro-title-first">ポータブル型ワイヤレスエコー</p><!-- /wp:paragraph -->
+            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+            <figure class="wp-block-image size-large alignfull product-intro-logo">
+                <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo-cs/f_cs_logo.png' ) ); ?>" alt="超音波画像計測機器 カラードップラー「FAMUBO-CS」" class="wp-image-101"/></figure>
+            <!-- /wp:image -->
+            <!-- wp:paragraph --><p class="product-intro-sku">医療機器認証番号　304AKBZX00002000</p><!-- /wp:paragraph -->
+            <!-- wp:paragraph --><p class="product-intro-title">浅層部位のスペシャリスト</p><!-- /wp:paragraph -->
+            <!-- wp:group -->
+            <div class="wp-block-group product-intro-content">
+                <!-- wp:group -->
+                <div class="wp-block-group product-intro-content-item">
+                    <!-- wp:paragraph --><p class="product-intro-content-read bold">ワイヤレス超音波FAMUBO-CSは、美容臨床医を実践するガイダンスナビ ゲーターとして(ボトックス、フィラー、スレッド等) 実戦的なプロトコルのお 手伝いを致します。</p><!-- /wp:paragraph -->
+                    <!-- wp:paragraph --><p class="product-intro-content-read">FAMUBOシリーズ最上位機種FAMUBO-CS（14MHz）が発売となりました。浅層部位にターゲットを合わせた専用超音波です。ワイヤレスで14MHzを搭載した大変鮮明な画像で接骨、鍼灸、整形、美容領域での治療の臨床を実践するガイダンスとして実用的なプロトコルのお手伝いを致します。外部からの針の導入や形成領域での術中にはライブ画像にても新たなご提案が可能です。特に2㎝以下の浅層部位への観察や治療は従来にない鮮明な画像で鍼灸や美容領域での針の導入や観察には静止画、動画共に先生方やお客様への説明責任を満足させます。時代は「可視化」と「説明責任」に向かっています。</p><!-- /wp:paragraph -->
+                    <!-- wp:paragraph --><p class="product-intro-content-title-maru">FAMUBO-CSの特徴</p><!-- /wp:paragraph -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group product-intro-content-list-maru">
+                         <!-- wp:list -->
+                         <ul class="wp-block-list">
+                            <!-- wp:list-item -->
+                            <li class="product-intro-content-maru-content">14MHzでの浅層部位の鮮明な画像の様子</li>
+                            <!-- /wp:list-item -->
+                        </ul>
+                        <!-- /wp:list -->
+                    </div>
+                    <!-- /wp:group -->
+                    <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                    <figure class="wp-block-image size-large alignfull product-intro-content-image">
+                        <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo-cs/cs_gazou.png' ) ); ?>" alt="超音波画像計測機器 カラードップラー「FAMUBO-CS」" class="wp-image-101"/>
+                    </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group product-intro-content-video">
+                        <!-- wp:video {"id":178} -->
+                            <figure class="wp-block-video block-video"><video autoplay="" muted="" loop="" src="<?php echo esc_url( get_theme_file_uri( 'assets/videos/famubo/famubo_cs_01.mp4' ) ); ?>"></video></figure>
+                        <!-- /wp:video -->
+                        <!-- wp:paragraph --><p class="product-intro-content-video-title">ファントムでの刺入動画の様子</p><!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+                <!-- wp:group -->
+                <div class="wp-block-group product-intro-content-item">
+                    <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                    <figure class="wp-block-image size-large alignfull product-intro-content-image">
+                        <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo-cs/body_cs.jpg' ) ); ?>" alt="超音波画像計測機器 カラードップラー「FAMUBO-CS」 医療機器認証番号　304AKBZX00002000" class="wp-image-101"/>
+                    </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:table -->
+                    <figure class="wp-block-table product-intro-content-table">
+                        <table class="has-fixed-layout">
+                            <thead>
+                                <tr>
+                                    <th>仕様</th>
+                                    <th>製品スペック</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>サイズ</td>
+                                    <td>本体<br>本体 70(W)×30(H)×158(L)mm</td>
+                                </tr>
+                                <tr>
+                                    <td>重　量</td>
+                                    <td>0.3kg</td>
+                                </tr>
+                                <tr>
+                                    <td>バッテリー</td>
+                                    <td>連続使用3時間</td>
+                                </tr>
+                                <tr>
+                                    <td>プローブ</td>
+                                    <td>【14MHz/10MHz タイプ】
+                                    192elements/ 64channels </td>
+                                </tr>
+                                <tr>
+                                    <td>ヘッド幅</td>
+                                    <td>30mm</td>
+                                </tr>
+                                <tr>
+                                    <td>測定深度</td>
+                                    <td>linear20-80mm（20/40/60/80）</td>
+                                </tr>
+                                <tr>
+                                    <td>モード</td>
+                                    <td>Display Mod Bモード/ BM / CD (カラードップラー) / PDI（パワードップラー）/ PW（パルスウェーヴ）</td>
+                                </tr>
+                                <tr>
+                                    <td>動作環境</td>
+                                    <td>iPad mini4以降/iPad air2以降/iPad Pro
+iPhone 5以降/Android6.0以降
+※一部機種に関しては推奨バージョン以上でも動作しない可能性がございます。</td>
+                                </tr>
+                                <tr>
+                                    <td>医療機器認証番号</td>
+                                    <td>304AKBZX00002000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </figure>
+                    <!-- /wp:table -->
+                     <!-- wp:group -->
+                    <div class="wp-block-group product-intro-link">
+                        <!-- wp:button -->
+                        <div class="wp-block-button product-intro-button">
+                            <a class="wp-block-button__link" href="../../form/contact/mailform/" target="_blank">お問い合わせ</a>
+                        </div>
+                        <!-- /wp:button -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+  
+    <!-- wp:group -->
+    <div class="wp-block-group product-default">
+        <!-- wp:group -->
+        <div class="wp-block-group product-pdf">
+            <!-- wp:group -->
+            <div class="wp-block-group product-pdf-inner">
+                <!-- wp:group -->
+                <div class="wp-block-group product-information">
+                    <!-- wp:group {"tagName":"article"} -->
+                    <article class="wp-block-group product-information-item">
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-information-new">
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-new-inner">
+                                <!-- wp:paragraph --><p class="product-information-new-title"> FAMUBO　体脂肪計算式（Health Related Fitness Physical test）</p><!-- /wp:paragraph -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-new-detail">
+                                    <!-- wp:paragraph --><p class="product-information-new-detail-text">1990年当時体育大学での体脂肪率の測定は「ノギス」や「キャリパー」で数か所皮下脂肪をつまみ密度法の算出方法にBroxekの式に置き換え体脂肪率を計算していました。
+    「つまむ」計測は単に皮下脂肪が2倍の量であろうという推測でありましたが、お相撲さんのような固い皮下脂肪はつまむことは非常に困難で正確に測定することは不可能でありました。しかし厚さを測ると言うことは実測値であり部位の径年変化が分かりやすくメリットもあります。
+    その当時中京大学北川教授からの超音波Ｂモード（画像）で皮下脂肪を画像で見ながら計測（実測）出来ないか、という相談により開発が始まりました。
+    そして「Health Related Fitness Physical test」の論文に記載のように超音波Ｂモードと水中表秤法により体脂肪率の新たな計算式が発表されＲＡＴＥ＝９０の信頼性のある測定機器として健康指導、運動指導、ダイエット指導、栄養指導等に使われるようになりました。体脂肪率の正確さ、画像で見られる皮下脂肪双方を取り入れた画期的な開発と言えます。</p><!-- /wp:paragraph -->
+                                    <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                    <figure class="wp-block-image size-large alignfull product-information-new-detail-image">
+                                        <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/evd.jpg' ) ); ?>" alt="超音波Ｂモードと水中表秤法により体脂肪率の新たな計算式が発表" class="wp-image-101"/></figure>
+                                    <!-- /wp:image -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                        </div>
+                        <!-- /wp:group -->
+                    </article>
+                    <!-- /wp:group -->
+                    <!-- wp:group {"tagName":"article"} -->
+                    <article class="wp-block-group product-information-item">
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-information-item-title">
+                            <!-- wp:paragraph --><p class="product-information-item-title-header">■ パラメータ変更</p><!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-information-item-focus">
+                            <!-- wp:paragraph --><p class="product-information-item-focus-title">高画質カラーモードで超音波画像の指定した範囲をカラー表示（流速変化）できます。</p><!-- /wp:paragraph -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-item-focus-content">
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-item-focus-detail">
+                                    <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                    <figure class="wp-block-image size-large alignfull product-information-item-focus-content-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo-d/img03.png' ) ); ?>" alt="超音波画像計測機器 カラードップラー「FAMUBO-D」高画質カラーで流速変化を確認" class="wp-image-101"/>
+                                    </figure>
+                                    <!-- /wp:image -->
+                                    <!-- wp:paragraph --><p class="product-information-item-focus-content-title">緑色の枠内がカラーで表示されます。</p><!-- /wp:paragraph -->
+                                </div>
+                                <!-- /wp:group -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-item-focus-detail">
+                                    <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                    <figure class="wp-block-image size-large alignfull product-information-item-focus-content-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo-d/img04.png' ) ); ?>" alt="超音波画像計測機器 カラードップラー「FAMUBO-D」高画質カラーで流速変化を確認" class="wp-image-101"/>
+                                    </figure>
+                                    <!-- /wp:image -->
+                                    <!-- wp:paragraph --><p class="product-information-item-focus-content-title">サイズやゲイン、カラー表示領域、周波数等詳細な調整が可能です。</p><!-- /wp:paragraph -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                        </div>
+                        <!-- /wp:group -->
+                    </article>
+                    <!-- /wp:group -->
+                    <!-- wp:group {"tagName":"article"} -->
+                    <article class="wp-block-group product-information-item">
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-information-item-title">
+                            <!-- wp:paragraph --><p class="product-information-item-title-header">■ 付属品</p><!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-information-part">
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-list-part">
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-part-item">
+                                    <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                    <figure class="wp-block-image size-large alignfull product-information-item-href-image"><a href="https://seikosha-webshop.com/product.php?id=67"target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/f12.png' ) ); ?>" alt="Wi-Fiで小型超音波画像計測 FAMUBO（皮下脂肪厚 筋厚 鮮明画像）" class="wp-image-101"/></a>
+                                    </figure>
+                                    <!-- /wp:image -->
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-part-item-right">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-part-item-sign">
+                                            <!-- wp:paragraph --><p class="product-part-item-sign-tag">商品番号</p><!-- /wp:paragraph -->
+                                            <!-- wp:paragraph --><p class="product-part-item-sign-sku">FMB0201</p><!-- /wp:paragraph -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                        <!-- wp:paragraph --><p class="product-part-item-name">超音波検査用ゲル（6本入）</p><!-- /wp:paragraph -->
+                                        <!-- wp:paragraph --><p class="product-part-item-button-link"><a class="product-part-item-link" href="https://seikosha-webshop.com/product.php?id=67" target="_blank">購入はこちら</a></p><!-- /wp:paragraph -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-part-item">
+                                    <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                    <figure class="wp-block-image size-large alignfull product-information-item-href-image"><a href="https://seikosha-webshop.com/product.php?id=267" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/f11.png' ) ); ?>" alt="Wi-Fiで小型超音波画像計測 FAMUBO（皮下脂肪厚 筋厚 鮮明画像）" class="wp-image-101"/></a>
+                                    </figure>
+                                    <!-- /wp:image -->
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-part-item-right">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-part-item-sign">
+                                            <!-- wp:paragraph --><p class="product-part-item-sign-tag">商品番号</p><!-- /wp:paragraph -->
+                                            <!-- wp:paragraph --><p class="product-part-item-sign-sku">FMB0202</p><!-- /wp:paragraph -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                        <!-- wp:paragraph --><p class="product-part-item-name">コンタクトゲル（1個入）</p><!-- /wp:paragraph -->
+                                        <!-- wp:paragraph --><p class="product-part-item-button-link"><a class="product-part-item-link" href="https://seikosha-webshop.com/product.php?id=267" target="_blank">購入はこちら</a></p><!-- /wp:paragraph -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-part-item">
+                                    <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                    <figure class="wp-block-image size-large alignfull product-information-item-href-image"><a href="https://seikosha-webshop.com/product.php?id=66"target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/f10.png' ) ); ?>" alt="Wi-Fiで小型超音波画像計測 FAMUBO（皮下脂肪厚 筋厚 鮮明画像）" class="wp-image-101"/></a>
+                                    </figure>
+                                    <!-- /wp:image -->
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-part-item-right">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-part-item-sign">
+                                            <!-- wp:paragraph --><p class="product-part-item-sign-tag">商品番号</p><!-- /wp:paragraph -->
+                                            <!-- wp:paragraph --><p class="product-part-item-sign-sku">FMB0203</p><!-- /wp:paragraph -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                        <!-- wp:paragraph --><p class="product-part-item-name">ハンドストラップ</p><!-- /wp:paragraph -->
+                                        <!-- wp:paragraph --><p class="product-part-item-button-link"><a class="product-part-item-link" href="https://seikosha-webshop.com/product.php?id=66" target="_blank">購入はこちら</a></p><!-- /wp:paragraph -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-part-item">
+                                    <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                    <figure class="wp-block-image size-large alignfull product-information-item-href-image"><a href="https://seikosha-webshop.com/product.php?id=65"target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/f9.png' ) ); ?>" alt="Wi-Fiで小型超音波画像計測 FAMUBO（皮下脂肪厚 筋厚 鮮明画像）" class="wp-image-101"/></a>
+                                    </figure>
+                                    <!-- /wp:image -->
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-part-item-right">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-part-item-sign">
+                                            <!-- wp:paragraph --><p class="product-part-item-sign-tag">商品番号</p><!-- /wp:paragraph -->
+                                            <!-- wp:paragraph --><p class="product-part-item-sign-sku">FMB0204</p><!-- /wp:paragraph -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                        <!-- wp:paragraph --><p class="product-part-item-name">ワイヤレス充電スタンド</p><!-- /wp:paragraph -->
+                                        <!-- wp:paragraph --><p class="product-part-item-button-link"><a class="product-part-item-link" href="https://seikosha-webshop.com/product.php?id=65" target="_blank">購入はこちら</a></p><!-- /wp:paragraph -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-part-item">
+                                    <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                    <figure class="wp-block-image size-large alignfull product-information-item-href-image"><a href="https://seikosha-webshop.com/product.php?id=63"target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/f7.png' ) ); ?>" alt="Wi-Fiで小型超音波画像計測 FAMUBO（皮下脂肪厚 筋厚 鮮明画像）" class="wp-image-101"/></a>
+                                    </figure>
+                                    <!-- /wp:image -->
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-part-item-right">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-part-item-sign">
+                                            <!-- wp:paragraph --><p class="product-part-item-sign-tag">商品番号</p><!-- /wp:paragraph -->
+                                            <!-- wp:paragraph --><p class="product-part-item-sign-sku">FMB0205</p><!-- /wp:paragraph -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                        <!-- wp:paragraph --><p class="product-part-item-name">USB充電ケーブル</p><!-- /wp:paragraph -->
+                                        <!-- wp:paragraph --><p class="product-part-item-button-link"><a class="product-part-item-link" href="https://seikosha-webshop.com/product.php?id=63" target="_blank">購入はこちら</a></p><!-- /wp:paragraph -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-part-item">
+                                    <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                    <figure class="wp-block-image size-large alignfull product-information-item-href-image"><a href="https://seikosha-webshop.com/product.php?id=64"target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/f8.png' ) ); ?>" alt="Wi-Fiで小型超音波画像計測 FAMUBO（皮下脂肪厚 筋厚 鮮明画像）" class="wp-image-101"/></a>
+                                    </figure>
+                                    <!-- /wp:image -->
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-part-item-right">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-part-item-sign">
+                                            <!-- wp:paragraph --><p class="product-part-item-sign-tag">商品番号</p><!-- /wp:paragraph -->
+                                            <!-- wp:paragraph --><p class="product-part-item-sign-sku">FMB0206</p><!-- /wp:paragraph -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                        <!-- wp:paragraph --><p class="product-part-item-name">電源コネクター</p><!-- /wp:paragraph -->
+                                        <!-- wp:paragraph --><p class="product-part-item-button-link"><a class="product-part-item-link" href="https://seikosha-webshop.com/product.php?id=64" target="_blank">購入はこちら</a></p><!-- /wp:paragraph -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- wp:paragraph --><p class="product-information-part-sub">※ 商品納品までは約2～3日いただいております。出荷に関しては当日17：30までの受付となります。</p><!-- /wp:paragraph -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-part-list-button">
+                                <!-- wp:button -->
+                                <div class="wp-block-button button-part">
+                                    <a class="wp-block-button__link" href="../../pdf/products/famubo.pdf" target="_blank">ＰＤＦダウンロード</a>
+                                </div>
+                                <!-- /wp:button -->
+                                <!-- wp:button -->
+                                <div class="wp-block-button button-part">
+                                    <a class="wp-block-button__link" href="../../form/contact/mailform/" target="_blank">お問い合わせ</a>
+                                </div>
+                                <!-- /wp:button -->
+                            </div>
+                            <!-- /wp:group -->
+                        </div>
+                        <!-- /wp:group -->
+                    </article>
+                    <!-- /wp:group -->
+                    <!-- wp:group {"tagName":"article"} -->
+                    <article class="wp-block-group product-information-item">
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-information-new">
+
+                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                            <figure class="wp-block-image size-large alignfull product-information-new-bottom-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/bfi_famubo/bg_Comparison_pc.jpg' ) ); ?>" alt="超音波Ｂモードと水中表秤法により体脂肪率の新たな計算式が発表" class="wp-image-101"/></figure>
+                            <!-- /wp:image -->
+
+                            <!-- wp:group -->
+                            <div class="wp-block-group list-button-menu-product">
+                                <!-- wp:button -->
+                                <div class="wp-block-button button-menu-product">
+                                    <a class="wp-block-button__link" href="../famubo/index.html" target="_blank">FAMUBO<br></a>
+                                </div>
+                                <!-- /wp:button -->
+                                <!-- wp:button -->
+                                <div class="wp-block-button button-menu-product">
+                                    <a class="wp-block-button__link" href="../famubo-d/index.html" target="_blank">FAMUBO-D<br></a>
+                                </div>
+                                <!-- /wp:button -->
+                                <!-- wp:button -->
+                                <div class="wp-block-button button-menu-product">
+                                    <a class="wp-block-button__link" href="../famubo-z/index.html" target="_blank">FAMUBO-Z<br></a>
+                                </div>
+                                <!-- /wp:button -->
+                                <!-- wp:button -->
+                                <div class="wp-block-button button-menu-product">
+                                    <a class="wp-block-button__link" href="../famubo-w/index.html" target="_blank">FAMUBO-W<br></a>
+                                </div>
+                                <!-- /wp:button -->
+                                <!-- wp:button -->
+                                <div class="wp-block-button button-menu-product">
+                                    <a class="wp-block-button__link" href="../bfi_famubo/index.html" target="_blank">BFI-FAMUBO<br></a>
+                                </div>
+                                <!-- /wp:button -->
+                                <!-- wp:button -->
+                                <div class="wp-block-button button-menu-product">
+                                    <a class="wp-block-button__link" href="../famubo-cs/index.html" target="_blank">FAMUBO-CS<br></a>
+                                </div>
+                                <!-- /wp:button -->
+                            </div>
+                            <!-- /wp:group -->
+                        </div>
+                        <!-- /wp:group -->
+                    </article>
+                    <!-- /wp:group -->
+                    <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                        <figure class="wp-block-image size-large alignfull product-information-banner-image"><a href="../../pdf/products/famubo_brothers.pdf"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/common/bnr_famubo4brother.png' ) ); ?>" alt="FAMUBO ドップラー 5つ揃った超音波画像計測装置" class="wp-image-101"/></a>
+                        </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                        <figure class="wp-block-image size-large alignfull product-information-banner-image"><a href="../../pdf/products/famubo_medical.pdf"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/common/bnr_famubo_medeical.png' ) ); ?>" alt="Famuboは3つの顔を持つ（BFI体組成・観察＆計測）" class="wp-image-101"/></a>
+                        </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:group {"tagName":"article"} -->
+                    <article class="wp-block-group product-information-item">
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-information-item-title">
+                            <!-- wp:paragraph --><p class="product-information-item-title-header">■ 動　画</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-information-item-title-sub">promotion topics</p><!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-information-list-topic">
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-item-topic">
+                                <!-- wp:group -->
+                                <div class="wp-block-group  product-topic-link">
+                                    <!-- wp:embed {"url":"https://www.youtube.com/embed/8C2ovWxpxtU","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+                                    <figure class="wp-block-embed block-video is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+                                    https://www.youtube.com/embed/8C2ovWxpxtU
+                                    </div></figure>
+                                    <!-- /wp:embed -->
+                                </div>
+                                <!-- /wp:group -->
+                                <!-- wp:paragraph --><p class="product-information-item-topic-title">USAMIMIシェイプスティック</p><!-- /wp:paragraph -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-item-topic">
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-topic-link">
+                                    <!-- wp:video {"id":178} -->
+                                    <figure class="wp-block-video block-video"><video autoplay="" muted="" loop="" src="https://mv.seikosha-net.co.jp/famubo/famuboD01.mp4"></video></figure>
+                                    <!-- /wp:video -->
+                                </div>
+                                <!-- /wp:group -->
+                                <!-- wp:paragraph --><p class="product-information-item-topic-title">FAMUBO-D 鍼施術の様子</p><!-- /wp:paragraph -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-item-topic">
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-topic-link">
+                                    <!-- wp:video {"id":177} -->
+                                    <figure class="wp-block-video block-video size-large alignfull"><video autoplay="" muted="" loop="" src="https://mv.seikosha-net.co.jp/famubo/famuboD02.mp4"></video></figure>
+                                    <!-- /wp:video -->
+                                </div>
+                                <!-- /wp:group -->
+                                <!-- wp:paragraph --><h4 class="product-information-item-topic-title">鍼施術の様子 種市 敢太先生（鍼灸整体師）</h4><!-- /wp:paragraph -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-item-topic">
+                                <!-- wp:group -->
+                                <div class="wp-block-group  product-topic-link">
+                                    <!-- wp:embed {"url":"https://www.youtube.com/watch?v=wDuCqcJPV5A","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+                                    <figure class="wp-block-embed block-video is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+                                    https://www.youtube.com/watch?v=wDuCqcJPV5A
+                                    </div></figure>
+                                    <!-- /wp:embed -->
+                                </div>
+                                <!-- /wp:group -->
+                                <!-- wp:paragraph --><p class="product-information-item-topic-title">FAMUBO解説 永木和載先生</p><!-- /wp:paragraph -->
+                            </div>
+                            <!-- /wp:group -->
+                        </div>
+                        <!-- /wp:group -->
+                    </article>
+                    <!-- /wp:group -->
+                    <!-- wp:group {"tagName":"article"} -->
+                    <article class="wp-block-group product-information-item">
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-information-item-title">
+                            <!-- wp:paragraph --><p class="product-information-item-title-header">■ Instagram</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-information-item-title-sub">フォローアップセミナーの様子</p><!-- /wp:paragraph -->
+                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                            <figure class="wp-block-image size-large alignfull product-information-title-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/common/icon_instagram.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                            <!-- /wp:image -->
+                        </div>
+                        <!-- /wp:group -->
+
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-information-list-instagram">
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_01.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_01.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_02.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_02.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_05.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_05.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_06.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_06.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_07.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_07.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_08.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_08.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                        </div>
+                        <!-- /wp:group -->
+                    </article>
+                    <!-- /wp:group -->
+                    <!-- wp:group {"tagName":"article"} -->
+                    <article class="wp-block-group product-information-item">
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-information-item-title">
+                            <!-- wp:paragraph --><p class="product-information-item-title-header">■ Instagram</p><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-information-item-title-sub">FAMUBO 導入店舗様のご紹介</p><!-- /wp:paragraph -->
+                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                            <figure class="wp-block-image size-large alignfull product-information-title-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/common/icon_instagram.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                            <!-- /wp:image -->
+                        </div>
+                        <!-- /wp:group -->
+
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-information-list-instagram">
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_31.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_31.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                             <!-- wp:group -->
+                             <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_30.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_30.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group --> <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_29.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_29.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group --> <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_28.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_28.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group --> <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_27.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_27.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group --> <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_26.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_26.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_25.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_25.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_24.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_24.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_23.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_23.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_22.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_22.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-information-instagram-item">
+                                <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                <figure class="wp-block-image size-large alignfull product-information-instagram-image"><a href="#modal-01" target="_blank"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/thumb_21.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></a></figure>
+                                <!-- /wp:image -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-information-instagram-modal">
+                                    <!-- wp:group -->
+                                    <div class="wp-block-group product-information-instagram-modal-window">
+                                        <!-- wp:group -->
+                                        <div class="wp-block-group product-information-instagram-modal-content">
+                                            <!-- wp:paragraph --><p class="product-information-close-modal">×</p><!-- /wp:paragraph -->
+                                            <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
+                                            <figure class="wp-block-image size-large alignfull product-information-instagram-modal-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/insta/insta_21.png' ) ); ?>" alt="Instagram" class="wp-image-101"/></figure>
+                                            <!-- /wp:image -->
+                                        </div>
+                                        <!-- /wp:group -->
+                                    </div>
+                                    <!-- /wp:group -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                        </div>
+                        <!-- /wp:group -->
+                    </article>
+                    <!-- /wp:group -->
+                    <!-- wp:group {"tagName":"article"} -->
+                    <article class="wp-block-group product-information-item">
+                        <!-- wp:group -->
+                        <div class="wp-block-group product-information-new">
+                            <!-- wp:group -->
+                            <div class="wp-block-group product-catalog-area">
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-catalog-area-image">
+                                    <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
+                                    <figure class="wp-block-image size-large">
+                                    <a class="product-item-link" href="../../seminar/"target="_blank"><img src="<?php echo esc_url( get_theme_file_uri('assets/images/common/btn_seminar.png') ); ?>" alt="募集中のセミナー一覧" class="wp-image-66"/></a>
+                                    </figure>
+                                    <!-- /wp:image -->
+                                </div>
+                                <!-- /wp:group -->
+                                <!-- wp:group -->
+                                <div class="wp-block-group product-catalog-area-image">
+                                    <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
+                                    <figure class="wp-block-image size-large">
+                                    <a class="product-item-link" href="../../NewsMedia/demonstration.html"target="_blank"><img src="<?php echo esc_url( get_theme_file_uri('assets/images/common/btn_mv1.png') ); ?>" alt="最新機器のデモンストレーション" class="wp-image-66"/></a>
+                                    </figure>
+                                    <!-- /wp:image -->
+                                </div>
+                                <!-- /wp:group --> <!-- wp:group -->
+                                <div class="wp-block-group product-catalog-area-image">
+                                    <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
+                                    <figure class="wp-block-image size-large">
+                                    <a class="product-item-link" href="../../business_support/"target="_blank"><img src="<?php echo esc_url( get_theme_file_uri('assets/images/common/bnr_businesssuppport.png') ); ?>" alt="開業支援システム" class="wp-image-66"/></a>
+                                    </figure>
+                                    <!-- /wp:image -->
+                                </div>
+                                <!-- /wp:group --> <!-- wp:group -->
+                                <div class="wp-block-group product-catalog-area-image">
+                                    <!-- wp:image {"id":66,"sizeSlug":"large","linkDestination":"none"} -->
+                                    <figure class="wp-block-image size-large">
+                                    <a class="product-item-link" href="https://rafos.jp/"target="_blank"><img src="<?php echo esc_url( get_theme_file_uri('assets/images/common/bnr_rafos2.jpg') ); ?>" alt="RAFOS特設サイト リニューアルオープン" class="wp-image-66"/></a>
+                                    </figure>
+                                    <!-- /wp:image -->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                        </div>
+                        <!-- /wp:group -->
+                    </article>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+</div>
+<!-- /wp:group -->

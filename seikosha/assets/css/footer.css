@@ -122,7 +122,7 @@
   right: 15px;
   width: 50px; /* Điều chỉnh kích thước nút */
   height: 50px;
-  z-index: 1000; /* Đảm bảo nút nằm trên các phần tử khác */
+  z-index: 10; /* Đảm bảo nút nằm trên các phần tử khác */
   }
 
   .wp-block-image .totop a {

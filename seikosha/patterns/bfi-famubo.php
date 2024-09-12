@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Title: About Us
+ * Title: BFI Famubo Product
  * 
- * Slug: themeslug/bfi-famubo
+ * Slug: themeslug/product-bfi-famubo
  * Categories: product-page
  *
  * @package Base Theme

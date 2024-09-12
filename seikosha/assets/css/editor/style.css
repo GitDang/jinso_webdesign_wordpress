@@ -219,3 +219,23 @@ h2 span:before {
 .product-page .wp-block {
   margin-block-start: 0;  
 }
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-content-evidence-content a {
+  display: block;
+}
+
+.product-intro .product-intro-inner .product-intro-content {
+  flex-wrap: unset;
+}
+
+.product-header-title .product-header-list .product-title-header a {
+  text-decoration: none;
+}
+
+.category-page-division .category-division-list .category-division-link a {
+  text-decoration: none;
+}
+
+.product-default .product-information-banner-image {
+  margin: 20px auto 40px;
+}
