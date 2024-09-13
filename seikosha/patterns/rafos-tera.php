@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Title: Rafos Sense
+ * Title: Rafos Tera
  * 
  * Slug: themeslug/rafos-tera
  * Categories: test-page
@@ -612,7 +612,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group -->
-<div class="wp-block-group rafos-sense">
+<div class="wp-block-group">
     <!-- wp:group -->
     <div class="wp-block-group insta_box">
         <!-- wp:group -->
