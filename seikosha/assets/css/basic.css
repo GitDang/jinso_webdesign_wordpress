@@ -7288,14 +7288,6 @@ Product page
   text-align: center;
 }
 
-
-.category-optimus .intro .inner {
-  padding: 0;
-  width: 92%;
-  margin: 0 auto;
-  max-width: 1280px;
-}
-
 .category-optimus .intro .inner {
   padding: 0;
   width: 92%;
@@ -8190,5 +8182,421 @@ Product page
 
 .rafos-sense .insta_box .inner .btn_area .btn_area_list .wp-block-image {
   width: calc(100% / 2 - 20px);
-  margin: 10px; 
+  margin: 10px;
+}
+
+.rafos-tera .intro {
+  margin: 0;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.rafos-tera .intro .inner {
+  padding: 0;
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1280px;
+  display: block;
+}
+
+.rafos-tera .intro .inner .wp-block-image.intro-img img {
+  width: 1030px;
+  margin: 0 auto;
+}
+
+.rafos-tera .intro .inner .wp-block-image {
+  display: block;
+  text-align: -webkit-center;
+  width: 100%;
+}
+
+.rafos-tera .intro .inner .wp-block-image img {
+  margin-bottom: 20px;
+  width: 23%;
+}
+
+.rafos-tera .intro .inner .catch {
+  font-size: 28px;
+  margin: 0 auto 40px;
+  color: #333333;
+  font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+  font-weight: bold;
+}
+
+.rafos-tera .intro .inner .herfbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_l {
+  margin-bottom: 20px;
+  width: 50%;
+  margin-right: 7%;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_l .read {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_l .read .read_content {
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_l .read .rafox_title {
+  font-weight: bold;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_l .read .rafox_title:before {
+  content: '■';
+  font-size: 1.2rem;
+  margin-right: .2rem;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_l .read .list_maru {
+  line-height: 1.8;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_r {
+  margin-bottom: 20px;
+  width: 43%;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_r .wp-block-image img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_r .table_black {
+  font-size: 14px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: #fff;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_r .table_black thead tr th {
+  background: #000000;
+  color: #ffffff;
+  text-align: left;
+  padding: 4px;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_r .table_black tbody tr td {
+  padding: 4px;
+  text-align: left;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_r .table_black figcaption {
+  display: none;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_r .txt_rgt {
+  text-align: right;
+  font-size: 14px;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_r .btn_toi {
+  font-size: 16px;
+  text-align: -webkit-center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_r .btn_toi .wp-block-button__link {
+  width: 240px;
+  display: block;
+  padding: 15px;
+  border: 1px solid #707070;
+  background: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  color: black;
+  border-radius: 0px;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_r .btn_toi :hover {
+  opacity: 0.7;
+}
+
+.rafos-tera .intro .inner .herfbox .herf_r .btn_toi .wp-block-button__link:after {
+  content: "\f35a";
+  font-family: "Font Awesome 5 Free";
+  padding-left: .5rem;
+  font-weight: 900;
+}
+
+.rafos-tera .Default {
+  width: 90%;
+  max-width: 1120px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rafos-tera .Default .pdf_box {
+  padding: 50px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.rafos-tera .Default .pdf_box .inner {
+  padding: 0;
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1280px;
+  display: block;
+  text-align: left;
+}
+
+.rafos-tera .Default .pdf_box .kakomi_rf {
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 20px 4%;
+  border: 2px solid #ba1c22;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rafos-tera .Default .pdf_box .kakomi_rf .catch_sim {
+  font-weight: bold;
+  text-align: left;
+  border-top: 1px solid #656565;
+  border-bottom: 1px solid #656565;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.rafos-tera .Default .pdf_box .kakomi_rf .catch_sim_txt_l {
+  text-align: left;
+  width: 68%;
+}
+
+.rafos-tera .Default .pdf_box .kakomi_rf .wp-block-image {
+  width: 30%;
+  margin-left: 10px;
+}
+
+.rafos-tera .Default .pdf_box .mb40 .wp-block-image {
+  width: 80%;
+}
+
+.rafos-tera .Default .pdf_box .tera_acce {
+  margin-bottom: 20px;
+}
+
+.rafos-tera .Default .pdf_box .tera_acce .tera_acce_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.rafos-tera .Default .pdf_box .tera_acce .tera_acce_list .tera_acce_item {
+  width: calc(100% / 2 - 10px);
+}
+
+.rafos-tera .Default .pdf_box .tera_acce .tera_acce_list .tera_acce_item .no_title {
+  display: flex;
+  border-bottom: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto, 'Noto Sans JP', Arial, Helvetica, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+  text-align: left;
+  background: #ba1c22;
+  color: #ffffff;
+  padding: 2px 8px;
+  align-items: center;
+  height: 30px;
+}
+
+.rafos-tera .Default .pdf_box .tera_acce .tera_acce_list .tera_acce_item .no_title .stt {
+  padding: 7px;
+  background: #000000;
+  margin-right: 8px;
+  width: 30px;
+  text-align: center;
+}
+
+.rafos-tera .Default .pdf_box .tera_acce .tera_acce_list .tera_acce_item .content {
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.rafos-tera .Default .pdf_box .tera_acce .tera_acce_list .tera_acce_item .content .width-60 {
+  width: 60%;
+}
+
+.rafos-tera .Default .pdf_box .tera_acce .tera_acce_list .tera_acce_item .content .content_txt {
+  color: #ba1c22;
+  font-weight: bold;
+  font-family: Roboto, 'Noto Sans JP', Arial, Helvetica, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+}
+
+.rafos-tera .Default .pdf_box .tera_acce .tera_acce_list .tera_acce_item .content img {
+  margin-bottom: 20px;
+}
+
+.rafos-tera .Default .pdf_box .tera_acce .tera_acce_list .tera_acce_item .content .kokodakeyoko {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.rafos-tera .Default .pdf_box .tera_acce .tera_acce_list .tera_acce_item .content .kokodakeyoko .kokodakeyoko_l {
+  width: 48%;
+  margin-top: 90px;
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.rafos-tera .Default .pdf_box .tera_acce .tera_acce_list .tera_acce_item .content .kokodakeyoko .kokodakeyoko_r {
+  width: 48%;
+  margin-left: 4%;
+}
+
+.rafos-tera .Default .pdf_box .inner .option_access {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.rafos-tera .Default .pdf_box .inner .sub_option_access {
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: left;
+  border-top: 1px solid #656565;
+  border-bottom: 1px solid #656565;
+}
+
+.rafos-tera .Default .pdf_box .inner .bar_contens2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.rafos-tera .Default .pdf_box .inner .bar_contens2 .bar_box_left {
+  margin: 10px;
+  width: 60%;
+}
+
+.rafos-tera .Default .pdf_box .inner .bar_contens2 .bar_box_left img {
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.rafos-tera .Default .pdf_box .inner .bar_contens2 .bar_box_right {
+  margin: 10px;
+  width: 60%;
+}
+
+.rafos-tera .Default .pdf_box .inner .bar_contens2 .bar_box_right img {
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.rafos-tera .Default .pdf_box .inner .option_bar_content {
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.rafos-tera .Default .pdf_box .inner .bar_contens {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.rafos-tera .Default .pdf_box .inner .bar_contens .bar_box_left {
+  margin: 10px;
+  width: 60%;
+  text-align: left;
+}
+
+.rafos-tera .Default .pdf_box .inner .bar_contens .bar_box_left .bar_ttl {
+  font-size: 24px;
+  text-align: left;
+  color: #000000;
+}
+
+.rafos-tera .Default .pdf_box .inner .bar_contens .bar_box_left .bar_text {
+  color: #000000;
+}
+
+.rafos-tera .Default .pdf_box .inner .bar_contens .bar_box_right2 {
+  margin: 10px;
+  width: 35%;
+  padding-left: 70px;
+}
+
+.rafos-tera .Default .pdf_box .pd15 {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.rafos-tera .Default .pdf_box .pd15 .box_center {
+  margin: 0 auto;
+}
+
+.rafos-tera .Default .pdf_box .pd15 .box_center .toi {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.rafos-tera .Default .pdf_box .pd15 .box_center .toi .wp-block-button__link {
+  width: 240px;
+  display: block;
+  padding: 15px;
+  border: 1px solid #707070;
+  background: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 0px;
+  color: #000;
+}
+
+.rafos-tera .Default .pdf_box .pd15 .box_center .toi .wp-block-button__link::after {
+  content: "\f35a";
+  font-family: "Font Awesome 5 Free";
+  padding-left: .5rem;
+  font-weight: 900;
+}
+
+.rafos-tera .Default .pdf_box .pd15 .box_center .toi .wp-block-button__link img {
+  content: "\f35a";
+  font-family: "Font Awesome 5 Free";
+  padding-left: .5rem;
+  font-weight: 900;
+}
+
+.rafos-tera .Default .pdf_box .pd15 .wp-block-image.img_bt {
+  display: block;
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto 10px;
+}
+
+.rafos-tera .Default .pdf_box .bnr_area {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto 10px;
 }
