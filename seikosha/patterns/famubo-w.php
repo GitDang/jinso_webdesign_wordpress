@@ -68,7 +68,7 @@
             <!-- wp:paragraph --><p class="product-intro-title-first">ポータブル型ワイヤレスエコー</p><!-- /wp:paragraph -->
             <!-- wp:image {"id":101,"sizeSlug":"large","linkDestination":"none"} -->
             <figure class="wp-block-image size-large alignfull product-intro-logo">
-                <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo/f_logo_d.png' ) ); ?>" alt="超音波画像計測機器 FAMUBO" class="wp-image-101"/></figure>
+                <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/products/famubo-w/f_logo_w.png' ) ); ?>" alt="超音波画像計測機器 FAMUBO" class="wp-image-101"/></figure>
             <!-- /wp:image -->
             <!-- wp:paragraph --><p class="product-intro-sku">医療機器認証番号　304AKBZX00002000</p><!-- /wp:paragraph -->
             <!-- wp:paragraph --><p class="product-intro-title">カラードップラーで流速変化を捉える！<br>高画質な「超音波画像計測装置」</p><!-- /wp:paragraph -->

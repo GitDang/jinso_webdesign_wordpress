@@ -3,7 +3,7 @@
 /**
  * Title: OBSERV520x Product
  * 
- * Slug: themeslug/product-observ520v
+ * Slug: themeslug/product-observ520x
  * Categories: product-page
  *
  * @package Base Theme
