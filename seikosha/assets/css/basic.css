@@ -7330,20 +7330,20 @@ Category page
   height: 360px;
 }
 
-.rafos-premium .symptom {
+.product-page .symptom {
   margin: 50px auto;
   width: 90%;
   max-width: 1120px;
 }
 
-.rafos-premium .symptom .inner {
+.product-page .symptom .inner {
   padding: 0;
   width: 92%;
   margin: 0 auto;
   max-width: 1280px;
 }
 
-.rafos-premium .symptom .inner .symptom_txt {
+.product-page .symptom .inner .symptom_txt {
   margin-bottom: 20px;
   padding: 2px 8px;
   background: #656565;
@@ -7352,26 +7352,31 @@ Category page
   text-align: left;
 }
 
-.rafos-premium .symptom .rf_denkyoku {
+.product-page .symptom .inner .bg_ye {
+  background: #ADA142;
+}
+
+.product-page .symptom .rf_denkyoku {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
 }
 
-.rafos-premium .symptom .rf_denkyoku .rf_denkyoku_item {
+.product-page .symptom .rf_denkyoku .rf_denkyoku_item {
   width: calc(100% / 3 - 20px);
   margin-bottom: 40px;
   border: 1px solid #656565;
   padding: 1rem;
   border-radius: 8px;
-}
-
-.rafos-premium .symptom .text_start {
   text-align: left;
 }
 
-.rafos-premium .symptom .custom-width-70 {
+.product-page .symptom .text_start {
+  text-align: left;
+}
+
+.product-page .symptom .custom-width-70 {
   width: 70%;
   text-align: center;
   margin: 0 auto;

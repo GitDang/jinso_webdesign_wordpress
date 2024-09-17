@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Title: Rafos Premium
+ * Title: Rafos Premium Pro
  * 
- * Slug: themeslug/rafos-premium
+ * Slug: themeslug/rafos-premium-pro
  * Categories: test-page
  *
  * @package Base Theme
@@ -12,7 +12,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group product-page rafos-premium">
+<div class="wp-block-group product-page rafos-premium-pro">
     <!-- wp:group -->
     <div class="wp-block-group product-page-top">
         <!-- wp:group -->
@@ -20,7 +20,7 @@
             <!-- wp:group -->
             <div class="wp-block-group product-page-top-left">
                 <!-- wp:paragraph -->
-                <p class="product-page-top-left-header">RAFOS premium</p>
+                <p class="product-page-top-left-header">RAFOS premium pro</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
                 <p class="product-page-top-left-sub">ラフォスプレミアム</p>
@@ -34,22 +34,10 @@
                 <p class="product-page-top-right-header">施術機器</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
-                <p class="product-page-top-right-header">温熱マッサージ機</p>
+                <p class="product-page-top-right-header">高周波温熱機器</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
-                <p class="product-page-top-right-header">高周波</p>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <p class="product-page-top-right-header">ラジオ波</p>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <p class="product-page-top-right-header">RF</p>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <p class="product-page-top-right-header">美容</p>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <p class="product-page-top-right-header">スポーツ</p>
+                <p class="product-page-top-right-header">医療</p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -66,9 +54,9 @@
             <!-- wp:paragraph -->
             <p class="product-header-link product-title-header"><a href="../../category/">製品紹介</a></p><!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p class="product-header-link product-title-header"><a href="../../category/index.html#Measure">施術機器</a></p><!-- /wp:paragraph -->
+            <p class="product-header-link product-title-header"><a href="../../category/index.html#Measure">Medical Beauty</a></p><!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p class="product-title-header">RAFOS premium</p><!-- /wp:paragraph -->
+            <p class="product-title-header">RAFOS premium pro</p><!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
     </div>
@@ -79,7 +67,7 @@
         <div class="wp-block-group inner">
             <!-- wp:image -->
             <figure class="wp-block-image">
-                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/f_logo_pre.png')); ?>" /></a>
+                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/f_logo_pro.png')); ?>" /></a>
             </figure>
             <!-- /wp:image -->
             <!-- wp:paragraph -->
@@ -92,7 +80,7 @@
                     <!-- wp:group -->
                     <div class="wp-block-group read">
                         <!-- wp:paragraph -->
-                        <p class="read_content">RAFOS Premiumは従来の高周波温熱機器から1歩抜き出たウルトラハイパー高周波です。パワーもさることながら、これ1台で「燃焼」「分解」「運搬」を可能としました。圧倒的な施術効果は勿論、施術時間の大幅な短縮、体感温度の充実、だれでも簡単に使える機能・操作性等、先生からコメディカルの方々必須の収益性の高い機器と言えます。またＦＡＣＥ、ＢＯＤＹ、他機種とのシナジー、体質改善と大活躍な1台と言えるでしょう。
+                        <p class="read_content">RAFOS Premium Professionalは従来の高周波温熱機器から1歩抜き出たウルトラハイパー高周波です。パワーもさることながら、これ1台で「燃焼」「分解」「運搬」を可能としました。圧倒的な施術効果は勿論、施術時間の大幅な短縮、体感温度の充実、だれでも簡単に使える機能・操作性等、先生からコメディカルの方々必須の収益性の高い機器と言えます。またＦＡＣＥ、ＢＯＤＹ、他機種とのシナジー、体質改善と大活躍な1台と言えるでしょう。
                         </p><!-- /wp:paragraph -->
                         <!-- wp:paragraph -->
                         <p class="rafox_title">RAFOS premiumの特徴</p><!-- /wp:paragraph -->
@@ -112,7 +100,7 @@
                 <div class="wp-block-group herf_r">
                     <!-- wp:image -->
                     <figure class="wp-block-image">
-                        <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/body_1.jpg')); ?>" /></a>
+                        <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/body_pro.jpg')); ?>" /></a>
                     </figure>
                     <!-- /wp:image -->
                     <!-- wp:table -->
@@ -135,7 +123,7 @@
                                 </tr>
                                 <tr>
                                     <td>タイマー</td>
-                                    <td>～60分</td>
+                                    <td>1～60分</td>
                                 </tr>
                                 <tr>
                                     <td>消費電力</td>
@@ -177,57 +165,28 @@
         <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    <!-- wp:group -->
-    <div class="wp-block-group category-page-division">
-        <!-- wp:group -->
-        <div class="wp-block-group category-page-division inner">
-            <!-- wp:group -->
-            <div class="wp-block-group category-division-list custom-width-100">
-                <!-- wp:paragraph -->
-                <p class="category-division-link link-beauty custom-width-50"><a href="beauty.html"><span class="category-division-link-text">Beauty</span></a></p><!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <p class="category-division-link link-physio custom-width-50"><a href="physio.html" class="category-division-link-text"><span>Physio</span></a></p><!-- /wp:paragraph -->
-            </div>
-            <!-- /wp:group -->
-            <!-- wp:image -->
-            <figure class="wp-block-image mt20">
-                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/bnr_teralp.jpg')); ?>" /></a>
-            </figure>
-            <!-- /wp:image -->
-            <!-- wp:image -->
-            <figure class="wp-block-image mt20">
-                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/bnr_rafosjp.jpg')); ?>" /></a>
-            </figure>
-            <!-- /wp:image -->
-        </div>
-        <!-- /wp:group -->
-    </div>
-    <!-- /wp:group -->
-    <!-- wp:group -->
-    <div class="wp-block-group youtube_ttl pb2">
-        <!-- wp:group -->
-        <div class="wp-block-group youtube_news">
-            <!-- wp:paragraph -->
-            <p class="txt_rgt">【NEWS!!】<br>有名ヘアメイクアップアーティスト 小田切ヒロさんのYouTubeで<br>誠鋼社の「ラフォス」が紹介されました！
-            </p><!-- /wp:paragraph -->
-        </div>
-        <!-- /wp:group -->
-    </div>
-    <!-- /wp:group -->
-    <!-- wp:group -->
-    <div class="wp-block-group youtube_r mt20">
-        <!-- wp:html -->
-        <iframe class="video_iframe" src="https://www.youtube.com/embed/zBRL8z_00pw?clip=UgkxGEAxQvRlFVYjTmEMxTlla2ulyXduCb7K&clipt=ENz_HBjn2R8" frameborder="0"
-            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-        <!-- /wp:html -->
-    </div>
-    <!-- /wp:group -->
+    <!-- wp:image -->
+    <figure class="wp-block-image mt20 mb50">
+        <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/kv.png')); ?>" /></a>
+    </figure>
+    <!-- /wp:image -->
     <!-- wp:group -->
     <div class="wp-block-group symptom">
         <!-- wp:group -->
         <div class="wp-block-group inner">
             <!-- wp:paragraph -->
-            <p class="symptom_txt">電極 浅層部位から深層部位まで施術が可能</p><!-- /wp:paragraph -->
+            <p class="symptom_txt bg_ye">高周波温熱 深部加温の原理</p><!-- /wp:paragraph -->
+            <!-- wp:group -->
+            <div class="wp-block-group rf_denkyoku mb40">
+                <!-- wp:image -->
+                <figure class="wp-block-image">
+                    <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/rp_01.jpg')); ?>" /></a>
+                </figure>
+                <!-- /wp:image -->
+            </div>
+            <!-- /wp:group -->
+            <!-- wp:paragraph -->
+            <p class="symptom_txt bg_ye">電極 浅層部位から深層部位まで施術が可能</p><!-- /wp:paragraph -->
             <!-- wp:group -->
             <div class="wp-block-group rf_denkyoku">
                 <!-- wp:group -->
@@ -237,6 +196,8 @@
                         <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/rp_02_1.png')); ?>" /></a>
                     </figure>
                     <!-- /wp:image -->
+                    <!-- wp:paragraph -->
+                    <p class="mb10">皮膚に非絶縁の電極をあてる方法です。非絶縁の電極をあてることにより、皮下に深い部分に届く熱を扇形に発生させ深部加温します。抵抗により皮膚の下、深部に広く伝わる電流は、ダイエット・スリミング皮下脂肪と堆積脂肪やセルライトに効果的です。</p><!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
                 <!-- wp:group -->
@@ -246,6 +207,8 @@
                         <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/rp_02_2.png')); ?>" /></a>
                     </figure>
                     <!-- /wp:image -->
+                    <!-- wp:paragraph -->
+                    <p class="mb10">皮膚に半絶縁の電極をあてる方法です。半絶縁の電極をあてることにより、皮下に熱を発生させ深部加温します。皮膚の下、深部に伝わる電流はお肌のハリを整え、きめを細やかにするため、リフトアップ・スリミング・シワ・たるみなどに効果的で、痛みの緩和などにも効果的です。</p><!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
                 <!-- wp:group -->
@@ -255,39 +218,40 @@
                         <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/rp_02_3.png')); ?>" /></a>
                     </figure>
                     <!-- /wp:image -->
+                    <!-- wp:paragraph -->
+                    <p class="mb10">MULTIPOLARは対極スティックや対極プレートなしで使用可能なBipolar方式の高周波機能で、プローブの3点の突起が顔の筋肉をほぐし深部加温と相乗して老廃物を排出します。主に顔のケアに使用します。</p><!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+
+            <!-- wp:group -->
+            <div class="wp-block-group mb40">
+                <!-- wp:image -->
+                <figure class="wp-block-image">
+                    <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/rf_03_01.png')); ?>" /></a>
+                </figure>
+                <!-- /wp:image -->
+                <!-- wp:image -->
+                <figure class="wp-block-image">
+                    <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/rf_03_02.png')); ?>" /></a>
+                </figure>
+                <!-- /wp:image -->
+                <!-- wp:image -->
+                <figure class="wp-block-image">
+                    <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/rf_03_03.png')); ?>" /></a>
+                </figure>
+                <!-- /wp:image -->
+                 <!-- wp:image -->
+                <figure class="wp-block-image">
+                    <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/rf_03_04.png')); ?>" /></a>
+                </figure>
+                <!-- /wp:image -->
             </div>
             <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
 
-        <!-- wp:group -->
-        <div class="wp-block-group inner mb40">
-            <!-- wp:paragraph -->
-            <p class="symptom_txt">DD電極（DD-RF方式／Dynamic Direct Radio Frequency）</p><!-- /wp:paragraph -->
-            <!-- wp:paragraph -->
-            <p class="text_start">従来高周波セラピーは深部加温と言われており、カラダを中から温める「脂肪」「筋」「骨」の蘇生に大変効果が高い施術と言われています。特にRET（シルバー）電極は深く広く温熱を広げ、深層筋に作用します。DD電極（DD-RF方式／Dynamic Direct Radio Frequency）は高周波の最大パワーを引き出すために電極サイズをプレート板とほぼ同サイズの150mm,120mm,100mmのRET、CET電極を揃え従来に比べ熱容量の3倍以上、温まるスピードも半分以下を実現しました。しかもデジタルコントロールシステムにより安定した熱源として安全・簡単に取扱うことが出来ます。</p><!-- /wp:paragraph -->
-            <!-- wp:image -->
-            <figure class="wp-block-image">
-                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/rf_04-def.png')); ?>" /></a>
-            </figure>
-            <!-- /wp:image -->
-        </div>
-        <!-- /wp:group -->
-        <!-- wp:group -->
-        <div class="wp-block-group inner mb40">
-            <!-- wp:paragraph -->
-            <p class="symptom_txt">FASCIA RELEASE BAR （筋膜リリースセラピー）</p><!-- /wp:paragraph -->
-            <!-- wp:paragraph -->
-            <p class="text_start">Fascia（ファシア）とは筋膜を含む結合組織（筋膜、皮膚、腱、靭帯、関節包、脂肪組織、血管周囲膜、経周囲膜等）の総称と表現されます。 Fascia（ファシア）には、筋膜Myofascia（マイオファシア）や、皮膚や臓器などを含む薄い膜も含まれます。 その中でも筋膜は、全身の筋肉をボディスーツのように包み込むと同時に筋肉の中にも入り込んでいるため、第二の骨格とも言える重要な存在と言われています。筋膜には5種類あり、まず皮下組織や脂肪層の下に「浅筋膜」その下には「深筋膜」があります。さらに筋肉を覆っている「筋外膜」、そして一本一本の筋繊維を包み込む「筋内膜」が存在します。FASCIAバー（筋膜リリース）は高周波のRET仕様のそれぞれのBarを使用し深部に熱を入れながら筋膜リリースをします。より簡単、安全、痛みなく筋膜リリースを可能としました。</p><!-- /wp:paragraph -->
-            <!-- wp:image -->
-            <figure class="wp-block-image custom-width-70">
-                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/rf_05_sp.png')); ?>" /></a>
-            </figure>
-            <!-- /wp:image -->
-        </div>
-        <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
     <!-- wp:group -->
@@ -611,74 +575,6 @@
                     <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/thumb_29.png')); ?>" /></a>
                 </figure>
                 <!-- /wp:image -->
-            </div>
-            <!-- /wp:group -->
-            <!-- wp:group -->
-            <div class="wp-block-group insta_box_title video">
-                <!-- wp:paragraph -->
-                <p class="insta_txt">■ 動 画</p><!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <p>promotion topics</p><!-- /wp:paragraph -->
-            </div>
-            <!-- /wp:group -->
-            <!-- wp:group -->
-            <div class="wp-block-group insta_box_video">
-                <!-- wp:group -->
-                <div class="wp-block-group insta_box_video_item">
-                    <!-- wp:group -->
-                    <div class="wp-block-group container">
-                        <!-- wp:html -->
-                        <iframe class="video_iframe" src="https://www.youtube.com/embed/Ni43iLJ9ftM" frameborder="0"
-                            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                        <!-- /wp:html -->
-                        <!-- wp:paragraph -->
-                        <p>ファシアリリースバー施術マニュアル</p><!-- /wp:paragraph -->
-                    </div>
-                    <!-- /wp:group -->
-                </div>
-                <!-- /wp:group -->
-                <!-- wp:group -->
-                <div class="wp-block-group insta_box_video_item">
-                    <!-- wp:group -->
-                    <div class="wp-block-group container">
-                        <!-- wp:html -->
-                        <iframe class="video_iframe" src="https://www.youtube.com/embed/PqxogRA0PrU" frameborder="0"
-                            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                        <!-- /wp:html -->
-                        <!-- wp:paragraph -->
-                        <p>ラフォスNEWアクセサリー</p><!-- /wp:paragraph -->
-                    </div>
-                    <!-- /wp:group -->
-                </div>
-                <!-- /wp:group -->
-                <!-- wp:group -->
-                <div class="wp-block-group insta_box_video_item">
-                    <!-- wp:group -->
-                    <div class="wp-block-group container">
-                        <!-- wp:html -->
-                        <iframe class="video_iframe" src="https://www.youtube.com/embed/XqR1dRjSnC0" frameborder="0"
-                            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                        <!-- /wp:html -->
-                        <!-- wp:paragraph -->
-                        <p>BWJ施術シーン</p><!-- /wp:paragraph -->
-                    </div>
-                    <!-- /wp:group -->
-                </div>
-                <!-- /wp:group -->
-                <!-- wp:group -->
-                <div class="wp-block-group insta_box_video_item">
-                    <!-- wp:group -->
-                    <div class="wp-block-group container">
-                        <!-- wp:html -->
-                        <iframe class="video_iframe" src="https://www.youtube.com/embed/vRi8BRX4_m8" frameborder="0"
-                            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                        <!-- /wp:html -->
-                        <!-- wp:paragraph -->
-                        <p>RAFOSフォトムービー</p><!-- /wp:paragraph -->
-                    </div>
-                    <!-- /wp:group -->
-                </div>
-                <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
         </div>
