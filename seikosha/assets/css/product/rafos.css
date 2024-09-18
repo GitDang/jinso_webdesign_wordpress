@@ -211,6 +211,27 @@
     line-height: 1.8;
 }
 
+.product-page .intro .inner .herfbox .herf_l .read .selespoint {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 360px;
+}
+
+.product-page .intro .inner .herfbox .herf_l .read .selespoint .selespoint_item {
+    border: 2px solid #dc143c;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 120%;
+    color: #979797;
+}
+
 .product-page .intro .inner .herfbox .herf_l .read .rafox_title {
     font-weight: bold;
 }
@@ -577,13 +598,13 @@
     display: block;
 }
 
-.rafos-premium .category-page-division .custom-width-100 {
+.product-page .category-page-division .custom-width-100 {
     width: 100%;
     gap: 10px;
     justify-content: space-between;
 }
 
-.rafos-premium .category-page-division .custom-width-100 .custom-width-50 {
+.product-page .category-page-division .custom-width-100 .custom-width-50 {
     width: 45%;
 }
 
@@ -693,4 +714,78 @@
     width: 70%;
     text-align: center;
     margin: 0 auto;
+}
+
+.rafos-cellcum .product-default .product-information-part .long_box .cl_label {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.rafos-cellcum .product-default .product-information-part .long_box .cl_label .cl_label_item_mode {
+    margin-right: 8px;
+    background: #c7ddff;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.rafos-cellcum .product-default .product-information-part .img_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rafos-cellcum .product-default .product-information-part .img_box .wp-block-image {
+    width: 42%;
+    margin-right: 2%;
+}
+
+.rafos-cellcum .product-default .product-information-part .img_box_txt {
+    width: 56%;
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.rafos-cellcum .product-default .product-information-part .rf_cellcum {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.rafos-cellcum .product-default .product-information-part .rf_cellcum .rf_cellcum_dl {
+    width: calc(100% / 3 - 20px);
+    margin-bottom: 40px;
+    border: 1px solid #656565;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.rafos-cellcum .product-default .product-information-part .rf_cellcum .rf_cellcum_dl .rf_cellcum_dt {
+    width: 58%;
+}
+
+.rafos-cellcum .product-default .product-information-part .rf_cellcum .rf_cellcum_dl .rf_cellcum_dd {
+    width: 40%;
+}
+
+.rafos-cellcum .product-default .product-information-part .rf_cellcum .rf_cellcum_dl .rf_cellcum_dd .rf_cellcum_dd_header{
+    font-weight: bold;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 20px;
+    font-family: Roboto, 'Noto Sans JP', Arial, Helvetica, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+}
+
+.rafos-cellcum .product-default .product-information-part .rf_cellcum .rf_cellcum_dl .rf_cellcum_dd .rf_cellcum_dd_content{
+    margin-bottom: 8px;
+    list-style: disc;
+    font-size: 14px;
 }

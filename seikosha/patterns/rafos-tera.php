@@ -180,7 +180,7 @@
         </div>
         <!-- /wp:group -->
         <!-- wp:image -->
-        <figure class="wp-block-image mt20">
+        <figure class="wp-block-image inner">
             <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/bnr_teralp.jpg')); ?>" /></a>
         </figure>
         <!-- /wp:image -->
