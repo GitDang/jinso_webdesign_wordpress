@@ -749,31 +749,27 @@
             <!-- wp:group -->
             <div class="wp-block-group btn_area">
                 <!-- wp:group -->
-                <div class="wp-block-group btn_area">
-                    <!-- wp:group -->
-                    <div class="wp-block-group btn_area_list">
-                        <!-- wp:image -->
-                        <figure class="wp-block-image">
-                            <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/btn_seminar.png')); ?>" /></a>
-                        </figure>
-                        <!-- /wp:image -->
-                        <!-- wp:image -->
-                        <figure class="wp-block-image">
-                            <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/btn_mv1.png')); ?>" /></a>
-                        </figure>
-                        <!-- /wp:image -->
-                        <!-- wp:image -->
-                        <figure class="wp-block-image">
-                            <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/bnr_businesssuppport.png')); ?>" /></a>
-                        </figure>
-                        <!-- /wp:image -->
-                        <!-- wp:image -->
-                        <figure class="wp-block-image">
-                            <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/bnr_rafos2.jpg')); ?>" /></a>
-                        </figure>
-                        <!-- /wp:image -->
-                    </div>
-                    <!-- /wp:group -->
+                <div class="wp-block-group btn_area_list">
+                    <!-- wp:image -->
+                    <figure class="wp-block-image">
+                        <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/btn_seminar.png')); ?>" /></a>
+                    </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:image -->
+                    <figure class="wp-block-image">
+                        <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/btn_mv1.png')); ?>" /></a>
+                    </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:image -->
+                    <figure class="wp-block-image">
+                        <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/bnr_businesssuppport.png')); ?>" /></a>
+                    </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:image -->
+                    <figure class="wp-block-image">
+                        <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/bnr_rafos2.jpg')); ?>" /></a>
+                    </figure>
+                    <!-- /wp:image -->
                 </div>
                 <!-- /wp:group -->
             </div>

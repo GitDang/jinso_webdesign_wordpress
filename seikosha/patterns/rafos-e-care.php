@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Title: Rafos Sense
+ * Title: Rafos E Care
  * 
- * Slug: themeslug/rafos-sense
+ * Slug: themeslug/rafos-e-care
  * Categories: test-page
  *
  * @package Base Theme
@@ -12,7 +12,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group product-page rafos-sense">
+<div class="wp-block-group product-page rafos-e-care">
     <!-- wp:group -->
     <div class="wp-block-group product-page-top">
         <!-- wp:group -->
@@ -20,10 +20,10 @@
             <!-- wp:group -->
             <div class="wp-block-group product-page-top-left">
                 <!-- wp:paragraph -->
-                <p class="product-page-top-left-header">RAFOS SENSE</p>
+                <p class="product-page-top-left-header">RAFOS E care</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
-                <p class="product-page-top-left-sub">ラフォス センス</p>
+                <p class="product-page-top-left-sub">ラフォス イーケア</p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -68,7 +68,7 @@
             <!-- wp:paragraph -->
             <p class="product-header-link product-title-header"><a href="../../category/index.html#Measure">施術機器</a></p><!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p class="product-title-header">RAFOS SENSE</p><!-- /wp:paragraph -->
+            <p class="product-title-header">RAFOS E care</p><!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
     </div>
@@ -79,30 +79,36 @@
         <div class="wp-block-group inner">
             <!-- wp:image -->
             <figure class="wp-block-image">
-                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/logo_sense.png')); ?>" /></a>
-            </figure>
-            <!-- /wp:image -->
-            <!-- wp:paragraph -->
-            <p class="catch">あのRAFOSが最強複合マシンを開発<br>
-                痩身はこれ1台で完結！！</p><!-- /wp:paragraph -->
-            <!-- wp:image -->
-            <figure class="wp-block-image mb-30 intro-img">
-                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/img_sense_01.jpg')); ?>" /></a>
+                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/logo_ecare.png')); ?>" /></a>
             </figure>
             <!-- /wp:image -->
             <!-- wp:image -->
-            <figure class="wp-block-image mb-30 intro-img">
-                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/img_sense_02.jpg')); ?>" /></a>
+            <figure class="wp-block-image mb30 intro-img">
+                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/img_ecare_01.jpg')); ?>" /></a>
             </figure>
             <!-- /wp:image -->
             <!-- wp:image -->
-            <figure class="wp-block-image mb-30 intro-img">
-                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/img_sense_03.jpg')); ?>" /></a>
+            <figure class="wp-block-image mb30 intro-img">
+                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/img_ecare_02.jpg')); ?>" /></a>
             </figure>
             <!-- /wp:image -->
-            <!-- wp:image -->
-            <figure class="wp-block-image mb-30 intro-img">
-                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/img_sense_04.jpg')); ?>" /></a>
+            <!-- wp:group -->
+            <div class="wp-block-group youtube_ttl mb30">
+                <!-- wp:paragraph -->
+                <p class="youtube_news_2">Energy Therapy, ECARE</p><!-- /wp:paragraph -->
+            </div>
+            <!-- /wp:group -->
+            <!-- wp:group -->
+            <div class="wp-block-group youtube mb20">
+                <!-- wp:html -->
+                <iframe class="video_iframe" src="https://www.youtube.com/embed/zBRL8z_00pw?clip=UgkxGEAxQvRlFVYjTmEMxTlla2ulyXduCb7K&clipt=ENz_HBjn2R8" frameborder="0"
+                    allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                <!-- /wp:html -->
+            </div>
+            <!-- /wp:group -->
+           <!-- wp:image -->
+           <figure class="wp-block-image intro-img">
+                <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/img_ecare_03.jpg')); ?>" /></a>
             </figure>
             <!-- /wp:image -->
         </div>
@@ -110,9 +116,9 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:group -->
-    <div class="wp-block-group division">
+    <div class="wp-block-group category-page-division pb0">
         <!-- wp:group -->
-        <div class="wp-block-group inner">
+        <div class="wp-block-group category-page-division inner">
             <!-- wp:image -->
             <figure class="wp-block-image mt20">
                 <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/bnr_teralp.jpg')); ?>" /></a>
@@ -127,43 +133,38 @@
         <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
+
     <!-- wp:group -->
-    <div class="wp-block-group box_center mb-40">
-        <!-- wp:button -->
-        <div class="wp-block-button">
-            <a class="wp-block-button__link" href="form/contact/mailform/" target="_blank">ＰＤＦダウンロード</a>
-        </div>
-        <!-- /wp:button -->
-        <!-- wp:button -->
-        <div class="wp-block-button">
-            <a class="wp-block-button__link" href="form/contact/mailform/" target="_blank">お問い合わせ</a>
-        </div>
-        <!-- /wp:button -->
+    <div class="wp-block-group product-information">
+        <!-- wp:group {"tagName":"article"} -->
+        <article class="wp-block-group product-information-item">
+            <!-- wp:group -->
+            <div class="wp-block-group product-information-part">
+                <!-- wp:group -->
+                <div class="wp-block-group product-information-part-list-button">
+                    <!-- wp:button -->
+                    <div class="wp-block-button button-part">
+                        <a class="wp-block-button__link" href="../../pdf/products/famubo.pdf" target="_blank">ＰＤＦダウンロード</a>
+                    </div>
+                    <!-- /wp:button -->
+                    <!-- wp:button -->
+                    <div class="wp-block-button button-part">
+                        <a class="wp-block-button__link" href="../../form/contact/mailform/" target="_blank">お問い合わせ</a>
+                    </div>
+                    <!-- /wp:button -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+        </article>
+        <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
+
     <!-- wp:group -->
-    <div class="wp-block-group box_center mb-40">
-        <!-- wp:button -->
-        <div class="wp-block-button">
-            <a class="wp-block-button__link" href="form/contact/mailform/" target="_blank">THERMAL WAVE PDF</a>
-        </div>
-        <!-- /wp:button -->
-        <!-- wp:button -->
-        <div class="wp-block-button">
-            <a class="wp-block-button__link" href="form/contact/mailform/" target="_blank">THERMA-V PDF</a>
-        </div>
-        <!-- /wp:button -->
-        <!-- wp:button -->
-        <div class="wp-block-button">
-            <a class="wp-block-button__link" href="form/contact/mailform/" target="_blank">Therma v Clinical photo</a>
-        </div>
-        <!-- /wp:button -->
-    </div>
-    <!-- /wp:group -->
-    <!-- wp:group -->
-    <div class="wp-block-group insta_box">
+    <div class="wp-block-group insta_box pt0">
         <!-- wp:group -->
-        <div class="wp-block-group inner">
+        <div class="wp-block-group inner width-92">
             <!-- wp:group -->
             <div class="wp-block-group insta_box_title">
                 <!-- wp:paragraph -->
@@ -362,7 +363,7 @@
         <!-- wp:group -->
         <div class="wp-block-group inner">
             <!-- wp:group -->
-            <div class="wp-block-group btn_area">
+            <div class="wp-block-group btn_area width-100">
                 <!-- wp:group -->
                 <div class="wp-block-group btn_area_list">
                     <!-- wp:image -->
