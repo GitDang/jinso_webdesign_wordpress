@@ -33,6 +33,7 @@ function my_theme_add_editor_styles() {
     add_theme_support('editor-styles');
     add_editor_style( get_template_directory_uri() . '/assets/css/basic.css');
     add_editor_style( get_template_directory_uri() . '/assets/css/product/observ.css');
+    add_editor_style( get_template_directory_uri() . '/assets/css/product/starvac.css');
     add_editor_style( get_template_directory_uri() . '/assets/css/product/famubo.css');
     add_editor_style( get_template_directory_uri() . '/assets/css/product/rafos.css');
     add_editor_style( get_template_directory_uri() . '/assets/css/border.css');
@@ -65,7 +66,6 @@ function base_theme_1_styles() {
 		wp_get_theme()->get( 'Version' )
 	);
 
-
 	wp_enqueue_style(
 		'base-theme-1-product-famubo',
 		get_template_directory_uri() . '/assets/css/product/famubo.css',
@@ -76,6 +76,13 @@ function base_theme_1_styles() {
 	wp_enqueue_style(
 		'base-theme-1-product-observ',
 		get_template_directory_uri() . '/assets/css/product/observ.css',
+		[],
+		wp_get_theme()->get( 'Version' )
+	);
+
+	wp_enqueue_style(
+		'base-theme-1-product-starvac',
+		get_template_directory_uri() . '/assets/css/product/starvac.css',
 		[],
 		wp_get_theme()->get( 'Version' )
 	);

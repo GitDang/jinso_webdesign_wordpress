@@ -239,3 +239,11 @@ h2 span:before {
 .product-default .product-information-banner-image {
   margin: 20px auto 40px;
 }
+
+.robolex-page .product-default .product-banner-list-robolex {
+  margin-block-end: 10%;
+}
+
+.product-information-hand-list .product-information-hand-item {
+  margin-block-end: 40px !important;
+}
