@@ -1,0 +1,66 @@
+.starvac-page .product-intro .product-intro-inner .product-intro-content-item .product-intro-content-table thead th:first-child {
+    width: 25%;
+}
+
+.starvac-page .product-intro .product-intro-inner .product-intro-content-item .product-intro-content-table tbody td {
+    white-space: pre-line;
+}
+
+.product-information-starvac-video {
+
+}
+
+.product-information-starvac-video .product-information-starvac-video-title {
+    width: 100%;
+    background: #8E5A4C;
+    color: #ffffff;
+    padding: 4px 8px;
+    text-align: center;
+    letter-spacing: .2rem;
+    position: relative;
+}
+
+.product-information-starvac-video .product-information-starvac-video-title.color-blue {
+    background-color: #012569;
+}
+
+.product-information-starvac-video .product-information-starvac-video-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-information-starvac-video .product-information-starvac-video-list .starvac-video {
+    display: inline-block;
+    width: 47%;
+    margin: 10px;
+}
+
+.product-information-starvac-new {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.product-information-starvac-new .product-information-starvac-new-title {
+    font-size: 90%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product-information-starvac-new .product-information-starvac-new-image {
+    border: solid #CDCDCD 1px;
+}
+
+.starvac-page .product-catalog-area {
+    width: 85%;
+}
+
+.product-intro-sub-logo {
+    width: 23%;
+    margin: 100px auto 50px;
+}
+
+.starvac-page .product-intro .product-intro-inner .product-intro-logo {
+    margin-bottom: 20px;
+}

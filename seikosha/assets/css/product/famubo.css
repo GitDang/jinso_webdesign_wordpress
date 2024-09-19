@@ -159,6 +159,7 @@ Product page
   font-weight: bold;
   text-align: center;
   color: #333333;
+  white-space: break-spaces;
 }
 
 .product-intro .product-intro-inner .product-intro-content {
@@ -702,7 +703,7 @@ Product page
   font-weight: 900;
 }
 
-.product-information .product-information-item .product-catalog-area {
+.product-catalog-area {
   padding: 10%;
   width: 92%;
   margin: 0 auto;
@@ -714,7 +715,7 @@ Product page
   gap: 20px;
 }
 
-.product-information .product-information-item .product-catalog-area .product-catalog-area-image {
+.product-catalog-area .product-catalog-area-image {
   width: calc(100% / 2 - 10px);
 }
 
