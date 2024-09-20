@@ -1,0 +1,396 @@
+.plinic-product-page.product-page .product-page-top {
+    background: #DC143C;
+}
+
+.plinic-product-page.product-page .product-page-top .product-page-top-left {
+    color: #fff;
+}
+
+.product-information-plinic-effect {
+    font-weight: bold;
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+}
+
+.product-information-plinic-effect .product-information-plinic-effect-title {
+    font-size: 30px;
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    font-weight: bold;
+    margin: 0 auto 20px;
+    text-align: center;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.product-information-plinic-effect .product-information-plinic-effect-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.plinic-effect-item {
+    width: calc(100% / 4 - 30px);
+    margin-bottom: 20px;
+    font-size: 18px;
+    position: relative;
+    min-height: 180px;
+    display: flex;
+}
+
+.plinic-effect-item .plinic-effect-item-title {
+    font-size: 18px;
+    text-align: center;
+    white-space: break-spaces;
+    max-width: 180px;
+    margin: auto 0;
+    width: 180px;
+}
+
+.plinic-effect-item .plinic-effect-item-image {
+    position: absolute;
+    top: 0;
+    width: 180px;
+}
+
+.product-information-plinic-sympton {
+    padding: 30px 30px 10px 180px;
+    margin-bottom: 40px;
+    position: relative;
+    background: #25285a;
+}
+
+.product-information-plinic-sympton .product-information-plinic-sympton-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.product-information-plinic-sympton .product-information-plinic-sympton-image img {
+    height: 100%;
+}
+
+.product-information-plinic-sympton .product-information-plinic-sympton-content {
+    position: relative;
+    z-index: 2;
+}
+
+.product-information-plinic-sympton .product-information-plinic-sympton-title {
+    font-size: 18px;
+    border-bottom: 1px solid #73b3eb;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.product-information-plinic-sympton .product-information-plinic-sympton-desc {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.product-information-plasma-care .product-information-plasma-care-title {
+    text-align: center;
+}
+
+.product-information-plasma-care .product-information-plasma-care-desc {
+    
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.plasma-care-item {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.plasma-care-item .plasma-care-item-image {
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 0;
+}
+
+.plasma-care-item .plasma-care-item-content {
+    width: 50%;
+}
+
+.plasma-care-item .plasma-care-item-content .plasma-care-item-title {
+    font-size: 18px;
+    border-bottom: 1px solid #73b3eb;
+    font-weight: bold;
+    color: #3f88c9;
+    margin-bottom: 20px;
+}
+
+.plasma-care-item .plasma-care-item-content .plasma-care-item-desc {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.plinic-product-page .product-information .product-information-item .product-information-item-title {
+    margin-bottom: 20px;
+    border: none;
+}
+
+.plinic-product-page .product-information .product-information-item .product-information-item-title .product-information-item-title-header {
+    background: #808080;
+    display: block;
+    padding: 2px 8px;
+    margin: 0;
+}
+
+.plinic-product-page .product-information-item-title {
+    margin-bottom: 50px;
+    border: none;
+}
+
+.plinic-product-page .product-information-item-title .product-information-item-title-header {
+    background: #808080;
+    display: block;
+    padding: 2px 8px;
+    margin: 0;
+    color: #fff;
+    text-align: left;
+}
+
+.product-information-plinic-result .product-information-plinic-result-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.plinic-result-item {
+    width: calc(100% / 4 - 20px);
+}
+
+.plinic-result-item .plinic-result-item-image {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.plinic-result-item .plinic-result-item-title {
+    color: #3f88c9;
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    font-size: 18px;
+    border-bottom: 1px solid #73b3eb;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.plinic-result-item .plinic-result-item-desc {
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.product-information-plinic-how {
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.product-information-plinic-how .product-information-plinic-how-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.plinic-how-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.plinic-how-item .plinic-how-item-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.plinic-howuse-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.plinic-howuse-item .plinic-howuse-item-number {
+    width: 10%;
+    margin: 0 5%;
+}
+
+.plinic-howuse-item .plinic-howuse-item-content {
+    width: 30%;
+    text-align: center;
+}
+
+.plinic-howuse-item .plinic-howuse-item-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.plinic-howuse-item .plinic-howuse-item-desc {
+    font-size: 16px;
+}
+
+.plinic-howuse-item .plinic-howuse-item-image {
+    width: 40%;
+}
+
+.product-information-plinic-package .product-information-plinic-package-list {
+    display: flex;
+}
+
+.plinic-product-page .product-catalog-area {
+    padding: 50px 5%;
+    margin-top: 50px;
+}
+
+.product-information-contrivance {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.product-information-contrivance .product-information-contrivance-header {
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+.product-information-contrivance .product-information-contrivance-image {
+    margin-bottom: 20px;
+}
+
+.product-information-contrivance .contrivance-item-desc {
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.product-information-contrivance .product-information-contrivance-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contrivance-item {
+    width: calc(100% / 3 - 10px);
+    padding: 20px 10px 20px 50px;
+    background: #f9ded8;
+    position: relative;
+    margin-bottom: 20px;
+    border: 1px solid #f3c1b4;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.contrivance-item .contrivance-item-image {
+    position: absolute;
+    height: 100%;
+    top: calc(50% - 35px);
+    left: 0;
+    width: 60px;
+}
+
+.contrivance-item .contrivance-item-text {
+    z-index: 1;
+    position: relative;
+    font-size: 14px;
+}
+
+.r-face-page .product-information-symptom .product-information-symptom-header {
+    position: relative;
+}
+
+.r-face-page .product-information-symptom .product-information-symptom-header .title-end {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+}
+
+.product-information-media {
+    display: flex;
+}
+
+.product-information-media .product-information-media-image {
+    width: 40%;
+    margin-bottom: 20px;
+    border: 1px solid #f9ded8;
+}
+
+.product-information-media .product-information-media-content {
+    width: 55%;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.product-information-media .media-item-area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.product-information-media .media-item-area .media-item-area-header {
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 14px;
+    width: 70%;
+    margin-right: 5%;
+}
+
+.product-information-media .media-item-area .media-item-area-header .media-item-area-title a {
+    color: #0572B9;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.product-information-media .media-item-area .media-item-area-header .media-item-area-content {
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.product-information-media .media-item-area .media-item-area-image {
+    border: 1px solid #f9ded8;
+    margin-bottom: 10px;
+    width: 25%;
+}
+
+.product-information-media .media-item-kakomi {
+    margin-top: 0;
+    padding: 60px 2%;
+    border: 2px solid #f9ded8;
+}
+
+.product-information-media .media-item-kakomi .media-item-kakomi-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.product-information-media .media-item-kakomi .media-item-kakomi-content {
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.r-face-page.product-page .product-page-top {
+    background: #DC143C;
+}
+
+.r-face-page.product-page .product-page-top .product-page-top-left {
+    color: #fff;
+}
+
+.r-face-catalog.product-catalog-area {
+    padding: 0;
+    width: calc(100% - 20px);
+}
