@@ -247,3 +247,23 @@ h2 span:before {
 .product-information-hand-list .product-information-hand-item {
   margin-block-end: 40px !important;
 }
+
+.plinic-effect-item .plinic-effect-item-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  white-space: break-spaces;
+}
+
+
+.product-information-plinic-sympton .product-information-plinic-sympton-image .components-resizable-box__container {
+  height: 100% !important;
+}
+
+.product-banner-list-robolex {
+  margin-block-end: 10% !important;
+}
+
+.product-information .product-information-item {
+  margin-block-end: 40px !important;
+}
