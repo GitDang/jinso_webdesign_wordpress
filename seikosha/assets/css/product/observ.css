@@ -69,9 +69,6 @@
   margin: 20px 0;
 }
 
-.product-face-page .product-information .product-information-item .product-content-ob-item-list-buttons {
-}
-
 .product-face-page .product-information .product-information-item .product-content-ob-item-button {
   margin-top: 10px;
 }
@@ -328,9 +325,6 @@
   border-bottom: 1px solid #707070;
 }
 
-.product-information-effect .product-information-effect-list {
-}
-
 .product-asl .product-default .product-pdf .product-pdf-inner {
   width: 100%;
 }
@@ -363,9 +357,6 @@
   right: -12px;
 }
 
-.product-information-effect .product-information-effect-list .product-information-effect-item .product-information-effect-item-content {
-}
-
 .product-information-symptom {
   padding: 0;
   width: 92%;
@@ -391,9 +382,6 @@
 .product-information-symptom .product-information-symptom-content .product-information-symptom-item {
   width: calc(100% / 3 - 20px);
   margin-bottom: 20px;
-}
-
-.product-information-symptom .product-information-symptom-content .product-information-symptom-item .product-information-symptom-item-image {
 }
 
 .product-information-symptom .product-information-symptom-content .product-information-symptom-item .product-information-symptom-item-title {
@@ -432,10 +420,6 @@
 
 .product-information-list-box .product-information-item-box .product-information-item-topic-title {
   text-align: center;
-}
-
-.product-information-defo {
-  
 }
 
 .product-information-defo .product-information-list-defo {

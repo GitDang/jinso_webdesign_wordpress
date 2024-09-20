@@ -90,10 +90,6 @@
     color: #fff;
 }
 
-.product-information-plasma-care {
-
-}
-
 .product-information-plasma-care .product-information-plasma-care-title {
     text-align: center;
 }
@@ -102,10 +98,6 @@
     
     font-size: 16px;
     margin-bottom: 40px;
-}
-
-.product-information-plasma-care .product-information-plasma-care-content {
-    
 }
 
 .plasma-care-item {
@@ -217,18 +209,6 @@
     font-weight: bold;
 }
 
-.plinic-how-item .plinic-how-item-image {
-    
-}
-
-.product-information-plinic-howuse {
-
-}
-
-.product-information-plinic-howuse .product-information-plinic-howuse-list {
-    
-}
-
 .plinic-howuse-item {
     display: flex;
     justify-content: center;
@@ -258,10 +238,6 @@
     width: 40%;
 }
 
-.product-information-plinic-package {
-
-}
-
 .product-information-plinic-package .product-information-plinic-package-list {
     display: flex;
 }
@@ -271,5 +247,150 @@
     margin-top: 50px;
 }
 
+.product-information-contrivance {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
 
+.product-information-contrivance .product-information-contrivance-header {
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
 
+.product-information-contrivance .product-information-contrivance-image {
+    margin-bottom: 20px;
+}
+
+.product-information-contrivance .contrivance-item-desc {
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.product-information-contrivance .product-information-contrivance-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contrivance-item {
+    width: calc(100% / 3 - 10px);
+    padding: 20px 10px 20px 50px;
+    background: #f9ded8;
+    position: relative;
+    margin-bottom: 20px;
+    border: 1px solid #f3c1b4;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.contrivance-item .contrivance-item-image {
+    position: absolute;
+    height: 100%;
+    top: calc(50% - 35px);
+    left: 0;
+    width: 60px;
+}
+
+.contrivance-item .contrivance-item-text {
+    z-index: 1;
+    position: relative;
+    font-size: 14px;
+}
+
+.r-face-page .product-information-symptom .product-information-symptom-header {
+    position: relative;
+}
+
+.r-face-page .product-information-symptom .product-information-symptom-header .title-end {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+}
+
+.product-information-media {
+    display: flex;
+}
+
+.product-information-media .product-information-media-image {
+    width: 40%;
+    margin-bottom: 20px;
+    border: 1px solid #f9ded8;
+}
+
+.product-information-media .product-information-media-content {
+    width: 55%;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.product-information-media .media-item-area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.product-information-media .media-item-area .media-item-area-header {
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 14px;
+    width: 70%;
+    margin-right: 5%;
+}
+
+.product-information-media .media-item-area .media-item-area-header .media-item-area-title a {
+    color: #0572B9;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.product-information-media .media-item-area .media-item-area-header .media-item-area-content {
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.product-information-media .media-item-area .media-item-area-image {
+    border: 1px solid #f9ded8;
+    margin-bottom: 10px;
+    width: 25%;
+}
+
+.product-information-media .media-item-kakomi {
+    margin-top: 0;
+    padding: 60px 2%;
+    border: 2px solid #f9ded8;
+}
+
+.product-information-media .media-item-kakomi .media-item-kakomi-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.product-information-media .media-item-kakomi .media-item-kakomi-content {
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.r-face-page.product-page .product-page-top {
+    background: #DC143C;
+}
+
+.r-face-page.product-page .product-page-top .product-page-top-left {
+    color: #fff;
+}
+
+.r-face-catalog.product-catalog-area {
+    padding: 0;
+    width: calc(100% - 20px);
+}
