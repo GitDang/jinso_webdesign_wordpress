@@ -267,3 +267,15 @@ h2 span:before {
 .product-information .product-information-item {
   margin-block-end: 40px !important;
 }
+
+.product-page .wp-block.product-intro-feature{
+  margin-block-start: 50px;
+}
+
+.product-page .product-intro-top-banner {
+  margin-block-end: 30px !important;
+}
+
+.product-intro-category .product-intro-category-item-title a {
+  text-decoration: none;
+}
