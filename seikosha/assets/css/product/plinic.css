@@ -394,3 +394,235 @@
     padding: 0;
     width: calc(100% - 20px);
 }
+
+.product-intro-top-banner {
+    border: solid 1px #CBCBCB;
+    margin-bottom: 30px;
+}
+
+.product-intro-recuit {
+    display: flex;
+    justify-content: end;
+}
+
+.product-intro-recuit .product-intro-recuit-image {
+    width: 365px;
+    border: solid 1px #B3B3B3;
+}
+
+.product-intro-title-top {
+    font-size: 120%;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.celltite-page .product-intro .product-intro-inner .product-intro-logo {
+    width: 300px;
+}
+
+.celltite-page .product-intro .product-intro-inner .product-intro-title {
+    position: relative;
+    display: inline-block;
+    padding: 50px 80px;
+    font-size: 40px;
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    text-align: center;
+    color: #131313;
+}
+
+.celltite-page .product-intro .product-intro-inner .product-intro-title::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: #737373;
+    left: 0;
+}
+
+.celltite-page .product-intro .product-intro-inner .product-intro-title::after {
+    right: 0;
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: #737373;
+}
+
+.product-intro-title-gold {
+    position: relative;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-intro-title-gold .product-intro-title-gold-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.product-intro-title-gold .product-intro-title-gold-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.product-intro-title-gold .product-intro-title-gold-text {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+    white-space: break-spaces;
+    z-index: 1;
+    position: relative;
+}
+
+.product-intro-feature {
+    margin-top: 50px;
+}
+
+.product-intro-feature .product-intro-feature-title {
+    background-color: #65468E;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    color: #FFFFFF;
+    border-radius: 100px;
+    font-size: 24px;
+}
+
+.product-intro-feature .product-intro-feature-content {
+    margin-top: 60px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.product-intro-feature .product-intro-feature-content .product-intro-feature-content-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-intro-feature .product-intro-feature-content .product-intro-feature-content-toumei {
+    background: rgba(255, 255, 255, 0.850);
+    position: relative;
+    z-index: 1;
+}
+
+.product-intro-feature .product-intro-feature-content .product-intro-feature-content-toumei .product-intro-feature-content-image {
+    width: 50%;
+    margin: auto;
+}
+
+.product-intro-category {
+
+}
+
+.product-intro-category .product-intro-category-title {
+    background-color: #DE6276;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    color: #FFFFFF;
+    border-radius: 100px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.product-intro-category .product-intro-category-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.product-intro-category .product-intro-category-item {
+    display: flex;
+    width: 23%;
+    height: 150px;
+    margin: 20px;
+    padding: 30x;
+    border-radius: 20px;
+    font-size: 95%;
+    letter-spacing: 20%;
+    background: linear-gradient(to right, #B73378, #DE6276);
+    justify-content: center;
+    font-size: 16px;
+}
+
+.product-intro-category .product-intro-category-item-title {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    white-space: break-spaces;
+    font-size: 120%;
+}
+
+.product-intro-category .product-intro-category-item-title a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.product-intro-category .product-intro-category-title.color-orange {
+    background-color: #D5754B;
+}
+
+.product-intro-category .product-intro-category-content-image {
+    margin: 20px auto;
+    width: 95%;
+}
+
+.product-information-solution {
+    padding-top: 50px;
+}
+
+.product-information-solution .product-information-solution-title {
+    background-color: #443191;
+    margin: 0 auto 30px;
+    color: #FFFFFF;
+    font-size: 110%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.product-information-solution .product-information-solution-list {
+    width: 95%;
+    margin: auto;
+}
+
+.solution-item {
+    margin-top: 10px;
+}
+
+.solution-item .solution-item-title {
+    background-color: #7C62B1;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    color: #FFFFFF;
+    padding: 7px;
+}
+
+.solution-item .solution-item-desc {
+    text-align: left;
+    font-size: 95%;
+    color: #1D1D1D;
+    margin-top: 10px;
+}
+
+.product-information-solution-component {
+    padding-bottom: 100px;
+}
+
+
