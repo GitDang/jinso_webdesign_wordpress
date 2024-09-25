@@ -289,8 +289,9 @@ h2 span:before {
   top: 30%;
 }
 
-.block-editor-block-list__layout .block-editor-block-list__block img {
+.product-intro-content .intro-content-item-image-mark img {
   width: 20% !important;
+  margin: 70px auto 0;
 }
 
 .product-intro-content-area .product-intro-content-area-image img {
