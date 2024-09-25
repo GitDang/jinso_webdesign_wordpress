@@ -234,7 +234,7 @@ function theme_slug_enqueue_scripts() {
 	$files = array_diff($files, array('.', '..'));
 
 	foreach ($files as $key => $file) {
-		wp_enqueue_style(
+		wp_enqueue_script(
 			'base-js-custom-' . $key,
 			get_template_directory_uri() . '/assets/js/custom/' . $file,
 			[],
@@ -310,34 +310,31 @@ function custom_css_file_manager_page() {
     if (!is_dir($folder_path)) {
         mkdir($folder_path, 0755, true);
     }
-	if ($_POST) {
-		if (isset($_POST['add_css'])) {
-			if (isset($_FILES['new_file']) && !empty($_FILES['new_file']['name'])) {
-				$allowed_file_types = array('css'); // Các loại file được cho phép
-				$file_type = pathinfo($_FILES['new_file']['name'], PATHINFO_EXTENSION);
-			
-				if (in_array(strtolower($file_type), $allowed_file_types)) {
-					$uploaded = wp_handle_upload($_FILES['new_file'], array('test_form' => false));
-			
-					if (isset($uploaded['file'])) {
-						$file_name = basename($uploaded['file']);
-						rename($uploaded['file'], $folder_path . '/' . $file_name);
-						echo '<div class="updated"><p>Tải file thành công!</p></div>';
-					} else {
-						echo '<div class="error"><p>Có lỗi khi tải file lên.</p></div>';
-					}
-				} else {
-					echo '<div class="error"><p>Loại file không được phép.</p></div>';
-				}
-			}
-		}
-	}
+	$file_name_edit = isset($_GET['file']) ? $_GET['file'] : '';
     // Lấy danh sách file từ thư mục
     $files = scandir($folder_path);
     $files = array_diff($files, array('.', '..')); // Loại bỏ '.' và '..'
+    $files = array_values($files); // Loại bỏ '.' và '..'
+	if ($_POST) {
+		if (isset($_POST['add_css'])) {
+			if (in_array($_POST['new_file'] . ".css", $files)) {
+				echo '<div class="error"><p>Trung ten file.</p></div>';
+			} else {
+				$uploaded = touch($folder_path . $_POST['new_file'] . ".css");;
+				if ($uploaded) {
+					echo '<div class="updated"><p>Tải file thành công!</p></div>';
+					$file_name_edit = $_POST['new_file'] . ".css";
+					$files[] = $file_name_edit;
+				} else {
+					echo '<div class="error"><p>Có lỗi khi tải file lên.</p></div>';
+				}
+			}
+			
+		}
+	}
+    // Lấy danh sách file từ thư mục
 	$css_content = "";
 	$css_file = "";
-
 
 	if (!empty($files)) {
 		$css_file =$files[array_key_first($files)];
@@ -346,31 +343,51 @@ function custom_css_file_manager_page() {
 			if (isset($_POST['save_css'])) {
 				file_put_contents($folder_path . '/' . ($_POST['file_name'] ?? $css_file), stripslashes($_POST['css_content']));
 				echo '<div class="updated"><p>CSS file đã được lưu.</p></div>';
+				$file_name_edit = $_POST['file_name'];
 			}
-		} else {
-			
 		}
-		if (isset($_GET['file'])) {
-			$css_file = $_GET['file'];
+		if ($file_name_edit) {
+			$css_file = $file_name_edit;
 		}
 		$css_content = file_get_contents( $folder_path . '/' . $css_file);
 	}
 
 
     ?>
+	<style>
+		::placeholder {
+		opacity: 0.5; /* Firefox */
+		}
+		::-ms-input-placeholder { /* Edge 12-18 */
+		opacity: 0.5;
+		}
+
+	</style>
     <div class="wrap">
         <h1>Quản lý File CSS trong thư mục</h1>
      	<!-- Form tải file lên -->
-        <h2>Tải file mới lên</h2>
-        <form method="post" enctype="multipart/form-data">
-            <input type="file" name="new_file">
-            <input type="submit" name="add_css" value="Add CSS" class="button-primary" value="Tải lên">
-        </form>
-		<br>
+		<?php if ($file_name_edit) { ?>
+			<a href="admin.php?page=css-code-editor" style="    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: inline-block;
+    text-decoration: none;">Tạo mới CSS</a>
+		<?php } else { ?>
+			<h2>Tải file mới lên</h2>
+			<form method="post" enctype="multipart/form-data">
+				<input type="text" name="new_file" placeholder="Name File">
+				<input type="submit" name="add_css" value="Add CSS" class="button-primary" value="Tải lên">
+			</form>
+			<br>
+		<?php } ?>
 
         <?php if (empty($files)) : ?>
             <p>Thư mục trống.</p>
         <?php else : ?>
+			<?php if ($file_name_edit) { ?>
 			<h2>Chỉnh sửa File <?php echo esc_html($css_file); ?></h2>
 			<div style="display: flex; justify-content: space-between;">
 				<div style="width: 70%;">
@@ -381,6 +398,7 @@ function custom_css_file_manager_page() {
 						<input type="submit" name="save_css" value="Update CSS" class="button button-primary">
 					</form>
 				</div>
+
 				<table class="widefat" style="width: 28%; height:fit-content;">
 					<thead>
 						<tr>
@@ -392,8 +410,8 @@ function custom_css_file_manager_page() {
 						<?php foreach ($files as $file) : 
 							$file_path = $folder_path . '/' . $file;
 							?>
-							<tr>
-								<td><a href="admin.php?page=css-code-editor&file=<?php echo esc_html($file); ?>"><?php echo esc_html($file); ?></a></td>
+							<tr style="background: <?php echo (($file_name_edit == $file) ? "#ffffff" : "#f0f0f1") ?>;">
+								<td <?php if ($file_name_edit == $file) { ?> style="border-left: 5px solid #2271b1;" <?php } ?> ><a href="admin.php?page=css-code-editor&file=<?php echo esc_html($file); ?>"><?php echo esc_html($file); ?></a></td>
 								<td>
 									<a href="<?php echo esc_url(admin_url('admin.php?page=css-code-editor&delete_file=' . urlencode($file))); ?>" onclick="return confirm('Bạn có chắc muốn xóa file này?');">Xóa</a>
 								</td>
@@ -402,6 +420,30 @@ function custom_css_file_manager_page() {
 					</tbody>
 				</table>
 			</div>
+			<?php } else { ?>
+				<h2>Danh sách file CSS</h2>
+				<table class="widefat" style="width: 100; height:fit-content;">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Action</th>
+						</tr>
+					</thead>
+					<tbody>
+						<?php foreach ($files as $file) : 
+							$file_path = $folder_path . '/' . $file;
+							?>
+							<tr style="background: #f0f0f1;">
+								<td><a href="admin.php?page=css-code-editor&file=<?php echo esc_html($file); ?>"><?php echo esc_html($file); ?></a></td>
+								<td>
+									<a href="<?php echo esc_url(admin_url('admin.php?page=css-code-editor&delete_file=' . urlencode($file))); ?>" onclick="return confirm('Bạn có chắc muốn xóa file này?');">Xóa</a>
+								</td>
+							</tr>
+						<?php endforeach; ?>
+					</tbody>
+				</table>
+			<?php } ?>
+
 
         <?php endif; ?>
     </div>
@@ -450,34 +492,31 @@ function custom_js_file_manager_page() {
     if (!is_dir($folder_path)) {
         mkdir($folder_path, 0755, true);
     }
-	if ($_POST) {
-		if (isset($_POST['add_js'])) {
-			if (isset($_FILES['new_file']) && !empty($_FILES['new_file']['name'])) {
-				$allowed_file_types = array('js'); // Các loại file được cho phép
-				$file_type = pathinfo($_FILES['new_file']['name'], PATHINFO_EXTENSION);
-			
-				if (in_array(strtolower($file_type), $allowed_file_types)) {
-					$uploaded = wp_handle_upload($_FILES['new_file'], array('test_form' => false));
-			
-					if (isset($uploaded['file'])) {
-						$file_name = basename($uploaded['file']);
-						rename($uploaded['file'], $folder_path . '/' . $file_name);
-						echo '<div class="updated"><p>Tải file thành công!</p></div>';
-					} else {
-						echo '<div class="error"><p>Có lỗi khi tải file lên.</p></div>';
-					}
-				} else {
-					echo '<div class="error"><p>Loại file không được phép.</p></div>';
-				}
-			}
-		}
-	}
+	$file_name_edit = isset($_GET['file']) ? $_GET['file'] : '';
     // Lấy danh sách file từ thư mục
     $files = scandir($folder_path);
     $files = array_diff($files, array('.', '..')); // Loại bỏ '.' và '..'
+    $files = array_values($files); // Loại bỏ '.' và '..'
+	if ($_POST) {
+		if (isset($_POST['add_js'])) {
+			if (in_array($_POST['new_file'] . ".js", $files)) {
+				echo '<div class="error"><p>Trung ten file.</p></div>';
+			} else {
+				$uploaded = touch($folder_path . $_POST['new_file'] . ".js");;
+				if ($uploaded) {
+					echo '<div class="updated"><p>Tải file thành công!</p></div>';
+					$file_name_edit = $_POST['new_file'] . ".js";
+					$files[] = $file_name_edit;
+				} else {
+					echo '<div class="error"><p>Có lỗi khi tải file lên.</p></div>';
+				}
+			}
+			
+		}
+	}
+    // Lấy danh sách file từ thư mục
 	$js_content = "";
 	$js_file = "";
-
 
 	if (!empty($files)) {
 		$js_file =$files[array_key_first($files)];
@@ -486,31 +525,51 @@ function custom_js_file_manager_page() {
 			if (isset($_POST['save_js'])) {
 				file_put_contents($folder_path . '/' . ($_POST['file_name'] ?? $js_file), stripslashes($_POST['js_content']));
 				echo '<div class="updated"><p>JS file đã được lưu.</p></div>';
+				$file_name_edit = $_POST['file_name'];
 			}
-		} else {
-			
 		}
-		if (isset($_GET['file'])) {
-			$js_file = $_GET['file'];
+		if ($file_name_edit) {
+			$js_file = $file_name_edit;
 		}
 		$js_content = file_get_contents( $folder_path . '/' . $js_file);
 	}
 
 
     ?>
+	<style>
+		::placeholder {
+		opacity: 0.5; /* Firefox */
+		}
+		::-ms-input-placeholder { /* Edge 12-18 */
+		opacity: 0.5;
+		}
+
+	</style>
     <div class="wrap">
         <h1>Quản lý File JS trong thư mục</h1>
      	<!-- Form tải file lên -->
-        <h2>Tải file mới lên</h2>
-        <form method="post" enctype="multipart/form-data">
-            <input type="file" name="new_file">
-            <input type="submit" name="add_js" value="Add JS" class="button-primary" value="Tải lên">
-        </form>
-		<br>
+		<?php if ($file_name_edit) { ?>
+			<a href="admin.php?page=js-code-editor" style="    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: inline-block;
+    text-decoration: none;">Tạo mới JS</a>
+		<?php } else { ?>
+			<h2>Tải file mới lên</h2>
+			<form method="post" enctype="multipart/form-data">
+				<input type="text" name="new_file" placeholder="Name File">
+				<input type="submit" name="add_js" value="Add JS" class="button-primary" value="Tải lên">
+			</form>
+			<br>
+		<?php } ?>
 
         <?php if (empty($files)) : ?>
             <p>Thư mục trống.</p>
         <?php else : ?>
+			<?php if ($file_name_edit) { ?>
 			<h2>Chỉnh sửa File <?php echo esc_html($js_file); ?></h2>
 			<div style="display: flex; justify-content: space-between;">
 				<div style="width: 70%;">
@@ -521,6 +580,7 @@ function custom_js_file_manager_page() {
 						<input type="submit" name="save_js" value="Update JS" class="button button-primary">
 					</form>
 				</div>
+
 				<table class="widefat" style="width: 28%; height:fit-content;">
 					<thead>
 						<tr>
@@ -532,8 +592,8 @@ function custom_js_file_manager_page() {
 						<?php foreach ($files as $file) : 
 							$file_path = $folder_path . '/' . $file;
 							?>
-							<tr>
-								<td><a href="admin.php?page=js-code-editor&file=<?php echo esc_html($file); ?>"><?php echo esc_html($file); ?></a></td>
+							<tr style="background: <?php echo (($file_name_edit == $file) ? "#ffffff" : "#f0f0f1") ?>;">
+								<td <?php if ($file_name_edit == $file) { ?> style="border-left: 5px solid #2271b1;" <?php } ?> ><a href="admin.php?page=js-code-editor&file=<?php echo esc_html($file); ?>"><?php echo esc_html($file); ?></a></td>
 								<td>
 									<a href="<?php echo esc_url(admin_url('admin.php?page=js-code-editor&delete_file=' . urlencode($file))); ?>" onclick="return confirm('Bạn có chắc muốn xóa file này?');">Xóa</a>
 								</td>
@@ -542,6 +602,30 @@ function custom_js_file_manager_page() {
 					</tbody>
 				</table>
 			</div>
+			<?php } else { ?>
+				<h2>Danh sách file JS</h2>
+				<table class="widefat" style="width: 100; height:fit-content;">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Action</th>
+						</tr>
+					</thead>
+					<tbody>
+						<?php foreach ($files as $file) : 
+							$file_path = $folder_path . '/' . $file;
+							?>
+							<tr style="background: #f0f0f1;">
+								<td><a href="admin.php?page=js-code-editor&file=<?php echo esc_html($file); ?>"><?php echo esc_html($file); ?></a></td>
+								<td>
+									<a href="<?php echo esc_url(admin_url('admin.php?page=js-code-editor&delete_file=' . urlencode($file))); ?>" onclick="return confirm('Bạn có chắc muốn xóa file này?');">Xóa</a>
+								</td>
+							</tr>
+						<?php endforeach; ?>
+					</tbody>
+				</table>
+			<?php } ?>
+
 
         <?php endif; ?>
     </div>
@@ -555,6 +639,7 @@ function custom_js_file_manager_page() {
 	</script>
     <?php
 }
+
 function custom_file_manager_js_delete_file() {
     if (isset($_GET['delete_file']) && current_user_can('manage_options')) {
         $folder_path = $folder_path =  get_template_directory() . '/assets/js/custom/'; // Đường dẫn đến thư mục
