@@ -100,14 +100,17 @@
             <!-- /wp:group -->
             <!-- wp:group -->
             <div class="wp-block-group youtube mb20">
-                <!-- wp:html -->
-                <iframe class="video_iframe" src="https://www.youtube.com/embed/zBRL8z_00pw?clip=UgkxGEAxQvRlFVYjTmEMxTlla2ulyXduCb7K&clipt=ENz_HBjn2R8" frameborder="0"
-                    allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                <!-- /wp:html -->
+                <!-- wp:embed {"url":"https://youtu.be/XqR1dRjSnC0","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+                <figure class="wp-block-embed video_iframe is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+                    <div class="wp-block-embed__wrapper">
+                        https://youtu.be/XqR1dRjSnC0
+                    </div>
+                </figure>
+                <!-- /wp:embed -->
             </div>
             <!-- /wp:group -->
-           <!-- wp:image -->
-           <figure class="wp-block-image intro-img">
+            <!-- wp:image -->
+            <figure class="wp-block-image intro-img">
                 <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/img_ecare_03.jpg')); ?>" /></a>
             </figure>
             <!-- /wp:image -->
@@ -304,10 +307,13 @@
                 <div class="wp-block-group insta_box_video_item">
                     <!-- wp:group -->
                     <div class="wp-block-group container">
-                        <!-- wp:html -->
-                        <iframe class="video_iframe" src="https://www.youtube.com/embed/Ni43iLJ9ftM" frameborder="0"
-                            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                        <!-- /wp:html -->
+                        <!-- wp:embed {"url":"https://youtu.be/XqR1dRjSnC0","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+                        <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+                            <div class="wp-block-embed__wrapper">
+                                https://youtu.be/XqR1dRjSnC0
+                            </div>
+                        </figure>
+                        <!-- /wp:embed -->
                         <!-- wp:paragraph -->
                         <p>ファシアリリースバー施術マニュアル</p><!-- /wp:paragraph -->
                     </div>
@@ -318,10 +324,13 @@
                 <div class="wp-block-group insta_box_video_item">
                     <!-- wp:group -->
                     <div class="wp-block-group container">
-                        <!-- wp:html -->
-                        <iframe class="video_iframe" src="https://www.youtube.com/embed/PqxogRA0PrU" frameborder="0"
-                            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                        <!-- /wp:html -->
+                        <!-- wp:embed {"url":"https://youtu.be/XqR1dRjSnC0","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+                        <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+                            <div class="wp-block-embed__wrapper">
+                                https://youtu.be/XqR1dRjSnC0
+                            </div>
+                        </figure>
+                        <!-- /wp:embed -->
                         <!-- wp:paragraph -->
                         <p>ラフォスNEWアクセサリー</p><!-- /wp:paragraph -->
                     </div>
@@ -332,10 +341,13 @@
                 <div class="wp-block-group insta_box_video_item">
                     <!-- wp:group -->
                     <div class="wp-block-group container">
-                        <!-- wp:html -->
-                        <iframe class="video_iframe" src="https://www.youtube.com/embed/XqR1dRjSnC0" frameborder="0"
-                            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                        <!-- /wp:html -->
+                        <!-- wp:embed {"url":"https://youtu.be/XqR1dRjSnC0","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+                        <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+                            <div class="wp-block-embed__wrapper">
+                                https://youtu.be/XqR1dRjSnC0
+                            </div>
+                        </figure>
+                        <!-- /wp:embed -->
                         <!-- wp:paragraph -->
                         <p>BWJ施術シーン</p><!-- /wp:paragraph -->
                     </div>
@@ -346,10 +358,13 @@
                 <div class="wp-block-group insta_box_video_item">
                     <!-- wp:group -->
                     <div class="wp-block-group container">
-                        <!-- wp:html -->
-                        <iframe class="video_iframe" src="https://www.youtube.com/embed/vRi8BRX4_m8" frameborder="0"
-                            allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                        <!-- /wp:html -->
+                        <!-- wp:embed {"url":"https://youtu.be/XqR1dRjSnC0","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+                        <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+                            <div class="wp-block-embed__wrapper">
+                                https://youtu.be/XqR1dRjSnC0
+                            </div>
+                        </figure>
+                        <!-- /wp:embed -->
                         <!-- wp:paragraph -->
                         <p>RAFOSフォトムービー</p><!-- /wp:paragraph -->
                     </div>

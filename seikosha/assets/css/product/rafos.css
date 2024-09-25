@@ -155,7 +155,6 @@
 .insta_box .inner .insta_box_video .insta_box_video_item .container {
     position: relative;
     width: 100%;
-    padding-top: 56.25%;
 }
 
 .insta_box .inner .insta_box_video .insta_box_video_item .container .video_iframe {

@@ -848,10 +848,13 @@
             <div class="wp-block-group three-column">
                 <!-- wp:group -->
                 <div class="wp-block-group three-column-item">
-                    <!-- wp:html -->
-                    <iframe src="https://www.youtube.com/embed/nYTeEWWtEkw" frameborder="0"
-                        allowfullscreen="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                    <!-- /wp:html -->
+                    <!-- wp:embed {"url":"https://www.youtube.com/embed/nYTeEWWtEkw","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+                    <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+                        <div class="wp-block-embed__wrapper">
+                            https://www.youtube.com/embed/nYTeEWWtEkw
+                        </div>
+                    </figure>
+                    <!-- /wp:embed -->
                     <!-- wp:paragraph -->
                     <p class="text">【EGO】<br>FACE Gymセラピー（深層筋EMS)</p>
                     <!-- /wp:paragraph -->
@@ -859,10 +862,13 @@
                 <!-- /wp:group -->
                 <!-- wp:group -->
                 <div class="wp-block-group three-column-item">
-                    <!-- wp:html -->
-                    <iframe src="https://www.youtube.com/embed/j0FPmJsCORY" frameborder="0"
-                        allowfullscreen="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                    <!-- /wp:html -->
+                    <!-- wp:embed {"url":"https://www.youtube.com/watch?v=j0FPmJsCORY&ab_channel=SEIKOSHA","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+                    <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+                        <div class="wp-block-embed__wrapper">
+                            https://www.youtube.com/watch?v=j0FPmJsCORY&ab_channel=SEIKOSHA
+                        </div>
+                    </figure>
+                    <!-- /wp:embed -->
                     <!-- wp:paragraph -->
                     <p class="text">【RAFOS premium】FASCIA RELEASE<br> BAR（筋膜リリースセラピー）</p>
                     <!-- /wp:paragraph -->
@@ -870,10 +876,13 @@
                 <!-- /wp:group -->
                 <!-- wp:group -->
                 <div class="wp-block-group three-column-item">
-                    <!-- wp:html -->
-                    <iframe src="https://www.youtube.com/embed/NQxb_sD9SBQ" frameborder="0"
-                        allowfullscreen="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                    <!-- /wp:html -->
+                    <!-- wp:embed {"url":"https://www.youtube.com/embed/NQxb_sD9SBQ","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+                    <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+                        <div class="wp-block-embed__wrapper">
+                            https://www.youtube.com/embed/NQxb_sD9SBQ
+                        </div>
+                    </figure>
+                    <!-- /wp:embed -->
                     <!-- wp:paragraph -->
                     <p class="text">【FAMUBO】<br>FAMUBOフォローアップセミナー 2020</p>
                     <!-- /wp:paragraph -->
