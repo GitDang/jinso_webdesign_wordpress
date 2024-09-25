@@ -253,6 +253,7 @@ h2 span:before {
   flex-direction: column;
   justify-content: center;
   white-space: break-spaces;
+  margin: 0;
 }
 
 
@@ -279,3 +280,21 @@ h2 span:before {
 .product-intro-category .product-intro-category-item-title a {
   text-decoration: none;
 }
+
+.product-intro-pack-content .product-intro-pack-content-item p.wp-block-paragraph {
+  position: unset;
+}
+
+.product-intro-pack-content .product-intro-pack-content-item .product-intro-pack-title {
+  top: 30%;
+}
+
+.block-editor-block-list__layout .block-editor-block-list__block img {
+  width: 20% !important;
+}
+
+.product-intro-content-area .product-intro-content-area-image img {
+  width: 50% !important;
+}
+
+

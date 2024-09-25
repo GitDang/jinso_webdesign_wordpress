@@ -295,7 +295,7 @@
                     <article class="wp-block-group product-information-item">
                         <!-- wp:group -->
                         <div class="wp-block-group product-information-plasma-care">
-                            <!-- wp:paragraph --><h2 class="product-information-plasma-care-title">Plasma Care</h2><!-- /wp:paragraph -->
+                            <!-- wp:paragraph --><p class="product-information-plasma-care-title">Plasma Care</p><!-- /wp:paragraph -->
                             <!-- wp:paragraph --><p class="product-information-plasma-care-desc">プリニックプラズマが肌にどのように作用するか？</p><!-- /wp:paragraph -->
                             <!-- wp:group -->
                             <div class="wp-block-group product-information-plasma-care-content">

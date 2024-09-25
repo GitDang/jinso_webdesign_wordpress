@@ -68,7 +68,7 @@
 }
 
 .product-information-plinic-sympton .product-information-plinic-sympton-image img {
-    height: 100%;
+    height: 100% !important;
 }
 
 .product-information-plinic-sympton .product-information-plinic-sympton-content {
@@ -524,10 +524,6 @@
     margin: auto;
 }
 
-.product-intro-category {
-
-}
-
 .product-intro-category .product-intro-category-title {
     background-color: #DE6276;
     padding: 5px;
@@ -624,5 +620,454 @@
 .product-information-solution-component {
     padding-bottom: 100px;
 }
+
+.melatite-page.celltite-page .product-intro .product-intro-inner .product-intro-title {
+    color: #737373;
+}
+
+.product-intro-content {
+
+}
+
+.product-intro-content .product-intro-content-text {
+    font-size: 18px;
+    color: #234283;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+
+.product-intro-content .product-intro-content-title {
+    font-size: 30px;
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    color: #204285;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+.product-intro-content .product-intro-content-desc {
+    font-size: 20px;
+    padding: 10px 0 50px;
+    white-space: break-spaces;
+}
+
+.product-intro-content .product-intro-content-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-intro-content .intro-content-item {
+    font-size: 16px;
+    width: 15%;
+    padding: 0px;
+    position: relative;
+}
+
+.product-intro-content .intro-content-item-image-mark {
+    width: 5%;
+}
+
+.product-intro-content .intro-content-item-image-mark img {
+    width: 20%;
+    margin-top: 70px;
+}
+
+.product-intro-content .intro-content-item .intro-content-item-image {
+    margin-bottom: 20px;
+}
+
+.product-intro-content .intro-content-item .intro-content-item-text {
+    font-size: 95%;
+    color: #204285;
+    font-weight: bold;
+    padding: 0.5em 0;
+    border-top: solid 2px #364e96;
+    border-bottom: solid 2px #364e96;
+}
+
+.product-intro-content .content-new  .intro-content-item .intro-content-item-text {
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    font-weight: bold;
+    color: #000A80;
+    font-size: 22px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+
+.melatite-page .product-intro-title-top {
+    color: #000000;
+}
+
+.product-intro-content-area {
+    padding-top: 70px;
+    display: flex;
+}
+
+.product-intro-content-area .product-intro-content-area-image {
+    width: 48%;
+    text-align: left;
+    padding: 0px;
+}
+
+.product-intro-content-area .product-intro-content-area-image img {
+    width: 50%;
+    float: right;
+}
+
+.product-intro-content-area .product-intro-content-area-detail {
+    width: 48%;
+    text-align: left;
+    padding: 0px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.product-intro-content-area .product-intro-content-area-detail .content-area-detail-title {
+    font-size: 150%;
+    font-weight: bold;
+    color: #000000;
+}
+
+.product-intro-content-area .product-intro-content-area-detail .content-area-detail-text {
+    color: #656565;
+    padding-top: 40px;
+}
+
+.product-intro-content-area .product-intro-content-area-detail .content-area-detail-footer {
+    color: #3E90C5;
+    font-size: 120%;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.melatite-page .product-intro .product-intro-inner .product-intro-content {
+    display: block;
+}
+
+.product-intro-content .content-drop .intro-content-item {
+    position: relative;
+}
+
+.product-intro-content .content-drop .intro-content-item .intro-content-item-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.product-intro-content .content-drop {
+    padding-top: 40px;
+}
+
+.product-intro-content .content-drop .intro-content-item .intro-content-item-title {
+    position: relative;
+    z-index: 1;
+    color: #3E90C5;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 30px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.product-intro-content .content-drop .intro-content-item .intro-content-item-text {
+    position: relative;
+    z-index: 1;
+    border: none;
+    padding-top: 10px;
+    font-weight: normal;
+    color: #656565;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.product-intro-content-point {
+    padding-top: 50px;
+}
+
+.product-intro-content-point .product-intro-content-point-detail {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.intro-content-point-item {
+    position: relative;
+    width: 30%;
+    padding: 0;
+}
+
+.intro-content-point-item .intro-content-point-item-text {
+    position: absolute;
+    width: 80%;
+    text-align: left;
+    top: 70px;
+    left: 10%;
+    font-size: 85%;
+}
+
+.product-intro-video-youtube {
+    margin: 0 auto;
+    width: 640px;
+    font-size: 95%;
+    letter-spacing: 1.5px;
+}
+
+.product-intro-video-youtube .product-intro-video-youtube-title {
+    
+    background-color: #18478F;
+    display: block;
+    color: #FFFFFF;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.product-intro-video-youtube .product-intro-video-youtube-content {
+    margin: 0 auto;
+    width: 640px;
+    height: 400px;
+}
+
+.product-intro-pack {
+    width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-intro-pack-content {
+    padding-top: 70px;
+}
+
+.product-intro-pack-content .product-intro-pack-content-item {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    gap: 10px;
+}
+
+.product-intro-pack-content .product-intro-pack-content-item .product-intro-pack-content-item-left {
+    position: relative;
+    width: 45%;
+}
+
+.product-intro-pack-content .product-intro-pack-content-item .product-intro-pack-image-one {
+    min-width: 50px;
+    width: 50px;
+}
+
+.product-intro-pack-content .product-intro-pack-content-item .product-intro-pack-content-item-right {
+    position: relative;
+    width: 45%;
+}
+
+.product-intro-pack-content .product-intro-pack-content-item .product-intro-pack-title {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    top: 45%;
+    left: 45%;
+    font-size: 85%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.product-information-catch {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-information-catch .product-information-catch-title {
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "ＭＳＰゴシック";
+}
+
+.product-information-catch .product-information-catch-title.color-green {
+    color: #00890F;
+    font-weight: bold;
+}
+
+.product-information-catch-desc {
+    width: 60%;
+    margin: auto;
+    font-size: 80%;
+}
+
+.product-information-after {
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.product-information-after .product-information-after-title {
+    font-weight: bold;
+    color: #000000;
+    font-size: 120%;
+}
+
+.product-information-after .product-information-after-desc {
+    
+}
+
+.product-information-after .product-information-after-image {
+    margin: auto;
+    width: 70%;
+}
+
+.product-information-how-to-use {
+
+}
+
+.product-information-how-to-use .product-information-how-to-use-title {
+    position: relative;
+    display: inline-block;
+    padding: 50px 80px 0;
+    font-size: 36px;
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    text-align: center;
+    color: #203F7D;
+}
+
+.product-information-how-to-use .product-information-how-to-use-title::before {
+    content: '';
+    position: absolute;
+    top: 70%;
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: #737373;
+    left: 0;
+}
+
+.product-information-how-to-use .product-information-how-to-use-title::after {
+    content: '';
+    position: absolute;
+    top: 70%;
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: #737373;
+    right: 0;
+}
+
+
+.product-information-how-to-use .product-information-how-to-use-desc {
+    font-size: 20px;
+    padding: 30px 0 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-information-how-to-use .how-to-use-desc-text {
+    font-size: 20px;
+}
+
+.product-information-how-to-use .how-to-use-desc-text.color-red {
+    font-size: 20px;
+    color: #AE1E24;
+    padding-left: 5px;
+}
+
+.product-information-after-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.after-content-item {
+    width: 45%;
+    padding: 0px;
+    position: relative;
+}
+
+.after-content-item .after-content-item-image {
+    
+}
+
+.after-content-item .after-content-item-text {
+    position: absolute;
+    width: 50%;
+    text-align: left;
+    top: 50%;
+    left: 40%;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+}
+
+.product-information-poster {
+    padding-top: 50px;
+}
+
+.product-information-poster .product-information-poster-title {
+    background-color: #204285;
+    width: 90%;
+    margin: 0 auto;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.product-information-poster .product-information-poster-content {
+    width: 20%;
+    margin: auto;
+}
+
+.product-information-poster .product-information-poster-text {
+    padding: 30px 0 20px;
+    font-size: 95%;
+    font-weight: bold;
+    color: #1D1D1D;
+}
+
+.product-information-poster .product-information-poster-image {
+    padding-bottom: 20px;
+}
+
+.product-information-poster .product-information-poster-button {
+    font-size: 98%;
+    color: #FFFFFF;
+    background: #D32C16;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 1em 0;
+}
+
+.product-information-poster .product-information-poster-button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.melatite-page .product-catalog-area {
+    padding-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
