@@ -1060,15 +1060,505 @@
     padding-top: 0;
 }
 
+.essence-page {
+
+}
+
+.essence-page .product-page-top {
+    position: relative;
+    height: 370px;
+}
+
+.essence-page .product-page-top .product-top-background-image {
+    height: 100%;
+}
+
+.essence-page .product-page-top .product-top-background-image img {
+    height: 100%;
+    object-fit: cover;
+    object-position: left top;
+}
+
+.essence-page .product-page-top .product-page-top-title {
+    position: absolute;
+    top: 170px;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.essence-page .product-page-top .product-page-top-title .product-page-top-header {
+    font-size: 40px;
+    color: #333333;
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    font-weight: bold;
+}
+
+.essence-page .product-page-top .product-page-top-title .product-page-top-sub {
+    font-family: Roboto, 'Noto Sans JP', Arial, Helvetica, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    color: #814e22;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-intro-eyec {
+    padding-bottom: 60px;
+}
+
+.product-intro-eyec .product-intro-eyec-title {
+    
+}
+
+.product-intro-eyec .product-intro-eyec-title .product-intro-eyec-title-image {
+    width: 480px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.product-intro-eyec .product-intro-eyec-title .product-intro-eyec-title-text {
+    font-family: Roboto, 'Noto Sans JP', Arial, Helvetica, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-size: 14px;
+    color: #957c27;
+}
+
+.product-intro-eyec .product-intro-eyec-title .product-intro-eyec-title-desc {
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.product-intro-eyec .product-intro-eyec-content {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 40px;
+}
+
+.product-intro-eyec .product-intro-eyec-content .product-intro-eyec-content-image {
+    width: 40%;
+    margin-right: 5%;
+}
+
+.product-intro-eyec .product-intro-eyec-content .product-intro-eyec-content-item {
+    width: 55%;
+}
+
+.product-intro-eyec .product-intro-eyec-content .product-intro-eyec-content-item .eyec-content-item-title {
+    line-height: 1.4;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.product-intro-eyec .product-intro-eyec-content .product-intro-eyec-content-item .eyec-content-item-title::after {
+    border-right: solid 1px #ada142;
+    border-bottom: solid 1px #ada142;
+    bottom: 0;
+    right: 0;
+    content: '';
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    display: inline-block;
+}
+
+.product-intro-eyec .product-intro-eyec-content .product-intro-eyec-content-item .eyec-content-item-title::before {
+    border-left: solid 1px #ada142;
+    border-top: solid 1px #ada142;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    display: inline-block;
+}
+
+.product-intro-eyec .product-intro-eyec-content .product-intro-eyec-content-item .eyec-content-item-desc {
+    text-align: left;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+.product-intro-cytokine {
+
+}
+
+.product-intro-cytokine .product-intro-cytokine-image {
+    
+}
+
+.product-intro-cytokutyo {
+    margin: 0 auto 40px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-intro-cytokutyo .product-intro-cytokutyo-image {
+    width: 50%;
+    padding-top: 40px;
+}
+
+.product-intro-cytokutyo .product-intro-cytokutyo-content {
+    width: 50%;
+    padding-top: 40px;
+}
+
+.product-intro-cytokutyo .product-intro-cytokutyo-title {
+    line-height: 1.4;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.product-intro-cytokutyo .product-intro-cytokutyo-title::after {
+    border-right: solid 1px #ada142;
+    border-bottom: solid 1px #ada142;
+    bottom: 0;
+    right: 0;
+    content: '';
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    display: inline-block;
+}
+
+.product-intro-cytokutyo .product-intro-cytokutyo-title::before {
+    border-left: solid 1px #ada142;
+    border-top: solid 1px #ada142;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    display: inline-block;
+}
+
+.product-intro-cytokutyo .cytokutyo-content-item {
+    text-align: left;
+    padding: 10px;
+    background: #f1eed8;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.product-intro-cytokutyo .cytokutyo-content-item-title {
+    border-bottom: 1px solid #445f78;
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+.product-intro-cytokutyo .cytokutyo-content-item-desc {
+    white-space: break-spaces;
+}
+
+.product-intro-cell {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: 1px solid #ada142;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.product-intro-cell .product-intro-cell-image {
+    width: 40%;
+    margin-bottom: 0;
+}
+
+.product-intro-cell .product-intro-cell-image img {
+    margin-bottom: 0;
+    width: 90%;
+}
 
 
+.product-intro-cell .product-intro-cell-content {
+    width: 60%;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
 
+.product-intro-cell .product-intro-cell-content .product-intro-cell-content-title {
+    font-weight: bold;
+    color: #ada142;
+    font-size: 18px;
+}
 
+.product-intro-cell .product-intro-cell-content .product-intro-cell-content-header {
+    font-weight: bold;
+    background: #ada142;
+    font-size: 13px;
+    padding: 2px;
+    text-align: center;
+    color: #ffffff;
+}
 
+.product-intro-cell .product-intro-cell-content .product-intro-cell-content-desc {
+    padding: 10px 0;
+    
+}
 
+.product-intro-cell .product-intro-cell-content .product-intro-cell-content-info-title {
+    margin-top: 20px;
+    color: #ada142;
+    font-size: 14px;
+}
 
+.product-intro-cell .product-intro-cell-content .product-intro-cell-content-info-text {
+    font-size: 14px;
+    white-space: break-spaces;
+}
 
+.product-intro-pro-date {
+}
 
+.product-intro-pro-date .product-intro-pro-date-header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.product-intro-pro-date .product-intro-pro-date-image {
+    
+}
 
+.product-intro-pro-date .product-intro-pro-date-content {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-intro-pro-date .product-intro-pro-date-content .product-intro-pro-date-content-image {
+    width: calc(50% - 10px);
+}
+
+.intro-content-pro-date-kakomi-text {
+    margin: 0 auto 40px;
+    max-width: 1000px;
+    border: 2px dotted #ded18c;
+    border-radius: 4px;
+    padding: 10px 14px;
+    font-size: 12px;
+    background: #efe9e3;
+    text-align: left;
+}
+
+.product-recommend-header {
+    margin: 0;
+    padding: 50px 0 0;
+    text-align: center;
+}
+
+.product-recommend-header .product-recommend-header-title {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+    font-family: Roboto, Arial, Helvetica, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-size: 30px;
+    color: #656565;
+}
+
+.product-recommend-header .product-recommend-header-title::before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    width: 160px;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #7A7A7A;
+    border-radius: 4px;
+}
+
+.product-recommend-header .product-recommend-header-text {
+    font-size: 20px;
+    color: #ada142;
+    margin-bottom: 40px;
+}
+
+.product-recommend-content {
+
+}
+
+.product-recommend-content .product-recommend-item {
+    position: relative;
+    display: flex;
+    padding-left: 150px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #656565;
+    padding-bottom: 40px;
+}
+
+.product-recommend-content .product-recommend-item.product-recommend-item-sonocare {
+    padding-left: 0;
+    padding-right: 150px;
+}
+
+.product-recommend-content .product-recommend-item .product-recommend-item-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+.product-recommend-content .product-recommend-item.product-recommend-item-sonocare .product-recommend-item-background {
+    right: 0;
+    left: auto;
+}
+
+.product-recommend-content .product-recommend-item .product-recommend-item-background img {
+    height: 100%;
+}
+
+.product-recommend-content .product-recommend-item .product-recommend-item-content {
+    width: 48%;
+    margin-right: 2%;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.product-recommend-content .product-recommend-item .product-recommend-item-content-right {
+    text-align: left;
+    width: 48%;
+    padding-left: 2%;
+    border-left: 1px dashed #ded18c;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.product-recommend-content .product-recommend-item.product-recommend-item-sonocare .product-recommend-item-content-right {
+    width: 38%;
+    margin-right: 10%;
+}
+
+.product-recommend-item .product-recommend-item-content .product-recommend-item-content-title {
+    font-weight: bold;
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    color: #dd2679;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.product-recommend-item .product-recommend-item-content .product-recommend-item-content-text {
+    font-size: 14px;
+    text-align: left;
+}
+
+.product-recommend-item .product-recommend-item-content .product-recommend-item-content-desc {
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    color: #656565;
+    margin-bottom: 20px;
+}
+
+.product-recommend-item .recommend-item-content-list {
+    display: flex;
+}
+
+.product-recommend-item .recommend-item-content-list-button {
+    width: 50%;
+}
+
+.product-recommend-item .recommend-item-plamingo {
+    padding: 4px;
+    background: #d67ffd;
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #ffffff;
+}
+
+.product-recommend-item .recommend-item-button {
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 4px;
+    background: #ffffff;
+    display: block;
+    border: 5px solid #d67ffd;
+    color: #000000;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.product-recommend-item .recommend-item-button:hover {
+    background: #d67ffd;
+    color: #ffffff;
+}
+
+.product-recommend-item .recommend-item-button:hover a {
+    color: #ffffff;
+}
+
+.product-recommend-item .recommend-item-button:hover::after {
+    color: #ffffff;
+}
+
+.product-recommend-item .recommend-item-button::after {
+    content: "\f35a";
+    font-family: "Font Awesome 5 Free";
+    padding-left: .5rem;
+    font-weight: 900;
+    color: #000000;
+}
+
+.product-recommend-item .recommend-item-content-list-image {
+    width: 50%;
+}
+
+.product-recommend-item-content-right .product-recommend-item-content-right-detail {
+    margin-bottom: 20px;
+}
+
+.product-recommend-item-content-right .recommend-item-content-right-title {
+    font-size: 16px;
+    color: #d67ffd;
+}
+
+.product-recommend-item-content-right .recommend-item-content-right-desc {
+}
+
+.product-recommend-item-sonocare .recommend-item-content-list .recommend-item-content-list-button .recommend-item-plamingo {
+    background: #7fbafd;
+}
+
+.product-recommend-item-sonocare .recommend-item-content-list .recommend-item-content-list-button .recommend-item-button {
+    border: 5px solid #7fbafd;
+}
+
+.product-recommend-item-sonocare .product-recommend-item-content-right .recommend-item-content-right-title {
+    color: #7fbafd;
+}
+
+.product-recommend-item-pro .recommend-item-content-list .recommend-item-content-list-button .recommend-item-plamingo {
+    background: #61c568;
+}
+
+.product-recommend-item-pro .recommend-item-content-list .recommend-item-content-list-button .recommend-item-button {
+    border: 5px solid #61c568;
+}
+
+.product-recommend-item-pro .product-recommend-item-content-right .recommend-item-content-right-title {
+    color: #61c568;
+}
+
+.product-recommend-item-sonocare.product-recommend-item .recommend-item-button:hover {
+    background: #7fbafd;
+}
+
+.product-recommend-item-pro.product-recommend-item .recommend-item-button:hover {
+    background: #61c568;
+}
 
