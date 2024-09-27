@@ -4,7 +4,7 @@
  * Title: Rafos Mini
  * 
  * Slug: themeslug/rafos-mini
- * Categories: test-page
+ * Categories: product-page
  *
  * @package Base Theme
  * @since 1.0.0

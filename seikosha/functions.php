@@ -38,6 +38,7 @@ function my_theme_add_editor_styles()
 	add_editor_style(get_template_directory_uri() . '/assets/css/product/plinic.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/product/famubo.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/product/rafos.css');
+	add_editor_style(get_template_directory_uri() . '/assets/css/product/plasma.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/border.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/style.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/footer.css');
@@ -99,6 +100,13 @@ function base_theme_1_styles()
 	wp_enqueue_style(
 		'base-theme-1-product-rafos',
 		get_template_directory_uri() . '/assets/css/product/rafos.css',
+		[],
+		wp_get_theme()->get('Version')
+	);
+
+	wp_enqueue_style(
+		'base-theme-1-product-rafos',
+		get_template_directory_uri() . '/assets/css/product/plasma.css',
 		[],
 		wp_get_theme()->get('Version')
 	);
@@ -300,13 +308,23 @@ function theme_custom_menu()
 {
 	// Tạo menu chính
 	add_menu_page(
-		'テーマのCSS編集', // Tiêu đề hiển thị trên menu
-		'テーマのCSS編集', // Tiêu đề hiển thị trên menu (có thể khác với tiêu đề trên)
+		'テーマの編集', // Tiêu đề hiển thị trên menu
+		'テーマの編集', // Tiêu đề hiển thị trên menu (có thể khác với tiêu đề trên)
 		'manage_options', // Cấp quyền truy cập (thay đổi tùy theo nhu cầu)
 		'css-code-editor', // Slug của menu (sử dụng để tạo link)
 		'custom_css_file_manager_page', // Hàm callback để hiển thị nội dung trang
 		'dashicons-media-document', // Icon (tùy chọn)
 		110 // Vị trí của menu
+	);
+
+	// Tạo submenu
+	add_submenu_page(
+		'css-code-editor', // Slug của menu cha
+		'テーマのCSS編集', // Tiêu đề hiển thị trên menu
+		'テーマのCSS編集', // Tiêu đề hiển thị trên menu (có thể khác với tiêu đề trên)
+		'manage_options', // Cấp quyền truy cập
+		'css-code-editor', // Slug của submenu
+		'custom_css_file_manager_page' // Hàm callback để hiển thị nội dung trang
 	);
 
 	// Tạo submenu
@@ -360,7 +378,7 @@ function custom_css_file_manager_page()
 		if ($_POST) {
 			if (isset($_POST['save_css'])) {
 				file_put_contents($folder_path . '/' . ($_POST['file_name'] ?? $css_file), stripslashes($_POST['css_content']));
-				echo '<div class="updated"><p>CSS file đã được lưu.</p></div>';
+				echo '<div class="updated"><p>ファイルが更新されました。</p></div>';
 				$file_name_edit = $_POST['file_name'];
 			}
 		}
@@ -532,7 +550,7 @@ function custom_js_file_manager_page()
 		if ($_POST) {
 			if (isset($_POST['save_js'])) {
 				file_put_contents($folder_path . '/' . ($_POST['file_name'] ?? $js_file), stripslashes($_POST['js_content']));
-				echo '<div class="updated"><p>JS file đã được lưu.</p></div>';
+				echo '<div class="updated"><p>ファイルが更新されました。</p></div>';
 				$file_name_edit = $_POST['file_name'];
 			}
 		}

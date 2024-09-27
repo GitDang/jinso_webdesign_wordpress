@@ -4,7 +4,7 @@
  * Title: Rafos Sense
  * 
  * Slug: themeslug/rafos-sense
- * Categories: test-page
+ * Categories: product-page
  *
  * @package Base Theme
  * @since 1.0.0

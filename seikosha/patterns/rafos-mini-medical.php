@@ -4,7 +4,7 @@
  * Title: Rafos Mini Medical
  * 
  * Slug: themeslug/rafos-mini-medical
- * Categories: test-page
+ * Categories: product-page
  *
  * @package Base Theme
  * @since 1.0.0

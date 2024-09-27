@@ -4,7 +4,7 @@
  * Title: Rafos Tera
  * 
  * Slug: themeslug/rafos-tera
- * Categories: test-page
+ * Categories: product-page
  *
  * @package Base Theme
  * @since 1.0.0

@@ -4,7 +4,7 @@
  * Title: Rafos Quantum
  * 
  * Slug: themeslug/rafos-quantum
- * Categories: test-page
+ * Categories: product-page
  *
  * @package Base Theme
  * @since 1.0.0

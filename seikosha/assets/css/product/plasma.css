@@ -1,0 +1,342 @@
+.product-page .product-page-top-inner .product-page-top-left.product-page-top-center {
+    text-align: center;
+}
+
+.plasma-bico .pico_laser_orenge_top {
+    background-color: orange;
+    position: relative;
+    padding: 10% 0 10% 0;
+    text-align: center;
+}
+
+.plasma-bico .pico_laser_orenge_top .pico_laser_orenge_top_title {
+    font-size: 2rem;
+    font-family: fantasy;
+    color: #000000;
+}
+
+.plasma-bico .pico_womon {
+    position: relative;
+}
+
+.plasma-bico .pico_womon .pico_text {
+    position: absolute;
+    top: 50px;
+    left: 5%;
+}
+
+.plasma-bico .pico_womon .womanh2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: left;
+    margin-bottom: 5%;
+    font-style: italic;
+    color: #000000;
+}
+
+.plasma-bico .boder_box {
+    border-bottom: 8px solid;
+    max-width: 400px;
+    text-align: left;
+    width: auto;
+    border-image: linear-gradient(to right, #e98503, #e4e000) 1;
+    margin-bottom: 2%;
+}
+
+.plasma-bico .boder_box span {
+    display: none;
+}
+
+.plasma-bico .pico_womon .pico_flex {
+    display: flex;
+    align-items: flex-end;
+}
+
+.plasma-bico .pico_womon .pico_flex .indi {
+    text-align: left;
+    padding-right: 3%;
+}
+
+.plasma-bico .pico_womon .pico_flex_sp {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+.plasma-bico .pico_womon .pico_flex_sp .pico_skin_sample {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.plasma-bico .pico_2point {
+    background-color: rgb(43, 43, 43);
+    padding-left: 15%;
+    position: relative;
+}
+
+.plasma-bico .pico_2point .tama_or1 {
+    width: 70px;
+    position: absolute;
+    top: 5%;
+    left: 1%;
+}
+
+.plasma-bico .pico_2point .tama_or2 {
+    width: 70px;
+    position: absolute;
+    top: 41%;
+    left: 1%;
+}
+
+.plasma-bico .pico_flex_sp {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.plasma-bico .pico_flex_sp .lesions {
+    width: 60%;
+    margin-top: 30%;
+}
+
+.plasma-bico .pico_flex_sp .article .title {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: orange;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.plasma-bico .pico_flex_sp .article p {
+    text-align: left;
+    color: white;
+}
+
+.plasma-bico .pico_flex_sp .article .wp-block-image {
+    width: 60%;
+}
+
+.plasma-bico .pico_flex_sp .article .article_h3 {
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.plasma-bico .boder_box_orenge {
+    border-bottom: 30px solid;
+    width: 100%;
+    border-color: orange;
+}
+
+
+.plasma-bico .boder_box_orenge .components-placeholder {
+    display: none;
+}
+
+.plasma-bico .gray_wrapper {
+    background-color: rgb(43, 43, 43);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.plasma-bico .gray_wrapper .technology_focus {
+    background-color: rgb(43, 43, 43);
+    position: relative;
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.plasma-bico .gray_wrapper .technology_focus .technology {
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    width: 60%;
+    font-size: 1.5rem;
+    margin-left: 5%;
+    position: absolute;
+    top: -10px;
+}
+
+.plasma-bico .gray_wrapper .pico_title_h3 {
+    font-size: 3rem;
+    color: white;
+    text-align: left;
+    font-style: italic;
+}
+
+.plasma-bico .boder_box .components-placeholder {
+    display: none;
+}
+
+.plasma-bico .pico_flex_sp {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    text-align: -webkit-center;
+}
+
+.plasma-bico .pico_flex_sp .pico_graf_img {
+    margin-bottom: 10%;
+    margin-top: 10%;
+    width: 85vh;
+    text-align: -webkit-center;
+}
+
+.plasma-bico .article_txt {
+    text-align: left;
+    color: white;
+    margin-bottom: 8%;
+}
+
+.plasma-bico .pico_flex_sp .Patented_Technologies {
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.plasma-bico .pico_flex_sp .Consistent_Spot {
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.plasma-bico .pico_flex_sp .High-Quality {
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.plasma-bico .pico_flex_sp .Stability {
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.plasma-bico .spec .spcecification {
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    width: 40%;
+    font-size: 3rem;
+    margin-left: 5%;
+    position: absolute;
+    top: -10px;
+    text-align: center;
+}
+
+.plasma-bico .spec .boder_box_orenge2 {
+    border-top: 30px solid;
+    width: 100%;
+    border-color: orange;
+    margin-top: -5%;
+}
+
+.plasma-bico .boder_box_orenge2 .components-placeholder {
+    display: none;
+}
+
+.plasma-bico .spec .spec_flex {
+    display: flex;
+}
+
+.plasma-bico .spec .spec_flex .hontai_img {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.plasma-bico .spec .spec_flex .pico_table thead {
+    border: none;
+}
+
+.plasma-bico .spec .spec_flex .pico_table {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.plasma-bico .spec .spec_flex .pico_table tr th {
+    border: none;
+    padding: 0;
+}
+
+.plasma-bico .spec .spec_flex .pico_table tr td {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.plasma-bico .spec .spec_flex .pico_table tr:last-child td:last-child {
+    border: none;
+}
+
+.plasma-bico .spec .spec_flex .pico_table tr th:first-child {
+    border-top-left-radius: 80px 80px;
+    padding-left: 5%;
+    text-align: left;
+    height: 30px;
+    line-height: 2.5;
+    width: 11%;
+    font-style: italic;
+    color: white;
+    background-color: #000000;
+    font-weight: bold;
+}
+
+.plasma-bico .spec .spec_flex .pico_table tr th:last-child {
+    border-top-right-radius: 80px 80px;
+    padding-left: 5%;
+    text-align: left;
+    height: 30px;
+    line-height: 2.5;
+    width: 20%;
+    font-style: italic;
+    color: white;
+    background-color: #000000;
+    font-weight: bold;
+}
+
+.plasma-bico .spec .spec_flex .pico_table tr td:first-child {
+    padding-left: 5%;
+    text-align: left;
+    height: 30px;
+    line-height: 2.5;
+    background-color: rgb(102, 102, 102);
+    color: white;
+    width: 20%;
+}
+
+.plasma-bico .spec .spec_flex .pico_table tr td:last-child {
+    padding-left: 5%;
+    width: 40%;
+    background-color: rgb(233, 233, 233);
+    text-align: left;
+}
+
+.plasma-bico .spec .spec_flex .pico_table tr:last-child td:first-child {
+    border-bottom-left-radius: 40px 40px;
+}
+
+.plasma-bico .spec .spec_flex .pico_table tr:last-child td:last-child {
+    border-bottom-right-radius: 40px 40px;
+}
+
+.plasma-bico .spec .title_video {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.plasma-bico .spec .video_width {
+    text-align: center;
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+}

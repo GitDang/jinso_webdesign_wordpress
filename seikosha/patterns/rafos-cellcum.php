@@ -4,7 +4,7 @@
  * Title: Rafos Cellcum
  * 
  * Slug: themeslug/rafos-cellcum
- * Categories: test-page
+ * Categories: product-page
  *
  * @package Base Theme
  * @since 1.0.0
