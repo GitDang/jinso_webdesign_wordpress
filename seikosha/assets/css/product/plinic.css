@@ -1893,3 +1893,233 @@
 .essence-page .product-page-top .product-page-top-title .product-page-top-sub.color-white {
     color: #fff;
 }
+
+.product-intro-content-list-box {
+    margin-top: 20px;
+    border: 1px solid #2e6ab1;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.product-intro-content-list-box .content-list-box-left {
+    width: 47%;
+    margin-right: 3%;
+    margin-bottom: 0;
+}
+
+.product-intro-content-list-box .content-list-box-left .product-intro-content-image {
+    margin-top: 0 !important;
+}
+
+.product-intro-content-list-box .content-list-box-right {
+    width: 50%;
+    margin-top: 10px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-intro-content-list-box .content-list-box-right .content-list-box-right-title {
+    background: #2eb131;
+    color: #ffffff;
+    padding: 2px 20px;
+    font-size: 14px;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.product-intro-content-list-box .content-list-box-right .content-list-box-right-desc {
+    white-space: break-spaces;
+    font-size: 14px;
+    text-align: start;
+}
+
+.product-intro-content-list-box .content-list-box-right .content-list-box-right-desc span {
+    color: #2792c3;
+}
+
+.product-intro-content-list-box .content-list-box-right .content-list-box-right-desc.sub-text {
+    font-size: 86%;
+}
+
+.product-intro-content-list-box .content-list-box-right .content-list-box-right-button {
+    background: #3a7893;
+    display: inline-block;
+    width: 100px;
+    margin: 20px 10px 0;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+
+.product-intro-content-list-box .content-list-box-right .content-list-box-right-button a {
+    color: #ffffff;
+}
+
+.product-intro-content-list-box .content-list-box-right .content-list-box-right-button a::after {
+    content: "\f35a";
+    font-family: "Font Awesome 5 Free";
+    padding-left: .5rem;
+    font-weight: 900;
+}
+
+.product-information-plinic-effect .product-information-plinic-effect-title {
+    white-space: break-space;
+}
+
+.canalsoft-product-page .plinic-effect-item .plinic-effect-item-title {
+    color: #F97706;
+    z-index: 1;
+}
+
+.product-page.canalsoft-product-page .product-page-top .product-page-top-left {
+    color: #fff;
+}
+
+.product-page.canalsoft-product-page .product-page-top {
+    background-color: #000000;
+}
+
+.product-information-symptom-title {
+    background: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 8px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-information-symptom-title .product-information-symptom-title-desc {
+    color: #F97706;
+}
+
+.symptom-item {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+ 
+.symptom-item .symptom-item-image {
+    width: 42%;
+    margin-right: 2%;
+}
+ 
+.symptom-item .symptom-item-content {
+    width: 56%;
+}
+ 
+.symptom-item .symptom-item-title {
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: left;
+    font-family: Roboto, 'Noto Sans JP', Arial, Helvetica, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-size: 16px;
+    border-bottom: 1px solid #707070;
+}
+ 
+.symptom-item .symptom-item-desc {
+    white-space: break-space;
+}
+ 
+.symptom-item .symptom-item-content-earthtoha {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 16px;
+}
+ 
+.symptom-item .symptom-item-content-earthtoha .symptom-item-title {
+    background: #0150ac;
+    border-radius: 4px;
+    color: #ffffff;
+    width: 30%;
+    margin-right: 3%;
+    text-align: left;
+    padding: 4px;
+    height: 34px;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+}
+
+.symptom-item .symptom-item-content-earthtoha .symptom-item-desc {
+    width: 67%;
+    margin-bottom: 10px;
+
+}
+
+.product-information-example-content .example-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-information-example-content .example-item .example-item-image {
+    width: calc(100% / 3 - 20px);
+    margin: 0 auto 30px;
+}
+
+.product-information-example-content .example-item-desc {
+    text-align: right;
+}
+
+.product-information-example-content .example-item-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.product-information-example-content .example-item-content .example-item-content-image {
+    width: 54%;
+    margin-right: 4%;
+}
+
+.product-information-example-content .example-item-content .example-item-content-list-right {
+    width: 42%;
+}
+
+.product-information-example-content .example-item-content .example-item-title {
+    display: flex;
+    border-bottom: 1px solid #707070;
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: left;
+    font-family: Roboto, 'Noto Sans JP', Arial, Helvetica, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+}
+
+.product-information-instagram-header .product-information-instagram-header-title {
+    border: 2px solid #0150ac;
+    margin: 10px 0 20px;
+    padding: 10px;
+    white-space: break-spaces;
+    text-align: center;
+}
+
+.product-information-instagram-header .product-information-instagram-header-title span {
+    color: #0572B9;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.product-information-instagram-body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.instagram-body-item {
+    width: calc(100% / 4 - 10px);
+    text-align: left;
+}
+
+.instagram-body-item .instagram-body-item-desc {
+    width: 100%;
+    margin: 6px 0;
+    font-size: 14px;
+    white-space: break-spaces;
+}
