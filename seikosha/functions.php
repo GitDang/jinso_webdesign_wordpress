@@ -209,15 +209,6 @@ function theme_slug_enqueue_scripts()
 
 	wp_enqueue_script(
 		'theme-slug-script',
-		get_parent_theme_file_uri('assets/js/custom.js'),
-		array(),
-		wp_get_theme()->get('Version'),
-		true
-	);
-
-
-	wp_enqueue_script(
-		'theme-slug-script',
 		get_parent_theme_file_uri('assets/js/script.js'),
 		array(),
 		wp_get_theme()->get('Version'),

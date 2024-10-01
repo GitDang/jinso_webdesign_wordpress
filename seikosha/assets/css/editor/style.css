@@ -298,4 +298,26 @@ h2 span:before {
   width: 50% !important;
 }
 
+.essence-page .product-page-top .product-top-background-image .components-resizable-box__container {
+  height: 100% !important;
+}
 
+.product-pdf-inner {
+  padding-top: 20px;
+}
+
+.product-canal-list {
+  gap: 20px;
+}
+
+.eyec-content-item-title {
+  margin-block-end: 40px !important;
+}
+
+.product-intro-pro-date .product-intro-pro-date-header {
+  padding-bottom: 20px;
+}
+
+.product-intro-kouzo-test-title {
+  padding-bottom: 10px;
+}
