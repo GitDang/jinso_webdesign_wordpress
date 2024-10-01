@@ -340,3 +340,357 @@
     height: 315px;
     margin: 0 auto;
 }
+
+.plasma-puraxel .smartlux_intro {
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.plasma-puraxel .smartlux_intro .inner {
+    padding: 0;
+    width: 92%;
+    margin: 0 auto;
+    max-width: 1280px;
+    text-align: -webkit-center;
+}
+
+.plasma-puraxel .smartlux_intro .inner .wp-block-image.puraxel_logo img {
+    margin: 0px;
+    width: 17%;
+}
+
+.plasma-puraxel .smartlux_intro .sub_title {
+    width: 100%;
+    color: #1E1E1E;
+    font-size: 36px;
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.plasma-puraxel .smartlux_intro .content {
+    padding-bottom: 50px !important;
+    line-height: 170%;
+}
+
+.plasma-puraxel .smartlux_intro .container-video {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    animation: load 1.5s 0.8s ease-out forwards;
+}
+
+.plasma-puraxel .smartlux_intro .container-video .table-center {
+    display: table;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.plasma-puraxel .smartlux_intro .container-video .table-center p {
+    color: #fff;
+    text-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.015em;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.plasma-puraxel .smartlux_intro .container-video .video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100px;
+    z-index: -1000;
+    overflow: hidden;
+    transform: translate(-50%, -50%) scale(1.05);
+}
+
+.plasma-puraxel .smartlux_intro .pura_video {
+    width: 100%;
+    height: 100%;
+    background-color: #0D2A0A;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.plasma-puraxel .smartlux_intro .pura_video video {
+    width: 72%;
+    height: 100%;
+}
+
+.plasma-puraxel .smartlux_intro .pura_video .videotext {
+    width: 75%;
+    font-size: 90%;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: left;
+}
+
+.plasma-puraxel .smartlux_intro .ttl_02 {
+    width: 100%;
+    background: #02023A;
+    margin: 0 auto;
+    padding: 10px;
+    letter-spacing: 1.5px;
+    border-radius: 200px;
+    font-size: 120%;
+}
+
+.plasma-puraxel .smartlux_intro .ttl_02.background-color-black {
+    background: #000000;
+}
+
+.plasma-puraxel .smartlux_intro .text-color-white {
+    color: white;
+}
+
+.plasma-puraxel .smartlux_intro .ttl {
+    width: 100%;
+    color: #364e96;
+    padding: 0.5em 0;
+    border-top: solid 3px #364e96;
+    border-bottom: solid 3px #364e96;
+    margin: 0 auto;
+}
+
+.plasma-puraxel .smartlux_intro .lr_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plasma-puraxel .smartlux_intro .lr_box .item_lr_box {
+    width: 45%;
+    padding: 0px;
+}
+
+.plasma-puraxel .smartlux_intro .lr_box .item_lr_box.text-center {
+    text-align: -webkit-center;
+}
+
+.plasma-puraxel .smartlux_intro .lr_box .item_lr_box .wp-block-image.img_border img {
+    border: solid 1px #CBCBCB;
+    width: 80%;
+}
+
+.plasma-puraxel .smartlux_intro .lr_box .item_lr_box .wp-block-image img {
+    width: 100%;
+}
+
+.plasma-puraxel .smartlux_intro .lr_box .item_lr_box .hositsu {
+    position: relative;
+}
+
+.plasma-puraxel .smartlux_intro .lr_box .item_lr_box p {
+    text-align: left;
+}
+
+.plasma-puraxel .smartlux_intro .lr_box .item_lr_box .width-80 {
+    width: 80%;
+}
+
+.plasma-puraxel .smartlux_intro .lr_box .item_lr_box .hositsu .hositsutext {
+    padding: 30px;
+    padding-top: 50px;
+    font-size: 80%;
+    color: #000000;
+    text-align: left;
+    line-height: 1.8;
+    position: absolute;
+    top: 0;
+}
+
+.plasma-puraxel .smartlux_intro .ttl_03 {
+    width: 90%;
+    background: #A1B9C6;
+    margin: 0 auto;
+    padding: 8px;
+    letter-spacing: 1px;
+    border-radius: 200px;
+}
+
+.plasma-puraxel .smartlux_intro .column_area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.plasma-puraxel .smartlux_intro .column_area .temp {
+    width: 40%;
+    margin: 20px 30px 40px;
+    text-align: left;
+}
+
+.plasma-puraxel .smartlux_intro .column_area .temp_ba {
+    padding: 5px;
+}
+
+.plasma-puraxel .smartlux_intro .column_area .temp .wp-block-group img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.plasma-puraxel .smartlux_intro .column_area .temp .wp-block-group {
+    position: relative;
+}
+
+.plasma-puraxel .smartlux_intro .column_area .temp .temp_ttl {
+    background-color: #F96F71;
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.plasma-puraxel .smartlux_intro .column_area .temp .temp_ttl.background-brown {
+    background-color: #693F34;
+}
+
+.plasma-puraxel .smartlux_intro .column_area .temp .temp_ttl.background-blue {
+    background-color: #3DABDD;
+}
+
+.plasma-puraxel .smartlux_intro .column_area .temp .temp_ttl.background-brown-light {
+    background-color: #B78B84;
+}
+
+.plasma-puraxel .smartlux_intro .column_area .temp .temp_ttl.background-black {
+    background-color: #222536;
+}
+
+.plasma-puraxel .smartlux_intro .ttl_04 {
+    width: 90%;
+    background: #777777;
+    margin: 0 auto;
+    padding: 8px;
+    letter-spacing: 1px;
+    border-radius: 200px;
+}
+
+.plasma-puraxel .smartlux_intro .column_two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 30px;
+}
+
+.plasma-puraxel .smartlux_intro .column_two .temptest {
+    width: 45%;
+    margin: 10px;
+}
+
+.plasma-puraxel .smartlux_intro .column_two .temptest.text-center {
+    text-align: -webkit-center;
+}
+
+.plasma-puraxel .smartlux_intro .column_two .temptest img {
+    width: 50%;
+}
+
+.plasma-puraxel .smartlux_intro .ttl_ba_02 {
+    width: 100%;
+    background-color: #42639C;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.plasma-puraxel .smartlux_intro .ttl_ba_02.background-change {
+    background-color: #708CB0;
+}
+
+.plasma-puraxel .smartlux_intro .ttl_05 {
+    width: 100%;
+    background: #46467D;
+    margin: 0 auto;
+    padding: 10px;
+    letter-spacing: 1.5px;
+    border-radius: 200px;
+    font-size: 120%;
+}
+
+.product-page .product-information.background-black {
+    width: 100%;
+    background-color: #282828;
+    margin-top: 35px;
+}
+
+.plasma-puraxel .smartlux_intro .ttl_spec {
+    width: 100%;
+    background: #B4B4B4;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.plasma-puraxel .smartlux_intro .ttl_spec .text-color-black {
+    color: #000000;
+}
+
+.plasma-puraxel .smartlux_intro .spec_bg {
+    position: relative;
+}
+
+.plasma-puraxel .smartlux_intro .spec_bg .lr_box {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plasma-puraxel .smartlux_intro .spec_bg .item_lr_box {
+    width: 85%;
+    height: auto;
+    padding: 0px;
+}
+
+.plasma-puraxel .smartlux_intro .spec_bg .item_lr_box .table_puraxel {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: #fff;
+    opacity: 65%;
+    width: 100%;
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.plasma-puraxel .smartlux_intro .spec_bg .item_lr_box .table_puraxel th {
+    background: #A28581;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 10px;
+}
+
+.plasma-puraxel .smartlux_intro .spec_bg .item_lr_box .table_puraxel thead {
+    border: none;
+}
+
+.plasma-puraxel .smartlux_intro .spec_bg .item_lr_box .table_puraxel tbody tr td {
+    text-align: left;
+}
