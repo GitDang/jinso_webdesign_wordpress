@@ -39,6 +39,7 @@ function my_theme_add_editor_styles()
 	add_editor_style(get_template_directory_uri() . '/assets/css/product/famubo.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/product/rafos.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/product/plasma.css');
+	add_editor_style(get_template_directory_uri() . '/assets/css/product/ems.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/border.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/style.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/footer.css');
@@ -107,6 +108,13 @@ function base_theme_1_styles()
 	wp_enqueue_style(
 		'base-theme-1-product-rafos',
 		get_template_directory_uri() . '/assets/css/product/plasma.css',
+		[],
+		wp_get_theme()->get('Version')
+	);
+
+	wp_enqueue_style(
+		'base-theme-1-product-ems',
+		get_template_directory_uri() . '/assets/css/product/ems.css',
 		[],
 		wp_get_theme()->get('Version')
 	);
