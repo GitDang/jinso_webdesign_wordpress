@@ -1,0 +1,114 @@
+ .ego-page .product-information .product-information-item .product-information-list-topic {
+    gap: 10px;
+    justify-content: start;
+}
+
+.title-maru-list {
+    display: inline-block;
+    color: #fff;
+    background: #dc143c;
+    line-height: 24px;
+    padding: 1px 5px 2px;
+    margin-left: -4px;
+    position: relative;
+    margin-right: 18px;
+}
+
+.title-maru-list::before {
+    display: inline-block;
+    content: "";
+    border-top: 13px solid transparent;
+    border-left: 12px solid #dc143c;
+    border-bottom: 13px solid transparent;
+    color: #fff;
+    position: absolute;
+    right: -12px;
+}
+.ego-page .product-intro .product-intro-inner .product-intro-content-item .product-intro-content-image {
+    width: 80%;
+    margin: 30px auto 0;
+}
+
+.ego-page .category-page-division .category-division-list .category-division-link {
+    width: calc(100% / 2 - 10px);
+}
+
+.howto-box {
+    position: relative;
+}
+
+.howto-box .product-information-item-echo .howto-box-inner {
+    border: 1px solid #656565;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.howto-box .howto-box-title {
+    padding: 4px 10px;
+    margin: 0 0 10px;
+    background: #00643d;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.howto-box .howto-box-title.color-blue {
+    background: #083388;
+}
+
+.howto-box .howto-box-title.color-red {
+    background: #d0111b;
+}
+
+.howto-box .list-howto-box {
+    list-style-type: square;
+    padding: 0 15px 40px 20px;
+}
+
+.howto-box .list-howto-box .howto-box-content {
+    margin-bottom: 8px;
+    white-space: pre-line;
+}
+
+.howto-box .howto-box-background {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.product-information .product-information-item .product-information-list-echo.howto-box {
+    justify-content: space-between;
+}
+
+.product-information .product-information-item .product-information-list-echo.howto-box .product-information-item-echo {
+    padding: 0;
+}
+
+.product-information-list-body .product-body-table table {
+    table-layout: auto;
+}
+
+.product-body-table th {
+    background: #87ceeb;
+    color: #ffffff;
+    border: 1px solid #a9a9a9;
+    padding: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.product-body-table tr td {
+    border: 1px solid #a9a9a9;
+    padding: 4px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.product-body-table tr:nth-child(odd) td {
+    background: #f5f5f5;
+}
+
+.ego-page .product-catalog-area {
+    padding: 0 10% 10%;
+}
+
