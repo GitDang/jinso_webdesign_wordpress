@@ -736,7 +736,7 @@
                             <div class="wp-block-group product-information-part-list-button">
                                 <!-- wp:button -->
                                 <div class="wp-block-button button-part">
-                                    <a class="wp-block-button__link" href="../../pdf/products/ego.pdf" target="_blank">ＰＤＦダウンロード</a>
+                                    <a class="wp-block-button__link" href="../../pdf/products/EGO.pdf" target="_blank">ＰＤＦダウンロード</a>
                                 </div>
                                 <!-- /wp:button -->
                                 <!-- wp:button -->
