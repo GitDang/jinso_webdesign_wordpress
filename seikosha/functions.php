@@ -106,7 +106,7 @@ function base_theme_1_styles()
 	);
 
 	wp_enqueue_style(
-		'base-theme-1-product-rafos',
+		'base-theme-1-product-plasma',
 		get_template_directory_uri() . '/assets/css/product/plasma.css',
 		[],
 		wp_get_theme()->get('Version')

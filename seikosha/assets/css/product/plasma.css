@@ -464,7 +464,7 @@
     margin: 0 auto;
 }
 
-.plasma-puraxel .smartlux_intro .lr_box {
+.product-page .lr_box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -472,7 +472,7 @@
     gap: 20px;
 }
 
-.plasma-puraxel .smartlux_intro .lr_box .item_lr_box {
+.product-page .lr_box .item_lr_box {
     width: 45%;
     padding: 0px;
 }
@@ -693,4 +693,215 @@
 
 .plasma-puraxel .smartlux_intro .spec_bg .item_lr_box .table_puraxel tbody tr td {
     text-align: left;
+}
+
+.product-page .product-information-item .cip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-page .product-information-item .cip .cip_item {
+    width: calc(100% / 5 - 10px);
+}
+
+.product-page .product-information-item .cip .cip_item .cip_txt {
+    padding: 4px 10px;
+    margin: 0;
+    background: #fef4f7;
+    font-size: 13px;
+}
+
+.plasma-esthelux .esthelux_intro {
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.plasma-esthelux .esthelux_intro .inner {
+    padding: 0;
+    width: 92%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.plasma-esthelux .esthelux_intro .inner .custom-img-width-35 img {
+    width: 35%;
+}
+
+.plasma-esthelux .esthelux_intro .inner .custom-img-width-35 {
+    text-align: -webkit-center;
+}
+
+.plasma-esthelux .esthelux_intro .inner .sma {
+    font-size: 40px;
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+.plasma-esthelux .esthelux_intro .inner .sub_catch {
+    font-size: 20px;
+    color: #2A2A2A;
+}
+
+.plasma-esthelux .esthelux_intro .inner .three_column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plasma-esthelux .esthelux_intro .inner .three_column .item {
+    width: 25%;
+    padding: 0px;
+}
+
+.plasma-esthelux .esthelux_intro .inner .sub_catch_02 {
+    font-size: 18px;
+    color: #A13026;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.plasma-esthelux .esthelux_intro .inner .three_column_02 {
+    padding-bottom: 40px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.plasma-esthelux .esthelux_intro .inner .three_column_02 .item {
+    width: 20%;
+    padding: 0px;
+}
+
+.plasma-esthelux .esthelux_intro .inner .four_column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plasma-esthelux .esthelux_intro .inner .item {
+    width: 22%;
+    padding: 0px;
+}
+
+.product-page .lr_box .item_lr_box .lr_box_ttl {
+    color: #364e96;
+    padding: 0.25em 0;
+    border-top: solid 3px #364e96;
+    border-bottom: solid 3px #364e96;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product-page .text-left {
+    text-align: left;
+}
+
+.product-page .lr_box .item_lr_box .image-left {
+    float: left;
+    width: 60%;
+}
+
+.product-page .lr_box .item_lr_box .image-right {
+    float: right;
+    width: 30%;
+}
+
+.product-page .ttl_01 {
+    width: 100%;
+    background: #318EBE;
+    margin: 0 auto;
+    padding: 5px;
+    letter-spacing: 1.5px;
+    border-radius: 0px;
+    font-size: 100%;
+    color: #FFFFFF;
+}
+
+.product-page .ttl_01 {
+    width: 100%;
+    background: #8B8C87;
+    margin: 0 auto;
+    padding: 6px;
+    letter-spacing: 1.5px;
+    border-radius: 0px;
+    font-size: 120%;
+    color: #FFFFFF;
+}
+
+.product-page .table_black {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+    background: #fff;
+    width: 90%;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.product-page .table_black th {
+    background: #787878;
+    color: #ffffff;
+    text-align: left;
+    padding: 6px;
+}
+
+.product-page .table_black td {
+    padding: 6px;
+    text-align: left;
+}
+
+.product-page .table_black thead {
+    border: none;
+}
+
+.product-page .table_black th:first-child {
+    width: 15rem;
+}
+
+.product-page .ttl_03 {
+    width: 85%;
+    background: #B01F22;
+    margin: 0 auto;
+    padding: 6px;
+    letter-spacing: 1.5px;
+    border-radius: 0px;
+    font-size: 120%;
+    color: #FFFFFF;
+}
+
+.product-page .two_flex_esthelux {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.product-page .two_flex_esthelux .img {
+    display: inline-block;
+    width: 40%;
+    margin: 10px;
+    border: solid 1px #8F8F8F;
+}
+
+.product-page .four_column_02 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-page .four_column_02 .item{
+    width: 22%;
+    padding: 10px;
 }
