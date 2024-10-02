@@ -112,3 +112,56 @@
     padding: 0 10% 10%;
 }
 
+.product-pad {
+    font-size: 16px;
+    padding: 50px 0;
+}
+
+.product-pad .product-pad-title {
+    font-weight: bold;
+    font-size: 120%;
+    text-align: left;
+}
+
+.product-pad .product-pad-list {
+    display: flex;
+}
+
+.product-pad .product-pad-item-image {
+    border: gray 1px solid;
+}
+
+.product-pad .product-pad-item-title {
+    text-align: center;
+}
+
+.speed-slim-title {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.speed-title-top-pink {
+    font-size: 1.2rem;
+    color: rgb(228, 153, 228);
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+}
+
+.speed-title-top-absolute {
+    color: #FFF;
+    font-size: 1rem;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+}
+
+.speed-slim-product-page .product-intro .product-intro-inner .product-intro-content-item .product-intro-content-table thead th:first-child {
+    width: 9rem;
+}
+
+.speed-slim-product-page .product-intro .product-intro-inner .product-intro-content-item .product-intro-content-table tr td {
+    white-space: pre-line;
+}
+

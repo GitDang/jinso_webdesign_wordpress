@@ -321,3 +321,12 @@ h2 span:before {
 .product-intro-kouzo-test-title {
   padding-bottom: 10px;
 }
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-content-table thead th::before {
+  position: absolute;
+  top: 1px;
+}
+
+.product-intro .product-intro-inner .product-intro-content-item .product-intro-content-table thead th .block-editor-rich-text__editable.rich-text {
+  padding-left: 15px;
+}
