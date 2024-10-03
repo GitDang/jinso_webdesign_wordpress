@@ -901,7 +901,53 @@
     justify-content: center;
 }
 
-.product-page .four_column_02 .item{
+.product-page .four_column_02 .item {
     width: 22%;
     padding: 10px;
+}
+
+.plasma-esthelux-pro .eshelux-pro_itaric {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.plasma-esthelux-pro .wp-block-image.plasma-esthelux-pro_logo img {
+    width: 50% !important;
+    margin-bottom: 0px !important;
+}
+
+.plasma-esthelux-pro .wp-block-image.plasma-esthelux-pro_logo_banner img {
+    width: 100% !important;
+}
+
+
+.plasma-esthelux-pro .eshelux-pro_four_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plasma-esthelux-pro .eshelux-pro_four_box .item {
+    width: calc(100% / 4);
+    margin-top: 30px;
+}
+
+.plasma-esthelux-pro .eshelux-pro_four_box .item img {
+    width: 100% !important;
+}
+
+.product-page .Default .inner .koria-logo {
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    align-items: center;
+}
+
+.product-page .Default .inner .eshelux-pro_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.plasma-esthelux-pro .product-pdf-inner.width-100 {
+    width: 100%;
 }

@@ -204,7 +204,7 @@
         <!-- wp:group -->
         <div class="wp-block-group product-pdf pb0">
             <!-- wp:group -->
-            <div class="wp-block-group product-pdf-inner">
+            <div class="wp-block-group product-pdf-inner width-100">
                 <!-- wp:group -->
                 <div class="wp-block-group product-information">
                     <!-- wp:group {"tagName":"article"} -->

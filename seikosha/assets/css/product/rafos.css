@@ -250,6 +250,12 @@
     width: 43%;
 }
 
+.product-page .intro .inner .herfbox .herf_l .wp-block-image img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
 .product-page .intro .inner .herfbox .herf_r .wp-block-image img {
     width: 80%;
     margin: 0 auto;
@@ -315,7 +321,7 @@
     font-weight: 900;
 }
 
-.rafos-tera .Default {
+.product-page .Default {
     width: 90%;
     max-width: 1120px;
     margin: 0 auto;
@@ -328,7 +334,7 @@
     margin: 0 auto;
 }
 
-.rafos-tera .Default .pdf_box .inner {
+.product-page .Default .inner {
     padding: 0;
     width: 92%;
     margin: 0 auto;
