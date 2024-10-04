@@ -4,7 +4,7 @@
  * Title: Plasma Bico
  * 
  * Slug: themeslug/plasma-bico
- * Categories: test-page
+ * Categories: product-page
  *
  * @package Base Theme
  * @since 1.0.0

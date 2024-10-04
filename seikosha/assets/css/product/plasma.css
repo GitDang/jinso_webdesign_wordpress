@@ -863,7 +863,7 @@
     border: none;
 }
 
-.product-page .table_black th:first-child {
+.product-page .table_black.width-15 th:first-child {
     width: 15rem;
 }
 

@@ -69,7 +69,7 @@
         <!-- wp:group -->
         <div class="wp-block-group inner">
             <!-- wp:image -->
-            <figure class="wp-block-image">
+            <figure class="wp-block-image logo_title">
                 <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/products/rafos/f_logo2.png')); ?>" /></a>
             </figure>
             <!-- /wp:image -->

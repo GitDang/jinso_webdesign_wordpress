@@ -23,7 +23,7 @@
     width: 100%;
 }
 
-.product-page .intro .inner .wp-block-image img {
+.product-page .intro .inner .wp-block-image.logo_title img {
     margin-bottom: 20px;
     width: 23%;
 }
@@ -41,19 +41,19 @@
     margin: 0 auto;
 }
 
-.rafos-sense .division .inner {
+.product-page .division .inner {
     width: 80%;
     display: block;
 }
 
-.rafos-sense .box_center {
+.product-page .box_center {
     margin: 40px 0 auto !important;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.rafos-sense .box_center .wp-block-button__link {
+.product-page .box_center .wp-block-button__link {
     width: 240px;
     display: block;
     padding: 15px;
@@ -256,12 +256,12 @@
 }
 
 
-.product-page .intro .inner .herfbox .herf_r .wp-block-image img {
+.product-page .intro .inner .wp-block-image img {
     width: 80%;
     margin: 0 auto;
 }
 
-.product-page .intro .inner .herfbox .herf_r .table_black {
+.product-page .intro .inner .table_black {
     font-size: 14px;
     border-collapse: collapse;
     border-spacing: 0;
@@ -270,35 +270,35 @@
     margin-bottom: 10px;
 }
 
-.product-page .intro .inner .herfbox .herf_r .table_black thead tr th {
+.product-page .intro .inner .table_black thead tr th {
     background: #000000;
     color: #ffffff;
     text-align: left;
     padding: 4px;
 }
 
-.product-page .intro .inner .herfbox .herf_r .table_black tbody tr td {
+.product-page .intro .inner .table_black tbody tr td {
     padding: 4px;
     text-align: left;
 }
 
-.product-page .intro .inner .herfbox .herf_r .table_black figcaption {
+.product-page .intro .inner .table_black figcaption {
     display: none;
 }
 
-.product-page .intro .inner .herfbox .herf_r .txt_rgt {
+.product-page .intro .inner .txt_rgt {
     text-align: right;
     font-size: 14px;
 }
 
-.product-page .intro .inner .herfbox .herf_r .btn_toi {
+.product-page .intro .inner .btn_toi {
     font-size: 16px;
     text-align: -webkit-center;
     width: 100%;
     margin-top: 40px;
 }
 
-.product-page .intro .inner .herfbox .herf_r .btn_toi .wp-block-button__link {
+.product-page .intro .inner .btn_toi .wp-block-button__link {
     width: 240px;
     display: block;
     padding: 15px;
@@ -310,11 +310,11 @@
     border-radius: 0px;
 }
 
-.product-page .intro .inner .herfbox .herf_r .btn_toi :hover {
+.product-page .intro .inner .btn_toi :hover {
     opacity: 0.7;
 }
 
-.product-page .intro .inner .herfbox .herf_r .btn_toi .wp-block-button__link:after {
+.product-page .intro .inner .btn_toi .wp-block-button__link:after {
     content: "\f35a";
     font-family: "Font Awesome 5 Free";
     padding-left: .5rem;

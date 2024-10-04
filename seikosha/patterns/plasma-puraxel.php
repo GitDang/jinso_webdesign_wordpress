@@ -4,7 +4,7 @@
  * Title: Plasma Puraxel
  * 
  * Slug: themeslug/plasma-puraxel
- * Categories: test-page
+ * Categories: product-page
  *
  * @package Base Theme
  * @since 1.0.0

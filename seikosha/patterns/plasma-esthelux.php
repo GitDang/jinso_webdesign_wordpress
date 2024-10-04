@@ -4,7 +4,7 @@
  * Title: Plasma Esthelux
  * 
  * Slug: themeslug/plasma-esthelux
- * Categories: test-page
+ * Categories: product-page
  *
  * @package Base Theme
  * @since 1.0.0
@@ -300,7 +300,7 @@
             </div>
             <!-- /wp:group -->
             <!-- wp:table -->
-            <figure class="wp-block-table table_black mb30">
+            <figure class="wp-block-table table_black width-15 mb30">
                 <table class="has-fixed-layout">
                     <thead>
                         <tr>

@@ -4,7 +4,7 @@
  * Title: Plasma Plamingo
  * 
  * Slug: themeslug/plasma-plamingo
- * Categories: test-page
+ * Categories: product-page
  *
  * @package Base Theme
  * @since 1.0.0
@@ -81,7 +81,7 @@
         <!-- wp:group -->
         <div class="wp-block-group inner">
             <!-- wp:image -->
-            <figure class="wp-block-image">
+            <figure class="wp-block-image logo_title">
                 <a href="/"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/plasma/f_logo.png')); ?>" /></a>
             </figure>
             <!-- /wp:image -->
@@ -125,7 +125,7 @@
                     </figure>
                     <!-- /wp:image -->
                     <!-- wp:table -->
-                    <figure class="wp-block-table table_black">
+                    <figure class="wp-block-table table_black width-15">
                         <table class="has-fixed-layout">
                             <thead>
                                 <tr>

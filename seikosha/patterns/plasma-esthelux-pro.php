@@ -4,7 +4,7 @@
  * Title: Plasma Esthelux Pro
  * 
  * Slug: themeslug/plasma-esthelux-pro
- * Categories: test-page
+ * Categories: product-page
  *
  * @package Base Theme
  * @since 1.0.0
@@ -150,7 +150,7 @@
                     </figure>
                     <!-- /wp:image -->
                     <!-- wp:table -->
-                    <figure class="wp-block-table table_black">
+                    <figure class="wp-block-table table_black width-15">
                         <table class="has-fixed-layout">
                             <thead>
                                 <tr>
