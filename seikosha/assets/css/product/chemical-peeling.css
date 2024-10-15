@@ -1,0 +1,718 @@
+.black-bubble-peel .intro .inner .herfbox .BBP_hontai_img img {
+    width: 60% !important;
+}
+
+.black-bubble-peel .product-default .product-information-part .img_box .BBP_hontai_img_box {
+    text-align: -webkit-center;
+}
+
+.black-bubble-peel .product-default .product-information-part .img_box .BBP_hontai_img_box img {
+    width: 80% !important;
+}
+
+.black-bubble-peel .product-default .product-information .BBP_flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.black-bubble-peel .product-default .product-information .BBP_flex .BBP_flex_li .wp-block-image {
+    text-align: -webkit-center;
+}
+
+.black-bubble-peel .product-default .product-information .BBP_flex .BBP_flex_li img {
+    height: 200px;
+    width: auto;
+}
+
+.pro-facial .product-default .product-information .keisoku {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pro-facial .product-default .product-information .keisoku .keisoku_li {
+    width: calc(100% / 3 - 20px);
+    margin-bottom: 20px;
+}
+
+.pro-facial .product-default .product-information .keisoku .keisoku_li .keisoku_title {
+    padding: 4px 10px;
+    margin: 10px 0;
+    background: #dcdcdc;
+}
+
+.healfusion .HealFusion_blue_top {
+    background: linear-gradient(to bottom, #1D2F6B, #3555BF, #30427E);
+    position: relative;
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.healfusion .HealFusion_blue_top .logo-white img {
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.healfusion .HealFusion_blue_top .c_copy .yellow {
+    color: #F9D932;
+    font-size: 150%;
+    margin-bottom: 3%;
+}
+
+.healfusion .HealFusion_blue_top .c_copy .white {
+    color: #fff;
+    font-size: 100%;
+    margin-bottom: 3%;
+}
+
+.healfusion .mincho {
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+}
+
+.healfusion .HealFusion_point {
+    background: linear-gradient(to bottom, #E7EDFF, #FCFDFF, #DFF0FF);
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.healfusion .HealFusion_point .top_horo {
+    position: absolute;
+    top: 30px;
+}
+
+.healfusion .HealFusion_point .under_horo {
+    position: absolute;
+    bottom: 30px;
+}
+
+.healfusion .HealFusion_point .H_image1 {
+    text-align: -webkit-center;
+}
+
+.healfusion .HealFusion_point .H_image1 img {
+    width: 40%;
+    padding-top: 8%;
+}
+
+.healfusion .HealFusion_point .H_image1 .H_pro_word {
+    color: #4669DE;
+    font-size: 2rem;
+    margin-top: 5%;
+}
+
+.healfusion .HealFusion_point .H_image1 .H_pro_word2 {
+    color: #314CA4;
+    font-size: 1.5rem;
+}
+
+.healfusion .HealFusion_point .H_image1 .H_pro_word3 {
+    color: gold;
+    font-size: 2rem;
+}
+
+.healfusion .flex {
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+}
+
+.healfusion .HealFusion_point .point4 img {
+    width: 85%;
+    height: 15%;
+    padding: 1.5%;
+}
+
+.healfusion .HealFusion_point .point2 img {
+    width: 85%;
+    height: 15%;
+    padding: 1.5%;
+}
+
+.healfusion .HealFusion_point .plus {
+    text-align: -webkit-center;
+}
+
+.healfusion .HealFusion_point .plus img {
+    width: 5%;
+}
+
+.healfusion .HealFusion_point .point2 .big2 img {
+    width: 95% !important;
+}
+
+.healfusion .HealFusion_point .H_pro_word4 {
+    font-size: 2rem;
+    color: #314CA4;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.healfusion .HealFusion_what {
+    position: relative;
+    padding-bottom: 10%;
+}
+
+.healfusion .HealFusion_what .image-left img {
+    width: auto !important;
+}
+
+.healfusion .HealFusion_what .image-center img {
+    width: 200px !important;
+}
+
+.healfusion .HealFusion_what .image-right img {
+    width: auto !important;
+}
+
+.healfusion .HealFusion_what .image-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.healfusion .HealFusion_what .image-center {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    text-align: -webkit-center;
+}
+
+.healfusion .HealFusion_what .image-right {
+    top: 100px;
+    text-align: -webkit-right;
+}
+
+.healfusion .HealFusion_what .H_what {
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    width: 40%;
+}
+
+
+.healfusion .HealFusion_what .H_what .H_pro_word11 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 7rem;
+    color: #314CA4;
+}
+
+.healfusion .HealFusion_what .H_what .H_pro_word12 {
+    font-size: 4rem;
+    color: #314CA4;
+    font-family: serif;
+    font-style: normal;
+    top: -65px;
+}
+
+.healfusion .HealFusion_what .H_what .H_pro_word13 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.healfusion .HealFusion_what .H_what .H_pro_word14 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.healfusion .HealFusion_what .H_what .H_pro_word15 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.healfusion .HealFusion_what .H_what2 {
+    position: absolute;
+    top: 520px;
+    left: 60px;
+    width: 100%;
+}
+
+.healfusion .HealFusion_what .H_what2 .for_orner {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: -webkit-center;
+}
+
+.healfusion .HealFusion_what .H_what2 .for_orner img {
+    width: 20%;
+}
+
+.healfusion .HealFusion_what .H_what2 .H_pro_word16 {
+    font-size: 2rem;
+    color: #314CA4;
+    width: 40%;
+    font-weight: bold;
+}
+
+.healfusion .HealFusion_what .H_what2 .H_pro_word17 {
+    font-size: 1rem;
+    width: 40%;
+    font-weight: bold;
+}
+
+.healfusion .HealFusion_what .H_what2 .cercle3 {
+    margin-bottom: 4%;
+    text-align: -webkit-center;
+}
+
+.healfusion .HealFusion_what .H_what2 .cercle3 img {
+    width: 40%;
+}
+
+.healfusion .HealFusion_what .chatch_word {
+    width: 40%;
+    color: #314CA4;
+    font-size: 1.5rem;
+    font-family: Impact;
+    position: absolute;
+    top: 970px;
+    left: 60px;
+}
+
+.healfusion .HealFusion_why {
+    position: relative;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.healfusion .HealFusion_why .image-left img {
+    width: 50% !important;
+}
+
+.healfusion .HealFusion_why .image-right img {
+    width: 55% !important;
+}
+
+.healfusion .HealFusion_why .image-left {
+    text-align: -webkit-left;
+}
+
+.healfusion .HealFusion_why .image-right {
+    position: absolute;
+    right: 0;
+    top: 5%;
+    text-align: -webkit-right;
+}
+
+.healfusion .HealFusion_why .H_pro_word21 {
+    font-size: 7rem;
+    color: #314CA4;
+    text-align: right;
+    padding-right: 3%;
+    font-weight: bold;
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    position: absolute;
+    top: 165px;
+    right: 0;
+}
+
+.healfusion .HealFusion_why .H_pro_word22 {
+    font-size: 3rem;
+    color: #314CA4;
+    position: absolute;
+    font-weight: bold;
+    top: 300px;
+    right: 10px;
+    padding-right: 3%;
+    font-family: serif;
+    font-style: normal;
+}
+
+.healfusion .HealFusion_why .Why_point {
+    position: absolute;
+    top: 400px;
+    right: 0;
+}
+
+.healfusion .HealFusion_why .Why_point .point1 img {
+    width: auto;
+}
+
+.healfusion .HealFusion_why .Why_point .point1 .hr {
+    color: #314CA4;
+    font-weight: bold;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #314CA4;
+    margin: 0 auto;
+}
+
+.healfusion .wash {
+    background: linear-gradient(to bottom, #07133A, #5E74BE, #8CD6FF);
+    position: relative;
+    clip-path: polygon(0 0, 0 80%, 50% 100%, 100% 80%, 100% 0, 0 0);
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.healfusion .wash .flex {
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+}
+
+.healfusion .wash .flex img {
+    padding: 9%;
+}
+
+.healfusion .wash .Mostbig {
+    font-size: 90px;
+    text-emphasis: dot;
+    color: #fff;
+}
+
+.healfusion .skin-tone {
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.healfusion .skin-tone .skin-tone_left {
+    text-align: left;
+}
+
+.healfusion .skin-tone .skin-tone_left img {
+    width: 20%;
+}
+
+.healfusion .skin-tone .skin-tone_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2%;
+    justify-content: center;
+}
+
+.healfusion .skin-tone .skin-tone_wrap .wp-block-image {
+    width: 50%;
+}
+
+.healfusion .skin-tone .difference {
+    position: relative;
+    margin-top: 5%;
+}
+
+.healfusion .skin-tone .difference img {
+    width: 40%;
+}
+
+.healfusion .skin-tone .difference .difference_content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.healfusion .skin-tone .difference .difference_content .hr2 {
+    border: none;
+    border-bottom: 2px solid #314CA4;
+    margin: 2% 25% 0% 25%;
+    color: #314CA4;
+    font-size: 25px;
+}
+
+.healfusion .skin-tone .difference .difference_flex_position {
+    position: absolute;
+    top: 130px;
+}
+
+.healfusion .skin-tone .difference .difference_flex_position .difference_flex {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    width: 100%;
+}
+
+.healfusion .skin-tone .difference .difference_flex_position .difference_flex .wp-block-image {
+    text-align: -webkit-center;
+}
+
+.healfusion .skin-tone .difference .difference_flex_position .difference_flex img {
+    width: 80%;
+    padding: 5%;
+}
+
+.healfusion .skin-tone .difference .difference_flex_position .difference_titile {
+    color: #314CA4;
+    font-size: 20px;
+}
+
+.healfusion .skin-tone .difference .difference_flex_position .difference_flex .d_flex_p {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    font-size: 16px;
+}
+
+.healfusion .skin-tone .blueback {
+    background: linear-gradient(to right, #263978, #2954E1, #263978, #1D4BE2, #263978);
+    position: relative;
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.healfusion .skin-tone .blueback .attachment {
+    background-color: white;
+    border-radius: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.healfusion .skin-tone .blueback .attachment .atacch_h2 {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.healfusion .skin-tone .h2_title {
+    color: #314CA4;
+    font-size: 25px;
+}
+
+.healfusion .skin-tone .hr2 {
+    border: none;
+    border-bottom: 2px solid #314CA4;
+    margin: 2% 25% 0% 25%;
+}
+
+.healfusion .skin-tone .atacch_p {
+    font-size: 11px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.healfusion .skin-tone .blueback .attachment .wp-block-image {
+    text-align: -webkit-center;
+}
+
+.healfusion .skin-tone .blueback .attachment .item_s70 img {
+    width: 70%;
+}
+
+.healfusion .skin-tone .blueback .attachment .item_s30 img {
+    width: 30%;
+}
+
+.healfusion .skin-tone .blueback .attachment .porefit_item_flex4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.healfusion .skin-tone .blueback .attachment .porefit_item_flex4 .porefit_item {
+    width: 220px;
+    margin-bottom: 5%;
+}
+
+.healfusion .skin-tone .blueback .attachment .porefit_item_flex4 .porefit_item img {
+    width: 100px;
+    margin-bottom: 5%;
+}
+
+.healfusion .skin-tone .blueback .attachment .porefit_item_flex4 .porefit_item .ephesis-regular {
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.healfusion .skin-tone .blueback .attachment .porefit_item_flex4 .porefit_item .attach_tag {
+    background-color: #314CA4;
+    width: 90%;
+    color: white;
+    margin: 0 auto;
+    line-height: 2.1;
+    font-size: 12px;
+}
+
+.healfusion .skin-tone .blueback .attachment .porefit_item_flex4 .porefit_item .font12 {
+    font-size: 12px;
+}
+
+.healfusion .skin-tone .blueback .attachment .porefit_item_flex4 .porefit_item .hr4 {
+    border: none;
+    border-bottom: 3px solid #314CA4;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.healfusion .skin-tone .blueback .attachment .porefit_item_flex4 .porefit_item .font15 {
+    font-size: 15px;
+}
+
+.healfusion .skin-tone .blueback .attachment .porefit_item_flex4 .porefit_item .hr3 {
+    border: none;
+    border-bottom: 2px solid #314CA4;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.healfusion .skin-tone .blueback .attachment .porefit_item_flex4 .hF_mt1000 {
+    margin-top: 300px;
+}
+
+.healfusion .skin-tone .blueback .attachment .porefit_item_flex4 .porefit_item2set {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.healfusion .skin-tone .basic_step {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.healfusion .skin-tone .basic_step .goldline .goldline1 {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.healfusion .skin-tone .basic_step .goldline .goldline1 img {
+    width: 2px;
+    height: 400px;
+}
+
+.healfusion .skin-tone .basic_step .goldline .goldline2 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.healfusion .skin-tone .basic_step .goldline .goldline2 img {
+    width: 1px;
+    height: 400px;
+}
+
+.healfusion .skin-tone .basic_step .goldline .goldline3 {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.healfusion .skin-tone .basic_step .goldline .goldline3 img {
+    width: 1px;
+    height: 400px;
+}
+
+.healfusion .skin-tone .basic_step .goldline .goldline4 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.healfusion .skin-tone .basic_step .goldline .goldline4 img {
+    width: 2px;
+    height: 400px;
+}
+
+.healfusion .skin-tone .basic_step .goldline .basic_step_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.healfusion .skin-tone .basic_step .goldline .basic_step_flex .numbr {
+    width: 10%;
+    height: 10%;
+    line-height: 10%;
+    padding: 2%;
+}
+
+.healfusion .skin-tone .basic_step .goldline .basic_step_flex .font_C_Bl {
+    color: #314CA4;
+}
+
+.healfusion .skin-tone .basic_step .goldline .basic_step_flex .basic_step_title {
+    width: 30%;
+    padding: 2%;
+}
+
+.healfusion .skin-tone .basic_step .goldline .basic_step_flex .basic_step_explain {
+    width: 40%;
+    padding: 2%;
+    font-size: 14px;
+}
+
+.healfusion .skin-tone .step_img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.healfusion .flex .zone {
+    background: linear-gradient(to bottom left, #263978, #3854B0, #4466D7, #4669DE);
+    border-radius: 30px;
+    text-align: left;
+    color: white;
+    width: 40%;
+    padding: 5%;
+    margin-left: 5%;
+}
+
+.healfusion .flex .zone .font-16 {
+    font-size: 16px;
+}
+
+.healfusion .spec {
+    background: linear-gradient(to top right, #1F326D, #2B48A9, #2F5DF4);
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.healfusion .spec .spec_title {
+    color: white;
+    border-bottom: 1px solid #fff;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.healfusion .spec .spec_flex {
+    display: flex;
+}
+
+.healfusion .spec .spec_flex .hontai_img {
+    width: 50%;
+    text-align: -webkit-center;
+}
+
+.healfusion .spec .spec_flex .hontai_img img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.healfusion .spec .spec_flex .spec_table {
+    color: white;
+    margin: 0 auto;
+    border: none;
+    font-size: 12px;
+}
+
+.healfusion .spec .spec_flex .spec_table tr {
+    border: none;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+}
+
+.healfusion .spec .spec_flex .spec_table tr td:first-child {
+    width: 30%;
+    text-align: left;
+    height: 30px;
+    line-height: 2.5;
+    border: none;
+}
+
+.healfusion .spec .spec_flex .spec_table tr td:last-child {
+    width: 50%;
+    text-align: left;
+    border: none;
+}
