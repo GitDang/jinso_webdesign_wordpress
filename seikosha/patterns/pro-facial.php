@@ -4,7 +4,7 @@
  * Title: Pro Facial
  * 
  * Slug: themeslug/pro-facial
- * Categories: test-page
+ * Categories: product-page
  *
  * @package Base Theme
  * @since 1.0.0

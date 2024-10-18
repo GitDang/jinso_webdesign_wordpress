@@ -1,0 +1,75 @@
+.company-information .Attempt {
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.company-information .Attempt .inner {
+    padding: 0;
+    width: 92%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.company-information .Attempt .inner .common_h3 {
+    font-size: 14px;
+    margin-bottom: 40px;
+    font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    line-height: 1.0;
+}
+
+.company-information .Attempt .inner .common_h3 .common_h3_title {
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+    font-family: Roboto, Arial, Helvetica, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+}
+
+.company-information .Attempt .inner .common_h3 .common_h3_title::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    display: inline-block;
+    width: 140px;
+    height: 2px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #7A7A7A;
+    border-radius: 4px;
+}
+
+.company-information .Attempt .inner .sub_h4 {
+    background: #000000;
+    color: #ffffff;
+    padding: 4px 8px;
+    text-align: left;
+    letter-spacing: .4rem;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.company-information .Attempt .inner .sub_h4::before {
+    content: '■';
+    color: white;
+    margin-right: .4rem;
+    font-size: 135%;
+}
+
+.company-information .Attempt .inner .logo_box {
+    margin: 40px 20px;
+    text-align: center;
+}
+
+.company-information .Attempt .inner .p-custom {
+    text-align: center;
+    line-height: 2.4rem;
+}
+
+.company-information .Attempt .inner .scroll-up {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+    transition: all 1s;
+}

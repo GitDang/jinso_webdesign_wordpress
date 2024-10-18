@@ -40,6 +40,7 @@ function my_theme_add_editor_styles()
 	add_editor_style(get_template_directory_uri() . '/assets/css/product/rafos.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/product/plasma.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/product/sonocare.css');
+	add_editor_style(get_template_directory_uri() . '/assets/css/company.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/product/chemical-peeling.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/product/ems.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/border.css');
@@ -117,6 +118,13 @@ function base_theme_1_styles()
 	wp_enqueue_style(
 		'base-theme-1-product-sonocare',
 		get_template_directory_uri() . '/assets/css/product/sonocare.css',
+		[],
+		wp_get_theme()->get('Version')
+	);
+
+	wp_enqueue_style(
+		'base-theme-1-product-company',
+		get_template_directory_uri() . '/assets/css/company.css',
 		[],
 		wp_get_theme()->get('Version')
 	);
@@ -285,8 +293,8 @@ function my_theme_register_pattern_category()
 			array('label' => __('Product Page', 'seikosha-theme'))
 		);
 		register_block_pattern_category(
-			'test-page',
-			array('label' => __('Test Page', 'seikosha-theme'))
+			'company-page',
+			array('label' => __('Company Page', 'seikosha-theme'))
 		);
 	}
 }
