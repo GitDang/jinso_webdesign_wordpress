@@ -43,6 +43,7 @@ function my_theme_add_editor_styles()
 	add_editor_style(get_template_directory_uri() . '/assets/css/company.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/product/chemical-peeling.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/product/ems.css');
+	add_editor_style(get_template_directory_uri() . '/assets/css/seminar.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/border.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/style.css');
 	add_editor_style(get_template_directory_uri() . '/assets/css/footer.css');
@@ -153,6 +154,13 @@ function base_theme_1_styles()
 	wp_enqueue_style(
 		'base-theme-1-product',
 		get_template_directory_uri() . '/assets/css/product.css',
+		[],
+		wp_get_theme()->get('Version')
+	);
+
+	wp_enqueue_style(
+		'base-theme-1-seminar',
+		get_template_directory_uri() . '/assets/css/seminar.css',
 		[],
 		wp_get_theme()->get('Version')
 	);
@@ -295,6 +303,10 @@ function my_theme_register_pattern_category()
 		register_block_pattern_category(
 			'company-page',
 			array('label' => __('Company Page', 'seikosha-theme'))
+		);
+		register_block_pattern_category(
+			'new-page',
+			array('label' => __('New Page', 'seikosha-theme'))
 		);
 	}
 }
@@ -720,3 +732,135 @@ function my_custom_code_editor_scripts($hook)
 }
 
 add_action('admin_enqueue_scripts', callback: 'my_custom_code_editor_scripts');
+
+
+function my_custom_block_pattern() {
+    register_block_pattern(
+        'mytheme/shared-pattern',
+        array(
+            'title'       => __('Shared Content Pattern'),
+            'description' => _x('A reusable section of content', 'Block pattern description'),
+            'content'     => '<!-- wp:paragraph --><p>This is shared content</p><!-- /wp:paragraph -->',
+        )
+    );
+}
+add_action('init', 'my_custom_block_pattern');
+
+function my_custom_menu_page() {
+    add_menu_page(
+        __('Shared Content Settings', 'mytheme'), // Title
+        'Shared Content',                         // Menu Name
+        'manage_options',                         // Capability
+        'footer-custom-content',                         // Menu Slug
+        'my_footer_custom_content_page',                 // Callback function
+        'dashicons-admin-generic',                // Icon
+        6                                         // Position
+    );
+}
+add_action('admin_menu', 'my_custom_menu_page');
+
+function my_footer_custom_content_page() {
+	$content = get_option('footer_custom_content', ''); // Lấy nội dung hiện tại
+    $editor_id = 'footer_custom_content_editor'; // ID cho WordPress Editor
+
+    $settings = array(
+        'textarea_name' => 'footer_custom_content', // Tên trường giống như trong form của bạn
+        'media_buttons' => true, // Hiển thị nút "Add Media"
+        'textarea_rows' => 10, // Số dòng trong editor
+        'teeny'         => false, // Sử dụng phiên bản nhỏ gọn (teeny editor) hay không
+        'quicktags'     => true, // Hiển thị Quicktags (HTML)
+    );
+
+    ?>
+    <div class="wrap">
+        <h1><?php _e('Shared Content Settings', 'mytheme'); ?></h1>
+        <form method="post" action="options.php">
+            <?php
+            settings_fields('footer_custom_content_group');
+			wp_editor($content, $editor_id, $settings);
+            submit_button();
+            ?>
+        </form>
+    </div>
+    <?php
+}
+
+function my_custom_settings() {
+    register_setting('footer_custom_content_group', 'footer_custom_content');
+    add_settings_section(
+        'footer_custom_content_section',
+        __('Shared Content Settings', 'mytheme'),
+        null,
+        'footer-custom-content'
+    );
+}
+
+add_action('admin_init', 'my_custom_settings');
+
+function my_custom_textarea_field() {
+	$content = get_option('footer_custom_content', ''); // Lấy nội dung hiện tại
+    $editor_id = 'footer_custom_content_editor'; // ID cho WordPress Editor
+
+    $settings = array(
+        'textarea_name' => 'footer_custom_content', // Tên trường giống như trong form của bạn
+        'media_buttons' => true, // Hiển thị nút "Add Media"
+        'textarea_rows' => 10, // Số dòng trong editor
+        'teeny'         => false, // Sử dụng phiên bản nhỏ gọn (teeny editor) hay không
+        'quicktags'     => true, // Hiển thị Quicktags (HTML)
+    );
+
+    wp_editor($content, $editor_id, $settings);
+}
+
+function create_shared_content_cpt() {
+    $labels = array(
+        'name'               => _x('Shared Contents', 'post type general name'),
+        'singular_name'      => _x('Shared Content', 'post type singular name'),
+        'menu_name'          => _x('Shared Content', 'admin menu'),
+        'name_admin_bar'     => _x('Shared Content', 'add new on admin bar'),
+        'add_new'            => _x('Add New', 'shared content'),
+        'add_new_item'       => __('Add New Shared Content'),
+        'new_item'           => __('New Shared Content'),
+        'edit_item'          => __('Edit Shared Content'),
+        'view_item'          => __('View Shared Content'),
+        'all_items'          => __('All Shared Contents'),
+        'search_items'       => __('Search Shared Contents'),
+        'not_found'          => __('No shared content found.'),
+        'not_found_in_trash' => __('No shared content found in Trash.')
+    );
+
+    $args = array(
+        'labels'             => $labels,
+        'public'             => true,
+        'has_archive'        => false,  // Không cần archive nếu không muốn hiển thị theo archive
+        'rewrite'            => array('slug' => 'shared-content'),
+        'supports'           => array('title', 'editor'),  // Hỗ trợ tiêu đề và nội dung chính
+        'show_in_rest'       => true,  // Để tích hợp với Gutenberg
+    );
+
+    register_post_type('shared_content', $args);
+}
+add_action('init', 'create_shared_content_cpt');
+
+
+function display_shared_content_shortcode($atts) {
+    $atts = shortcode_atts(
+        array('id' => ''), // ID của bài post shared content
+        $atts,
+        'shared_content'
+    );
+
+    $post_id = $atts['id'];
+    if (!$post_id) {
+        return '<p>No content found.</p>';
+    }
+
+    $post = get_post($post_id);
+    if ($post && $post->post_type == 'shared_content') {
+        return '<h2>' . $post->post_title . '</h2><div>' . apply_filters('the_content', $post->post_content) . '</div>';
+    }
+
+    return '<p>Invalid shared content.</p>';
+}
+
+add_shortcode('shared_content', 'display_shared_content_shortcode');
