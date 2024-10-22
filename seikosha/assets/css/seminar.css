@@ -1,0 +1,286 @@
+
+.seminar-page {
+
+}
+
+.ongoing-seminar {
+    background: #000000;
+    color: #ffffff;
+    padding: 4px 8px;
+    text-align: left;
+    letter-spacing: .2rem;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.ongoing-seminar .ongoing-seminar-button a {
+    color: #000000;
+    background: #ffffff;
+    letter-spacing: 0;
+    font-weight: lighter;
+    font-size: 12px;
+    padding: 2px 4px;
+}
+
+.ongoing-seminar .ongoing-seminar-button a::after {
+    content: "\f35a";
+    font-family: "Font Awesome 5 Free";
+    padding-left: .5rem;
+    font-weight: 900;
+}
+
+.ongoing-seminar-desc {
+    text-align: left;
+}
+
+.ongoing-seminar-desc span {
+    color: #AA0002;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.seminar-item {
+    margin-bottom: 20px;
+    border: 1px solid #224284;
+}
+
+.seminar-item .serminar-item-title {
+    background-color: #224284;
+    color: #ffffff;
+    padding: 4px 8px;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    text-align: left;
+}
+
+.seminar-item.background-red .serminar-item-title {
+    border: 1px solid #A01F24;
+}
+
+.seminar-item.background-green .serminar-item-title {
+    border: 1px solid #009245;
+}
+
+.seminar-item.background-red .serminar-item-title {
+    background-color: #A01F24;
+}
+
+.seminar-item.background-green .serminar-item-title {
+    background-color: #009245;
+}
+
+.seminar-item.background-red .seminar-item-naiyou-table .seminar-table-left  {
+    background-color: #A01F24;
+}
+
+.seminar-item.background-green .seminar-item-naiyou-table .seminar-table-left  {
+    background-color: #009245;
+}
+
+.seminar-item.background-red .seminar-item-naiyou-table .seminar-table-right  {
+    border-bottom: #A01F24 solid 1px;
+}
+
+.seminar-item.background-green .seminar-item-naiyou-table .seminar-table-right  {
+    border-bottom: #009245 solid 1px;
+}
+
+
+.seminar-item .serminar-item-content {
+
+}
+
+.seminar-item .seminar-item-naiyou {
+
+    margin: 0 40px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.seminar-item .seminar-item-naiyou-image {
+    width: 45%;
+}
+
+.seminar-item .seminar-item-naiyou-table {
+    width: 55%;
+    padding-left: 2px;
+}
+.seminar-item .seminar-item-table-caption {
+    position: relative;
+    text-align: right;
+    margin: 0 0 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.seminar-item .seminar-item-naiyou-caption-title {
+    padding: 4px 8px;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: linear-gradient(45deg, #f0e68c, #b8860b, #f0e68c);
+    background-size: 150% 150%;
+    animation: AnimationName 6s ease infinite;
+    margin-right: 4px;
+}
+
+.seminar-item .seminar-item-naiyou-table-content {
+    display: grid;
+    grid-template-columns: 14% 86%;
+}
+
+.seminar-item .seminar-item-naiyou-table .seminar-table-left {
+    background-color: #224284;
+    color: #ffffff;
+    padding: 8px 2%;
+    margin-bottom: 1px;
+}
+
+.seminar-item .seminar-item-naiyou-table .seminar-table-right {
+    border-bottom: #224284 solid 1px;
+    text-align: left;
+    padding: 8px;
+}
+
+.seminar-item .seminar-item-naiyou-table .seminar-item-naiyou-table-title {
+
+}
+
+.seminar-item .seminar-item-naiyou-table .seminar-table-title {
+
+}
+
+.seminar-item .seminar-item-naiyou-table .seminar-table-right-title {
+    background: #e6e6fa;
+    padding: 2px 4px;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.seminar-item .seminar-item-naiyou-table .seminar-table-right-desc {
+    display: inline-block;
+    white-space: pre-line;
+}
+
+.seminar-item .seminar-item-note {
+    text-align: left;
+    font-size: 16px;
+    padding: 0 40px 30px;
+    position: relative;
+    overflow: hidden;
+    height: 80px;
+}
+
+.seminar-item .seminar-item-note::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 70%, rgba(255, 255, 255, 0.9) 50%, #fff 100%);
+}
+
+.seminar-item .seminar-item-note.open-desc {
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.seminar-item .seminar-item-note.open-desc::before {
+    display: none;
+}
+
+.seminar-item .seminar-item-note .seminar-item-note-title {
+    font-weight: bold;
+}
+
+.seminar-item .seminar-item-note .seminar-item-note-desc {
+    white-space: pre-line;
+}
+
+.seminar-item .seminar-item-note .seminar-item-note-buttons {
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.seminar-item .seminar-item-note .seminar-item-note-buttons .seminar-item-note-button {
+    width: 148px;
+    margin: auto;
+    padding: .5em 0;
+    border-radius: 2px;
+    background: #a9a9a9;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s ease;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+}
+
+.seminar-item .seminar-item-note .seminar-item-note-buttons .seminar-item-note-button.button-open {
+    display: block;
+}
+
+.seminar-item .seminar-item-note .seminar-item-note-buttons .seminar-item-note-button.button-close {
+    display: none;
+}
+
+.seminar-item .seminar-item-note.open-desc .seminar-item-note-buttons .seminar-item-note-button.button-open {
+    display: none;
+}
+
+.seminar-item .seminar-item-note.open-desc .seminar-item-note-buttons .seminar-item-note-button.button-close {
+    display: block;
+}
+
+.seminar-item .list-link-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.seminar-item .list-link-buttons .button-part {
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.seminar-item .list-link-buttons .button-part .wp-block-button__link {
+    width: 240px;
+    display: block;
+    padding: 15px;
+    border: 1px solid #707070;
+    background: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    color: #333;
+    text-decoration: none;
+    border-radius: 0;
+    font-size: 16px;
+}
+
+.seminar-item .list-link-buttons .button-part .wp-block-button__link::after {
+    content: "\f35a";
+    font-family: "Font Awesome 5 Free";
+    padding-left: .5rem;
+    font-weight: 900;
+}
+
+.seminar-page .product-information .product-information-item .product-information-part .product-information-part-list-button .button-part .wp-block-button__link {
+    height: 100%;
+}
+
+

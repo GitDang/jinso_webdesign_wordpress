@@ -140,12 +140,23 @@ $(function(){
 });
 
 
-
 //繝医ャ繝励∈謌ｻ繧�
 jQuery(function(){
     var jQuerybtn = jQuery('.totop');
     jQuerybtn.click(function(){
     jQuery('html, body').animate({'scrollTop': 0}, 300);
     return false;
+    });
+});
+
+$(function(){
+    jQuery('.seminar-item-note .button-open').click(function() {
+
+        var itemNote = jQuery(this).parents('.seminar-item-note');
+        itemNote.addClass('open-desc')
+    });
+    jQuery('.seminar-item-note .button-close').click(function() {
+        var itemNote = jQuery(this).parents('.seminar-item-note');
+        itemNote.removeClass('open-desc')
     });
 });
